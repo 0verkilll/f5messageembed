@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "pono i nā bits %d, ʻo ka mana kiʻekiʻe loa ma k=1 he %d bits",
+      "empty_coefficients": "ʻaʻole hiki ke hakahaka ka ʻāpana coefficient",
+      "empty_password": "ʻaʻole hiki ke hakahaka ka ʻōlelo huna",
+      "header_embed_failed": "ʻaʻole i hiki ke hoʻokomo i ke poʻo memo: %v",
+      "insufficient_capacity": "nui loa ka leka no ka mana o ka coefficient i loaʻa",
+      "insufficient_coefficients": "nā coefficients lawa ʻole i ka wā o ke kau ʻana: pono %d, loaʻa %d",
+      "insufficient_header_coefficients": "ʻaʻole lawa nā coefficients hiki ke hoʻohana ʻia no ka hoʻokomo ʻana i ke poʻo: pono 32 bits, loaʻa wale nā coefficients hiki ke hoʻohana ʻia %d",
+      "invalid_code_word": "ʻaʻole hiki ke hakahaka ka huaʻōlelo code",
+      "invalid_coefficient_range": "ka waiwai koina ma waho o ka laulā kūpono (-2048 a i 2047)",
+      "invalid_force_k": "pono ʻole ʻo ForceK: pono e 0 (auto) a i ʻole 1-8",
+      "invalid_k_parameter": "Pono ke anawaena k ma waena o 1 a me 8",
+      "matrix_encode_failed": "ʻAʻole i kūleʻa ka hoʻopili ʻana o ka matrix no ka huaʻōlelo code: %v",
+      "message_embed_failed": "ʻaʻole i hiki ke hoʻokomo i ka leka: %v",
+      "message_too_large": "ʻoi aku ka nui o ka leka ma mua o ka palena kiʻekiʻe i ʻae ʻia (8,388,607 bytes)",
+      "nil_random_source": "ʻaʻole hiki ke lilo i kumu random: e hoʻohana i ka InitializePRNG (ʻōlelo huna) a i ʻole e hāʻawi i kahi RandomSource i kanu mua ʻia",
+      "permutation_failed": "ʻaʻole i hiki ke hoʻoulu i ka hoʻololi ʻana o ka coefficient: %v"
+    },
+    "log": {
+      "capacity_calculated": "Ua helu ʻia ka mana o ke koina",
+      "coefficient_modified": "Ka helu i hoʻololi ʻia",
+      "embed_complete": "Ua pau ka hoʻokomo ʻana o F5",
+      "embed_start": "Ke hoʻomaka nei i ka hoʻokomo ʻana o F5",
+      "header_embedded": "Poʻo inoa leka i hoʻokomo ʻia",
+      "k_selected": "Ua koho ʻia ke ʻano k kūpono loa",
+      "permutation_generated": "Hoʻokumu ʻia ka hoʻololi ʻana o ke koina",
+      "shrinkage_detected": "Ua ʻike ʻia ka emi ʻana, ke hoʻokomo hou nei i kahi ʻāpana"
+    }
+  }
+}

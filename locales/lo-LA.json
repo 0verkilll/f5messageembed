@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "ຕ້ອງການ %d ບິດ, ຄວາມຈຸສູງສຸດທີ່ k=1 ແມ່ນ %d ບິດ",
+      "empty_coefficients": "ສ່ວນສຳປະສິດບໍ່ສາມາດຫວ່າງໄດ້",
+      "empty_password": "ລະຫັດຜ່ານບໍ່ສາມາດເວັ້ນຫວ່າງໄດ້",
+      "header_embed_failed": "ລົ້ມເຫຼວໃນການຝັງຫົວຂໍ້ຂໍ້ຄວາມ: %v",
+      "insufficient_capacity": "ຂໍ້ຄວາມໃຫຍ່ເກີນໄປສຳລັບຄວາມຈຸຂອງສຳປະສິດທີ່ມີຢູ່",
+      "insufficient_coefficients": "ສຳປະສິດບໍ່ພຽງພໍໃນລະຫວ່າງການຝັງ: ຕ້ອງການ %d, ໄດ້ຮັບ %d",
+      "insufficient_header_coefficients": "ສຳປະສິດທີ່ໃຊ້ໄດ້ບໍ່ພຽງພໍສຳລັບການຝັງຫົວຂໍ້: ຕ້ອງການ 32 ບິດ, ພົບພຽງແຕ່ %d ສຳປະສິດທີ່ໃຊ້ໄດ້",
+      "invalid_code_word": "ລະຫັດຄຳບໍ່ສາມາດຫວ່າງໄດ້",
+      "invalid_coefficient_range": "ຄ່າສຳປະສິດຢູ່ນອກຂອບເຂດທີ່ຖືກຕ້ອງ (-2048 ຫາ 2047)",
+      "invalid_force_k": "ForceK ບໍ່ຖືກຕ້ອງ: ຕ້ອງເປັນ 0 (ອັດຕະໂນມັດ) ຫຼື 1-8",
+      "invalid_k_parameter": "ພາລາມິເຕີ k ຕ້ອງຢູ່ລະຫວ່າງ 1 ຫາ 8",
+      "matrix_encode_failed": "ການເຂົ້າລະຫັດ matrix ສຳລັບຄຳລະຫັດລົ້ມເຫຼວ: %v",
+      "message_embed_failed": "ລົ້ມເຫຼວໃນການຝັງຂໍ້ຄວາມ: %v",
+      "message_too_large": "ຂະໜາດຂໍ້ຄວາມເກີນຂະໜາດສູງສຸດທີ່ອະນຸຍາດ (8,388,607 ໄບຕ໌)",
+      "nil_random_source": "ແຫຼ່ງຂໍ້ມູນແບບສຸ່ມບໍ່ສາມາດເປັນສູນໄດ້: ໃຊ້ InitializePRNG(ລະຫັດຜ່ານ) ຫຼື ສະໜອງ RandomSource ທີ່ກຳນົດໄວ້ລ່ວງໜ້າ",
+      "permutation_failed": "ລົ້ມເຫລວໃນການສ້າງການປ່ຽນແປງສຳປະສິດ: %v"
+    },
+    "log": {
+      "capacity_calculated": "ຄວາມຈຸສຳປະສິດທີ່ຄິດໄລ່ແລ້ວ",
+      "coefficient_modified": "ແກ້ໄຂຄ່າສຳປະສິດແລ້ວ",
+      "embed_complete": "ການຝັງ F5 ສຳເລັດແລ້ວ",
+      "embed_start": "ກຳລັງເລີ່ມການຝັງ F5",
+      "header_embedded": "ຝັງຫົວຂໍ້ຂໍ້ຄວາມແລ້ວ",
+      "k_selected": "ເລືອກພາລາມິເຕີ k ທີ່ດີທີ່ສຸດແລ້ວ",
+      "permutation_generated": "ການປ່ຽນແປງຄ່າສຳປະສິດຖືກສ້າງຂຶ້ນ",
+      "shrinkage_detected": "ກວດພົບການຫົດຕົວ, ຝັງບິດຄືນໃໝ່"
+    }
+  }
+}

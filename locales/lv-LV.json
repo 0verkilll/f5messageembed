@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "nepieciešami %d biti, maksimālā ietilpība pie k=1 ir %d biti",
+      "empty_coefficients": "koeficienta šķēle nevar būt tukša",
+      "empty_password": "paroles lauks nedrīkst būt tukšs",
+      "header_embed_failed": "neizdevās iegult ziņojuma galveni: %v",
+      "insufficient_capacity": "ziņojums ir pārāk liels pieejamajai koeficientu ietilpībai",
+      "insufficient_coefficients": "nepietiekami koeficienti iegulšanas laikā: nepieciešams %d, iegūts %d",
+      "insufficient_header_coefficients": "nepietiekami izmantojami koeficienti galvenes iegulšanai: nepieciešami 32 biti, atrasti tikai %d izmantojami koeficienti",
+      "invalid_code_word": "koda vārds nedrīkst būt tukšs",
+      "invalid_coefficient_range": "koeficienta vērtība ir ārpus derīgā diapazona (no -2048 līdz 2047)",
+      "invalid_force_k": "nederīgs ForceK: jābūt 0 (automātiski) vai 1–8",
+      "invalid_k_parameter": "k parametram jābūt no 1 līdz 8",
+      "matrix_encode_failed": "Matricas kodēšana neizdevās koda vārdam: %v",
+      "message_embed_failed": "neizdevās iegult ziņojumu: %v",
+      "message_too_large": "ziņojuma lielums pārsniedz maksimāli atļauto lielumu (8 388 607 baiti)",
+      "nil_random_source": "nejaušais avots nevar būt nulle: izmantojiet InitializePRNG(parole) vai norādiet iepriekš iesētu nejaušo avotu (RandomSource).",
+      "permutation_failed": "neizdevās ģenerēt koeficienta permutāciju: %v"
+    },
+    "log": {
+      "capacity_calculated": "Aprēķinātā jaudas koeficienta",
+      "coefficient_modified": "Koeficients modificēts",
+      "embed_complete": "F5 iegulšana pabeigta",
+      "embed_start": "F5 iegulšanas sākšana",
+      "header_embedded": "Iegulta ziņojuma galvene",
+      "k_selected": "Izvēlēts optimālais k parametrs",
+      "permutation_generated": "Ģenerētā koeficienta permutācija",
+      "shrinkage_detected": "Saraušanās konstatēta, bits tiek atkārtoti iestrādāts"
+    }
+  }
+}

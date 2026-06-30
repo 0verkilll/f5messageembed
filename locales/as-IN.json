@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "%d বিটৰ প্ৰয়োজন, k=1 ত সৰ্বাধিক ক্ষমতা %d বিট",
+      "empty_coefficients": "সহগ স্লাইচ খালী হ’ব নোৱাৰে",
+      "empty_password": "পাছৱৰ্ড খালী হ\u0026#39;ব নোৱাৰে",
+      "header_embed_failed": "বাৰ্তা হেডাৰ সন্নিৱিষ্ট কৰাত ব্যৰ্থ: %v",
+      "insufficient_capacity": "উপলব্ধ সহগ ক্ষমতাৰ বাবে বাৰ্তাটো অতি ডাঙৰ",
+      "insufficient_coefficients": "এম্বেডিঙৰ সময়ত অপৰ্যাপ্ত সহগসমূহ: %d প্ৰয়োজন, %d পাইছো",
+      "insufficient_header_coefficients": "হেডাৰ এম্বেডিঙৰ বাবে অপৰ্যাপ্ত ব্যৱহাৰযোগ্য সহগসমূহ: 32 বিটৰ প্ৰয়োজন, কেৱল %d ব্যৱহাৰযোগ্য সহগ পোৱা গৈছে",
+      "invalid_code_word": "ক\u0026#39;ড শব্দ খালী হ\u0026#39;ব নোৱাৰে",
+      "invalid_coefficient_range": "বৈধ পৰিসৰৰ বাহিৰত সহগ মান (-২০৪৮ৰ পৰা ২০৪৭লৈ)",
+      "invalid_force_k": "অবৈধ ForceK: 0 (স্বয়ংক্ৰিয়) বা 1-8 হব লাগিব",
+      "invalid_k_parameter": "k প্ৰাচল 1 আৰু 8 ৰ মাজত হব লাগিব",
+      "matrix_encode_failed": "ক\u0026#39;ড শব্দৰ বাবে মেট্ৰিক্স এনকোডিং ব্যৰ্থ: %v",
+      "message_embed_failed": "বাৰ্তা সন্নিৱিষ্ট কৰাত ব্যৰ্থ: %v",
+      "message_too_large": "বাৰ্তাৰ আকাৰে সৰ্বাধিক অনুমোদিত (8,388,607 বাইট) অতিক্ৰম কৰিছে",
+      "nil_random_source": "ৰেণ্ডম উৎস শূন্য হ\u0026#39;ব নোৱাৰে: InitializePRNG(পাছৱৰ্ড) ব্যৱহাৰ কৰক বা এটা পূৰ্ব-বীজ কৰা RandomSource প্ৰদান কৰক",
+      "permutation_failed": "সহগ বিক্ৰম সৃষ্টি কৰাত ব্যৰ্থ: %v"
+    },
+    "log": {
+      "capacity_calculated": "সহগ ক্ষমতা গণনা কৰা হৈছে",
+      "coefficient_modified": "সহগ পৰিৱৰ্তিত",
+      "embed_complete": "F5 এম্বেডিং সম্পূৰ্ণ হৈছে",
+      "embed_start": "F5 এম্বেডিং আৰম্ভ কৰা হৈছে",
+      "header_embedded": "বাৰ্তা হেডাৰ এম্বেড কৰা হৈছে",
+      "k_selected": "অনুকূল k প্ৰাচল নিৰ্বাচিত কৰা হৈছে",
+      "permutation_generated": "সহগ ক্ৰমবিন্যাস সৃষ্টি কৰা হয়",
+      "shrinkage_detected": "সংকোচন ধৰা পৰিছে, বিট পুনৰ এম্বেড কৰা হৈছে"
+    }
+  }
+}

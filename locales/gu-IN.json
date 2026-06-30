@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "%d બિટ્સની જરૂર છે, k=1 પર મહત્તમ ક્ષમતા %d બિટ્સ છે",
+      "empty_coefficients": "ગુણાંક સ્લાઇસ ખાલી ન હોઈ શકે",
+      "empty_password": "પાસવર્ડ ખાલી ન હોઈ શકે.",
+      "header_embed_failed": "સંદેશ હેડર એમ્બેડ કરવામાં નિષ્ફળ: %v",
+      "insufficient_capacity": "ઉપલબ્ધ ગુણાંક ક્ષમતા માટે સંદેશ ખૂબ મોટો છે",
+      "insufficient_coefficients": "એમ્બેડિંગ દરમિયાન અપૂરતા ગુણાંક: %d ની જરૂર છે, %d મળ્યું",
+      "insufficient_header_coefficients": "હેડર એમ્બેડિંગ માટે અપૂરતા ઉપયોગી ગુણાંક: 32 બિટ્સની જરૂર છે, ફક્ત %d ઉપયોગી ગુણાંક મળ્યાં",
+      "invalid_code_word": "કોડ વર્ડ ખાલી ન હોઈ શકે.",
+      "invalid_coefficient_range": "ગુણાંક મૂલ્ય માન્ય શ્રેણીની બહાર (-2048 થી 2047)",
+      "invalid_force_k": "અમાન્ય ForceK: 0 (ઓટો) અથવા 1-8 હોવું આવશ્યક છે",
+      "invalid_k_parameter": "k પરિમાણ 1 અને 8 ની વચ્ચે હોવું જોઈએ.",
+      "matrix_encode_failed": "કોડ વર્ડ માટે મેટ્રિક્સ એન્કોડિંગ નિષ્ફળ ગયું: %v",
+      "message_embed_failed": "સંદેશ એમ્બેડ કરવામાં નિષ્ફળ: %v",
+      "message_too_large": "સંદેશનું કદ મહત્તમ મંજૂર (8,388,607 બાઇટ્સ) કરતાં વધુ છે.",
+      "nil_random_source": "રેન્ડમ સ્ત્રોત શૂન્ય હોઈ શકે નહીં: InitializePRNG(password) નો ઉપયોગ કરો અથવા પ્રી-સીડેડ રેન્ડમસોર્સ પ્રદાન કરો.",
+      "permutation_failed": "ગુણાંક ક્રમચય જનરેટ કરવામાં નિષ્ફળ: %v"
+    },
+    "log": {
+      "capacity_calculated": "ગુણાંક ક્ષમતાની ગણતરી",
+      "coefficient_modified": "ગુણાંકમાં ફેરફાર કર્યો",
+      "embed_complete": "F5 એમ્બેડિંગ પૂર્ણ થયું",
+      "embed_start": "F5 એમ્બેડિંગ શરૂ કરી રહ્યા છીએ",
+      "header_embedded": "સંદેશ હેડર એમ્બેડેડ કર્યું",
+      "k_selected": "શ્રેષ્ઠ k પરિમાણ પસંદ કર્યું",
+      "permutation_generated": "ગુણાંક ક્રમચય ઉત્પન્ન થયો",
+      "shrinkage_detected": "સંકોચન શોધાયું, બીટ ફરીથી એમ્બેડ કરી રહ્યું છે"
+    }
+  }
+}

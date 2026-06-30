@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "nevojiten %d bit, kapaciteti maksimal në k=1 është %d bit",
+      "empty_coefficients": "feta e koeficientit nuk mund të jetë bosh",
+      "empty_password": "fjalëkalimi nuk mund të jetë bosh",
+      "header_embed_failed": "dështoi të ngulit kokën e mesazhit: %v",
+      "insufficient_capacity": "mesazhi është shumë i madh për kapacitetin e koeficientit të disponueshëm",
+      "insufficient_coefficients": "koeficientë të pamjaftueshëm gjatë ngulitjes: nevojitet %d, u mor %d",
+      "insufficient_header_coefficients": "koeficientë të pamjaftueshëm të përdorshëm për ngulitjen e kokës: nevojiten 32 bit, u gjetën vetëm %d koeficientë të përdorshëm",
+      "invalid_code_word": "Fjala kod nuk mund të jetë bosh",
+      "invalid_coefficient_range": "vlera e koeficientit jashtë diapazonit të vlefshëm (-2048 deri në 2047)",
+      "invalid_force_k": "ForceK i pavlefshëm: duhet të jetë 0 (automatik) ose 1-8",
+      "invalid_k_parameter": "parametri k duhet të jetë midis 1 dhe 8",
+      "matrix_encode_failed": "Kodimi i matricës dështoi për fjalën kodike: %v",
+      "message_embed_failed": "dështoi të ngulit mesazhin: %v",
+      "message_too_large": "madhësia e mesazhit tejkalon maksimumin e lejuar (8,388,607 bajt)",
+      "nil_random_source": "Burimi i rastësishëm nuk mund të jetë zero: përdorni InitializePRNG(password) ose jepni një Burim të Rastësishëm të paracaktuar",
+      "permutation_failed": "dështoi të gjenerojë permutacion të koeficientit: %v"
+    },
+    "log": {
+      "capacity_calculated": "Kapaciteti i koeficientit të llogaritur",
+      "coefficient_modified": "Koeficienti i modifikuar",
+      "embed_complete": "Vendosja e F5 përfundoi",
+      "embed_start": "Duke filluar integrimin F5",
+      "header_embedded": "Titulli i mesazhit i integruar",
+      "k_selected": "Parametri optimal k i zgjedhur",
+      "permutation_generated": "Permutacioni i koeficientit i gjeneruar",
+      "shrinkage_detected": "Tkurrje e zbuluar, bit ri-ngulitje"
+    }
+  }
+}

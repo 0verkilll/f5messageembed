@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "membutuhkan %d bit, kapasitas maksimum pada k=1 adalah %d bit",
+      "empty_coefficients": "irisan koefisien tidak boleh kosong",
+      "empty_password": "kata sandi tidak boleh kosong",
+      "header_embed_failed": "Gagal menyematkan header pesan: %v",
+      "insufficient_capacity": "Pesan terlalu besar untuk kapasitas koefisien yang tersedia.",
+      "insufficient_coefficients": "Koefisien tidak mencukupi selama penyematan: dibutuhkan %d, didapatkan %d",
+      "insufficient_header_coefficients": "Koefisien yang dapat digunakan tidak mencukupi untuk penyematan header: membutuhkan 32 bit, hanya ditemukan %d koefisien yang dapat digunakan.",
+      "invalid_code_word": "Kata sandi tidak boleh kosong",
+      "invalid_coefficient_range": "Nilai koefisien berada di luar rentang yang valid (-2048 hingga 2047)",
+      "invalid_force_k": "ForceK tidak valid: harus 0 (otomatis) atau 1-8",
+      "invalid_k_parameter": "Parameter k harus berada di antara 1 dan 8.",
+      "matrix_encode_failed": "Pengkodean matriks gagal untuk kata sandi: %v",
+      "message_embed_failed": "Gagal menyematkan pesan: %v",
+      "message_too_large": "Ukuran pesan melebihi batas maksimum yang diizinkan (8.388.607 byte)",
+      "nil_random_source": "Sumber acak tidak boleh bernilai nil: gunakan InitializePRNG(password) atau berikan RandomSource yang sudah diisi sebelumnya.",
+      "permutation_failed": "gagal menghasilkan permutasi koefisien: %v"
+    },
+    "log": {
+      "capacity_calculated": "Kapasitas koefisien dihitung",
+      "coefficient_modified": "Koefisien dimodifikasi",
+      "embed_complete": "Penyematan F5 selesai",
+      "embed_start": "Memulai penyematan F5",
+      "header_embedded": "Header pesan disematkan",
+      "k_selected": "Parameter k optimal yang dipilih",
+      "permutation_generated": "Permutasi koefisien yang dihasilkan",
+      "shrinkage_detected": "Terdeteksi penyusutan, bit penyematan ulang"
+    }
+  }
+}

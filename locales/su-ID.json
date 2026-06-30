@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "peryogi %d bit, kapasitas maksimum dina k=1 nyaéta %d bit",
+      "empty_coefficients": "koefisien irisan teu meunang kosong",
+      "empty_password": "kecap akses teu kenging kosong",
+      "header_embed_failed": "gagal nyematkan lulugu pesen: %v",
+      "insufficient_capacity": "pesenna ageung teuing pikeun kapasitas koefisien anu sayogi",
+      "insufficient_coefficients": "koéfisién teu cekap nalika nyematkan: peryogi %d, kéngingkeun %d",
+      "insufficient_header_coefficients": "koéfisién anu tiasa dianggo teu cekap pikeun panyematan header: peryogi 32 bit, ngan ukur mendakan %d koéfisién anu tiasa dianggo",
+      "invalid_code_word": "kecap kode teu kenging kosong",
+      "invalid_coefficient_range": "nilai koefisien di luar rentang anu valid (-2048 dugi ka 2047)",
+      "invalid_force_k": "ForceK teu valid: kedah 0 (otomatis) atanapi 1-8",
+      "invalid_k_parameter": "parameter k kedah antara 1 sareng 8",
+      "matrix_encode_failed": "encoding matriks gagal pikeun kecap kode: %v",
+      "message_embed_failed": "gagal nyematkan pesen: %v",
+      "message_too_large": "Ukuran pesen ngaleuwihan maksimum anu diidinan (8.388.607 bait)",
+      "nil_random_source": "sumber acak teu kenging nol: anggo InitializePRNG (sandi) atanapi pasihan RandomSource anu parantos di-seeded",
+      "permutation_failed": "gagal ngahasilkeun koefisien permutasi: %v"
+    },
+    "log": {
+      "capacity_calculated": "Kapasitas koefisien diitung",
+      "coefficient_modified": "Koefisien anu dirobah",
+      "embed_complete": "Pamasangan F5 réngsé",
+      "embed_start": "Ngamimitian panyematan F5",
+      "header_embedded": "Judul pesen disematkeun",
+      "k_selected": "Parameter k optimal dipilih",
+      "permutation_generated": "Koefisien permutasi anu dihasilkeun",
+      "shrinkage_detected": "Penyusutan kadeteksi, bit dipasang deui"
+    }
+  }
+}

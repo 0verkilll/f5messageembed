@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "%d बिट्स दी लोड़ ऐ, k=1 पर मती क्षमता %d बिट्स ऐ",
+      "empty_coefficients": "गुणांक स्लाइस खाली नेईं होई सकदा",
+      "empty_password": "पासवर्ड खाली नेईं होई सकदा",
+      "header_embed_failed": "संदेश हेडर एम्बेड करने च असफल: %v",
+      "insufficient_capacity": "उपलब्ध गुणांक क्षमता आस्तै मता बड्डा संदेश",
+      "insufficient_coefficients": "एम्बेडिंग दौरान अपर्याप्त गुणांक: %d दी लोड़ ऐ, %d मिली गेआ",
+      "insufficient_header_coefficients": "हेडर एम्बेडिंग आस्तै अपर्याप्त उपयोगी गुणांक: 32 बिट्स दी लोड़ ऐ, सिर्फ %d उपयोगी गुणांक मिले न",
+      "invalid_code_word": "कोड शब्द खाली नेईं होई सकदा",
+      "invalid_coefficient_range": "वैध सीमा (-2048 थमां 2047) थमां बाह् र गुणांक मूल्य",
+      "invalid_force_k": "अमान्य ForceK: 0 (ऑटो) या 1-8 होना चाहिदा ऐ",
+      "invalid_k_parameter": "k पैरामीटर 1 ते 8 दे बीच होना चाहिदा ऐ",
+      "matrix_encode_failed": "कोड शब्द आस्तै मैट्रिक्स एन्कोडिंग असफल होई गेई: %v",
+      "message_embed_failed": "संदेश एम्बेड करने च असफल: %v",
+      "message_too_large": "संदेश आकार ज़्यादा शा ज़्यादा अनुमति (8,388,607 बाइट्स) शा मता ऐ",
+      "nil_random_source": "बेतरतीब स्रोत शून्य नेईं होई सकदा: InitializePRNG(पासवर्ड) दा इस्तेमाल करो जां इक पैह् ले थमां बीज कीता गेदा RandomSource उपलब्ध करोआओ",
+      "permutation_failed": "गुणांक क्रमपरिवर्तन पैदा करने च असफल: %v"
+    },
+    "log": {
+      "capacity_calculated": "गुणांक क्षमता दी गणना कीती गेई",
+      "coefficient_modified": "गुणांक संशोधित कीता गेआ",
+      "embed_complete": "एफ 5 एम्बेडिंग पूरा हो गया",
+      "embed_start": "एफ 5 एम्बेडिंग शुरू करना",
+      "header_embedded": "संदेश हेडर एम्बेडेड कीता गेदा ऐ",
+      "k_selected": "इष्टतम कश्मीर पैरामीटर चयनित",
+      "permutation_generated": "गुणांक क्रमपरिवर्तन पैदा कीता",
+      "shrinkage_detected": "सिकुड़न दा पता चलया, बिट फिर एम्बेडिंग"
+    }
+  }
+}

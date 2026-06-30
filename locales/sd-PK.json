@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "%d بِٽس جي ضرورت آهي، k=1 تي وڌ ۾ وڌ گنجائش %d بِٽس آهي",
+      "empty_coefficients": "ڪوفيشينٽ سلائس خالي نه ٿي سگهي.",
+      "empty_password": "پاسورڊ خالي نٿو ٿي سگهي.",
+      "header_embed_failed": "پيغام هيڊر شامل ڪرڻ ۾ ناڪام ٿيو: %v",
+      "insufficient_capacity": "پيغام موجود گنجائش لاءِ تمام وڏو آهي.",
+      "insufficient_coefficients": "ايمبيڊنگ دوران ناکافي ڪوئفيشينٽس: %d جي ضرورت آهي، %d ملي ويو",
+      "insufficient_header_coefficients": "هيڊر ايمبيڊنگ لاءِ ڪافي استعمال لائق ڪوئفيشينٽس نه آهن: 32 بِٽ جي ضرورت آهي، صرف %d استعمال لائق ڪوئفيشينٽس مليا آهن.",
+      "invalid_code_word": "ڪوڊ ورڊ خالي نٿو ٿي سگهي.",
+      "invalid_coefficient_range": "ڪوفيشيٽ ويليو صحيح حد کان ٻاهر (-2048 کان 2047 تائين)",
+      "invalid_force_k": "غلط ForceK: 0 (خودڪار) يا 1-8 هجڻ گهرجي",
+      "invalid_k_parameter": "k پيرا ميٽر 1 ۽ 8 جي وچ ۾ هجڻ گهرجي.",
+      "matrix_encode_failed": "ڪوڊ ورڊ لاءِ ميٽرڪس انڪوڊنگ ناڪام ٿي: %v",
+      "message_embed_failed": "پيغام شامل ڪرڻ ۾ ناڪام ٿيو: %v",
+      "message_too_large": "پيغام جي سائيز اجازت ڏنل وڌ کان وڌ کان وڌيڪ آهي (8,388,607 بائيٽ)",
+      "nil_random_source": "بي ترتيب ذريعو صفر نه ٿي سگهي: InitializePRNG(password) استعمال ڪريو يا اڳ-سيڊ ٿيل بي ترتيب ذريعو مهيا ڪريو",
+      "permutation_failed": "ڪوفيشيٽ پرميوٽيشن پيدا ڪرڻ ۾ ناڪام ٿيو: %v"
+    },
+    "log": {
+      "capacity_calculated": "ڪوفيشينٽ گنجائش جو حساب ڪيو ويو",
+      "coefficient_modified": "ڪوفيشينٽ تبديل ٿيل",
+      "embed_complete": "F5 ايمبيڊنگ مڪمل ٿي وئي",
+      "embed_start": "F5 ايمبيڊنگ شروع ڪندي",
+      "header_embedded": "پيغام جو هيڊر شامل ڪيو ويو",
+      "k_selected": "بهترين k پيرا ميٽر چونڊيو ويو",
+      "permutation_generated": "ڪوفيشينٽ پرميوٽيشن پيدا ٿيو",
+      "shrinkage_detected": "سُڪڙجڻ جو پتو پيو، بِٽ کي ٻيهر شامل ڪيو پيو وڃي"
+    }
+  }
+}

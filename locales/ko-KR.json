@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "%d 비트가 필요하며, k=1일 때 최대 용량은 %d 비트입니다.",
+      "empty_coefficients": "계수 슬라이스는 비어있을 수 없습니다.",
+      "empty_password": "비밀번호는 비워둘 수 없습니다.",
+      "header_embed_failed": "메시지 헤더를 삽입하는 데 실패했습니다: %v",
+      "insufficient_capacity": "메시지 크기가 사용 가능한 계수 용량을 초과합니다.",
+      "insufficient_coefficients": "임베딩 중 계수 부족: 필요한 계수는 %d개인데, 얻은 계수는 %d개입니다.",
+      "insufficient_header_coefficients": "헤더 삽입에 사용할 수 있는 계수가 부족합니다. 32비트가 필요하지만 %d개의 사용 가능한 계수만 찾았습니다.",
+      "invalid_code_word": "코드워드는 비워둘 수 없습니다.",
+      "invalid_coefficient_range": "계수 값이 유효 범위(-2048~2047)를 벗어났습니다.",
+      "invalid_force_k": "잘못된 ForceK: 0(자동) 또는 1-8이어야 합니다.",
+      "invalid_k_parameter": "k 매개변수는 1에서 8 사이의 값이어야 합니다.",
+      "matrix_encode_failed": "코드워드 %v에 대한 행렬 인코딩이 실패했습니다.",
+      "message_embed_failed": "메시지 삽입 실패: %v",
+      "message_too_large": "메시지 크기가 허용된 최대 크기(8,388,607바이트)를 초과했습니다.",
+      "nil_random_source": "난수 생성 변수는 nil일 수 없습니다. InitializePRNG(password)를 사용하거나 미리 시드된 RandomSource를 제공하십시오.",
+      "permutation_failed": "계수 순열 생성에 실패했습니다: %v"
+    },
+    "log": {
+      "capacity_calculated": "계수 용량 계산됨",
+      "coefficient_modified": "계수 수정됨",
+      "embed_complete": "F5 임베딩 완료",
+      "embed_start": "F5 임베딩 시작",
+      "header_embedded": "메시지 헤더가 포함되어 있습니다.",
+      "k_selected": "최적의 k 매개변수가 선택되었습니다.",
+      "permutation_generated": "계수 순열 생성됨",
+      "shrinkage_detected": "수축이 감지되어 비트를 다시 삽입합니다."
+    }
+  }
+}

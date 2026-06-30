@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "需要 %d 位，当 k=1 时最大容量为 %d 位",
+      "empty_coefficients": "系数切片不能为空",
+      "empty_password": "密码不能为空",
+      "header_embed_failed": "嵌入邮件头失败：%v",
+      "insufficient_capacity": "消息过大，超出可用系数容量。",
+      "insufficient_coefficients": "嵌入过程中系数不足：需要 %d 个系数，实际得到 %d 个系数",
+      "insufficient_header_coefficients": "可用于头部嵌入的系数不足：需要 32 位，但只找到 %d 个可用系数",
+      "invalid_code_word": "代码字不能为空",
+      "invalid_coefficient_range": "系数值超出有效范围（-2048 至 2047）",
+      "invalid_force_k": "无效的 ForceK：必须为 0（自动）或 1-8。",
+      "invalid_k_parameter": "k 参数必须介于 1 和 8 之间。",
+      "matrix_encode_failed": "矩阵编码失败，码字为：%v",
+      "message_embed_failed": "嵌入消息失败：%v",
+      "message_too_large": "消息大小超过允许的最大值（8,388,607 字节）",
+      "nil_random_source": "随机数源不能为空：请使用 InitializePRNG(password) 或提供预先初始化的 RandomSource。",
+      "permutation_failed": "生成系数排列失败：%v"
+    },
+    "log": {
+      "capacity_calculated": "计算系数容量",
+      "coefficient_modified": "修正系数",
+      "embed_complete": "F5嵌入完成",
+      "embed_start": "开始 F5 嵌入",
+      "header_embedded": "嵌入的消息头",
+      "k_selected": "已选择最优 k 参数",
+      "permutation_generated": "生成的系数排列",
+      "shrinkage_detected": "检测到收缩，正在重新嵌入比特"
+    }
+  }
+}

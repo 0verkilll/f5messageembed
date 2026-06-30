@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "%d bit behar dira, k=1-en gehienezko edukiera %d bit da",
+      "empty_coefficients": "koefiziente zatia ezin da hutsik egon",
+      "empty_password": "pasahitza ezin da hutsik egon",
+      "header_embed_failed": "mezuaren goiburua txertatzea huts egin du: %v",
+      "insufficient_capacity": "mezua handiegia da eskuragarri dagoen koefiziente-ahalmenerako",
+      "insufficient_coefficients": "koefiziente nahikorik ez txertatzean: %d behar dira, %d lortu dira",
+      "insufficient_header_coefficients": "goiburua txertatzeko koefiziente erabilgarri nahikorik ez: 32 bit behar dira, %d koefiziente erabilgarri baino ez dira aurkitu",
+      "invalid_code_word": "kode hitza ezin da hutsik egon",
+      "invalid_coefficient_range": "Koefizientearen balioa baliozko tartetik kanpo dago (-2048tik 2047ra)",
+      "invalid_force_k": "ForceK baliogabea: 0 (automatikoa) edo 1-8 izan behar du",
+      "invalid_k_parameter": "k parametroa 1 eta 8 artean egon behar da",
+      "matrix_encode_failed": "matrizearen kodeketak huts egin du %v kode-hitzarentzat",
+      "message_embed_failed": "huts egin du mezua txertatzean: %v",
+      "message_too_large": "mezuaren tamaina baimendutako gehienezko muga gainditzen du (8.388.607 byte)",
+      "nil_random_source": "ausazko iturria ezin da nulua izan: erabili InitializePRNG(password) edo eman aurrez ezarritako RandomSource bat",
+      "permutation_failed": "koefizientearen permutazioa sortzea huts egin du: %v"
+    },
+    "log": {
+      "capacity_calculated": "Kalkulatutako koefizientearen edukiera",
+      "coefficient_modified": "Koefizientea aldatua",
+      "embed_complete": "F5 txertatzea amaitu da",
+      "embed_start": "F5 txertatzea hasten",
+      "header_embedded": "Mezuaren goiburua txertatua",
+      "k_selected": "Hautatutako k parametro optimoa",
+      "permutation_generated": "Sortutako koefiziente-permutazioa",
+      "shrinkage_detected": "Uzkurdura detektatu da, bit-a berriro txertatzen"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "mago bɛ %d bitikiw la, seko maksimali k=1 la o ye %d bitikiw ye",
+      "empty_coefficients": "coefficient slice tɛ se ka kɛ lankolon ye",
+      "empty_password": "tɔgɔlasɛbɛn tɛ se ka kɛ lankolon ye",
+      "header_embed_failed": "ma se ka cikan kuncɛlen don a kɔnɔ: %v",
+      "insufficient_capacity": "cikan ka bon kojugu ka tɛmɛn coefficient capacity sɔrɔli kan",
+      "insufficient_coefficients": "coefficients dafabaliw dontuma na: mago bɛ %d la, %d sɔrɔla",
+      "insufficient_header_coefficients": "baarakɛcogo coefficients dafabaliw kunkolo doncogo kama: mago bɛ bitiki 32 la, sɔrɔ %d baarakɛcogo coefficients dɔrɔn",
+      "invalid_code_word": "kode daɲɛ tɛ se ka kɛ lankolon ye",
+      "invalid_coefficient_range": "coefficient value out of valid range (-2048 fo 2047) .",
+      "invalid_force_k": "ForceK tiɲɛnen: ka kan ka kɛ 0 (auto) walima 1-8 ye",
+      "invalid_k_parameter": "k paramɛtiri ka kan ka kɛ 1 ni 8 cɛ",
+      "matrix_encode_failed": "matiriyali kodɔnni ma ɲɛ kode daɲɛ na: %v",
+      "message_embed_failed": "a ma se ka cikan don a kɔnɔ: %v",
+      "message_too_large": "cikan hakɛ tɛmɛna hakɛ danmadɔ kan (bayt 8 388 607 ) .",
+      "nil_random_source": "random source tɛ se ka kɛ nil ye: baara kɛ ni InitializePRNG(password) ye walima ka RandomSource min tun bɛ kisɛ la ka kɔn, o di",
+      "permutation_failed": "a ma se ka coefficient permutation (coefficient permutation) sɔrɔ : %v"
+    },
+    "log": {
+      "capacity_calculated": "Coefficient capacité jatebɔlen don",
+      "coefficient_modified": "Coefficient bεε bεε bε bεn",
+      "embed_complete": "F5 embedding dafara",
+      "embed_start": "F5 embedding daminɛni",
+      "header_embedded": "Cikan kunkanko bɛ don a kɔnɔ",
+      "k_selected": "Paramètre k optimal sugandilen don",
+      "permutation_generated": "Coefficient permutation (coefficient permutation) min bɛ sɔrɔ",
+      "shrinkage_detected": "Shrinkage detected, segin ka don a kɔnɔ bitiki"
+    }
+  }
+}

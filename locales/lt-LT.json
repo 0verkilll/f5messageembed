@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "reikia %d bitų, maksimali talpa, kai k=1, yra %d bitų",
+      "empty_coefficients": "koeficiento skiltis negali būti tuščia",
+      "empty_password": "slaptažodis negali būti tuščias",
+      "header_embed_failed": "Nepavyko įterpti pranešimo antraštės: %v",
+      "insufficient_capacity": "Pranešimas per didelis, palyginti su turimu koeficientų pajėgumu",
+      "insufficient_coefficients": "nepakankami koeficientai įterpimo metu: reikia %d, gauta %d",
+      "insufficient_header_coefficients": "Nepakanka tinkamų naudoti koeficientų antraštės įterpimui: reikia 32 bitų, rasta tik %d tinkamų naudoti koeficientų",
+      "invalid_code_word": "kodo žodis negali būti tuščias",
+      "invalid_coefficient_range": "koeficiento reikšmė nepatenka į leistiną diapazoną (nuo -2048 iki 2047)",
+      "invalid_force_k": "negaliojantis „ForceK“: turi būti 0 (automatinis) arba 1–8",
+      "invalid_k_parameter": "k parametras turi būti nuo 1 iki 8",
+      "matrix_encode_failed": "Matricos kodavimas nepavyko naudojant kodinį žodį: %v",
+      "message_embed_failed": "Nepavyko įterpti pranešimo: %v",
+      "message_too_large": "pranešimo dydis viršija leistiną maksimalų dydį (8 388 607 baitai)",
+      "nil_random_source": "atsitiktinis šaltinis negali būti nulis: naudokite „InitializePRNG(password)“ arba pateikite iš anksto įvestą atsitiktinio šaltinio kodą",
+      "permutation_failed": "nepavyko sugeneruoti koeficiento permutacijos: %v"
+    },
+    "log": {
+      "capacity_calculated": "Apskaičiuotas talpos koeficientas",
+      "coefficient_modified": "Modifikuotas koeficientas",
+      "embed_complete": "F5 įterpimas baigtas",
+      "embed_start": "Pradedamas įterpimas paspausdami F5",
+      "header_embedded": "Įterpta pranešimo antraštė",
+      "k_selected": "Pasirinktas optimalus k parametras",
+      "permutation_generated": "Sukurta koeficiento permutacija",
+      "shrinkage_detected": "Aptiktas susitraukimas, pakartotinai įdedamas antgalis"
+    }
+  }
+}

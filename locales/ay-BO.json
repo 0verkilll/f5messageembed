@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "%d bits ukax wakisi, k=1 uksanx jach’a capacidad ukax %d bits ukawa",
+      "empty_coefficients": "coeficiente rebanada ukaxa janiwa ch’usakïkaspati",
+      "empty_password": "contraseña ukaxa janiwa ch’usakïkaspati",
+      "header_embed_failed": "yatiyaw p’iqinchaw uñt’ayañax janiw ch’amäkiti: %v",
+      "insufficient_capacity": "yatiyawix sinti jach’awa capacidad coeficiente utjki ukataki",
+      "insufficient_coefficients": "jan suma coeficientes ukanakax uñstayañ pachanx: %d munapxi, %d jikxatapxi",
+      "insufficient_header_coefficients": "jan suficiente coeficientes apnaqañjam p’iqinchaw uñstayañataki: 32 bits munasiwa, %d apnaqañ coeficientes ukakiw jikxatasi",
+      "invalid_code_word": "codigo aruxa janiwa ch’usakïkaspati",
+      "invalid_coefficient_range": "coeficiente valor ukaxa janiwa chiqapa (-2048 marata 2047 marakama) .",
+      "invalid_force_k": "jan wali ForceK: 0 (auto) jan ukax 1-8 ukhamäñapawa",
+      "invalid_k_parameter": "k parámetro ukax 1 ukat 8 ukjakamaw utjañapa",
+      "matrix_encode_failed": "matriz codificación ukax codificación arutakix janiw phuqhaskiti: %v",
+      "message_embed_failed": "janiw yatiyaw uñt’ayañax wakiskiti: %v",
+      "message_too_large": "yatiyawi jach’a jach’a tukuñaxa jilpachawa (8.388.607 bytes) .",
+      "nil_random_source": "aleatorio fuente ukax janiw nil ukhamäkaspati: InitializePRNG(contraseña) apnaqaña jan ukax mä pre-seaded RandomSource churaña",
+      "permutation_failed": "janiwa coeficiente permutación uñstayañakiti: %v"
+    },
+    "log": {
+      "capacity_calculated": "Coeficiente capacidad ukaxa jakhthapitawa",
+      "coefficient_modified": "Coeficiente ukaxa mayjt’ayatawa",
+      "embed_complete": "F5 embedding ukax tukuyatawa",
+      "embed_start": "F5 ukan uñt’ayawi qalltaña",
+      "header_embedded": "Yatiyawi p’iqinchawixa uñt’ayatawa",
+      "k_selected": "Parámetro k óptimo ukaxa ajllitawa",
+      "permutation_generated": "Permutación coeficiente ukaxa luratarakiwa",
+      "shrinkage_detected": "Encogimiento uñt’ata, wasitat uñt’ayaña bit"
+    }
+  }
+}

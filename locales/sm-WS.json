@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "manaʻomia %d bits, o le gafatia aupito maualuga i le k=1 o le %d bits",
+      "empty_coefficients": "E le mafai ona gaogao le vaega o le coefficient",
+      "empty_password": "e le mafai ona gaogao le upu faataga",
+      "header_embed_failed": "ua le manuia le fa\u0026#39;apipi\u0026#39;iina o le ulutala o le savali: %v",
+      "insufficient_capacity": "tele naua le savali mo le gafatia o le coefficient o loʻo avanoa",
+      "insufficient_coefficients": "le lava o fua fa\u0026#39;atatau i le taimi o le fa\u0026#39;apipi\u0026#39;iina: mana\u0026#39;omia %d, maua %d",
+      "insufficient_header_coefficients": "le lava o fua fa\u0026#39;atatau e mafai ona fa\u0026#39;aaogaina mo le fa\u0026#39;apipi\u0026#39;iina o le ulutala: mana\u0026#39;omia le 32 bits, ua na\u0026#39;o le %d fua fa\u0026#39;atatau e mafai ona fa\u0026#39;aaogaina ua maua",
+      "invalid_code_word": "e le mafai ona gaogao le upu fa\u0026#39;akomepiuta",
+      "invalid_coefficient_range": "tau o le coefficient i fafo atu o le vaega talafeagai (-2048 i le 2047)",
+      "invalid_force_k": "le aoga le ForceK: e tatau ona 0 (auto) pe 1-8",
+      "invalid_k_parameter": "e tatau ona i le va o le 1 ma le 8 le parakalafa k",
+      "matrix_encode_failed": "Ua le manuia le fa\u0026#39;ailogaina o le matrix mo le code word: %v",
+      "message_embed_failed": "ua le manuia le fa\u0026#39;apipi\u0026#39;iina o le savali: %v",
+      "message_too_large": "ua sili atu le tele o le savali i le maualuga e fa\u0026#39;atagaina (8,388,607 bytes)",
+      "nil_random_source": "e le mafai ona leai se puna fa\u0026#39;afuase\u0026#39;i: fa\u0026#39;aaoga le InitializePRNG (upu fa\u0026#39;alilolilo) pe tu\u0026#39;uina atu se RandomSource ua uma ona fa\u0026#39;aputuina",
+      "permutation_failed": "ua le mafai ona fa\u0026#39;atupuina le fa\u0026#39;asologa o le coefficient: %v"
+    },
+    "log": {
+      "capacity_calculated": "Fuafuaina o le gafatia o le coefficient",
+      "coefficient_modified": "Fa\u0026#39;asologa ua suia",
+      "embed_complete": "Ua mae\u0026#39;a le fa\u0026#39;apipi\u0026#39;iina o le F5",
+      "embed_start": "Amataina o le fa\u0026#39;apipi\u0026#39;iina o le F5",
+      "header_embedded": "Ulutala o le savali ua fa\u0026#39;apipi\u0026#39;iina",
+      "k_selected": "Ua filifilia le parakalafa sili ona lelei k",
+      "permutation_generated": "Fa\u0026#39;asologa fa\u0026#39;asolosolo ua gaosia",
+      "shrinkage_detected": "Ua iloa le fa\u0026#39;aitiitiga, ua toe fa\u0026#39;apipi\u0026#39;i le vaega"
+    }
+  }
+}

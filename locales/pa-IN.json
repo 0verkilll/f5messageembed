@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "%d ਬਿੱਟਾਂ ਦੀ ਲੋੜ ਹੈ, k=1 \u0026#39;ਤੇ ਵੱਧ ਤੋਂ ਵੱਧ ਸਮਰੱਥਾ %d ਬਿੱਟ ਹੈ",
+      "empty_coefficients": "ਗੁਣਾਂਕ ਟੁਕੜਾ ਖਾਲੀ ਨਹੀਂ ਹੋ ਸਕਦਾ",
+      "empty_password": "ਪਾਸਵਰਡ ਖਾਲੀ ਨਹੀਂ ਹੋ ਸਕਦਾ।",
+      "header_embed_failed": "ਸੁਨੇਹਾ ਹੈਡਰ ਸ਼ਾਮਲ ਕਰਨ ਵਿੱਚ ਅਸਫਲ: %v",
+      "insufficient_capacity": "ਉਪਲਬਧ ਗੁਣਾਂਕ ਸਮਰੱਥਾ ਲਈ ਸੁਨੇਹਾ ਬਹੁਤ ਵੱਡਾ ਹੈ",
+      "insufficient_coefficients": "ਏਮਬੈਡਿੰਗ ਦੌਰਾਨ ਨਾਕਾਫ਼ੀ ਗੁਣਾਂਕ: %d ਦੀ ਲੋੜ ਹੈ, %d ਪ੍ਰਾਪਤ ਹੋਇਆ",
+      "insufficient_header_coefficients": "ਹੈਡਰ ਏਮਬੈਡਿੰਗ ਲਈ ਨਾਕਾਫ਼ੀ ਵਰਤੋਂ ਯੋਗ ਗੁਣਾਂਕ: 32 ਬਿੱਟਾਂ ਦੀ ਲੋੜ ਹੈ, ਸਿਰਫ਼ %d ਵਰਤੋਂ ਯੋਗ ਗੁਣਾਂਕ ਮਿਲੇ ਹਨ",
+      "invalid_code_word": "ਕੋਡ ਵਰਡ ਖਾਲੀ ਨਹੀਂ ਹੋ ਸਕਦਾ",
+      "invalid_coefficient_range": "ਗੁਣਾਂਕ ਮੁੱਲ ਵੈਧ ਸੀਮਾ ਤੋਂ ਬਾਹਰ ਹੈ (-2048 ਤੋਂ 2047)",
+      "invalid_force_k": "ਅਵੈਧ ForceK: 0 (ਆਟੋ) ਜਾਂ 1-8 ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ",
+      "invalid_k_parameter": "k ਪੈਰਾਮੀਟਰ 1 ਅਤੇ 8 ਦੇ ਵਿਚਕਾਰ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।",
+      "matrix_encode_failed": "ਕੋਡ ਵਰਡ ਲਈ ਮੈਟ੍ਰਿਕਸ ਏਨਕੋਡਿੰਗ ਅਸਫਲ ਰਹੀ: %v",
+      "message_embed_failed": "ਸੁਨੇਹਾ ਸ਼ਾਮਲ ਕਰਨ ਵਿੱਚ ਅਸਫਲ: %v",
+      "message_too_large": "ਸੁਨੇਹੇ ਦਾ ਆਕਾਰ ਵੱਧ ਤੋਂ ਵੱਧ ਮਨਜ਼ੂਰਸ਼ੁਦਾ (8,388,607 ਬਾਈਟ) ਤੋਂ ਵੱਧ ਹੈ।",
+      "nil_random_source": "ਰੈਂਡਮ ਸਰੋਤ ਖ਼ਤਮ ਨਹੀਂ ਹੋ ਸਕਦਾ: InitializePRNG(password) ਦੀ ਵਰਤੋਂ ਕਰੋ ਜਾਂ ਇੱਕ ਪ੍ਰੀ-ਸੀਡਡ ਰੈਂਡਮ ਸਰੋਤ ਪ੍ਰਦਾਨ ਕਰੋ।",
+      "permutation_failed": "ਗੁਣਾਂਕ ਕ੍ਰਮ-ਬੱਧਤਾ ਪੈਦਾ ਕਰਨ ਵਿੱਚ ਅਸਫਲ: %v"
+    },
+    "log": {
+      "capacity_calculated": "ਗੁਣਾਂਕ ਸਮਰੱਥਾ ਦੀ ਗਣਨਾ ਕੀਤੀ ਗਈ",
+      "coefficient_modified": "ਗੁਣਾਂਕ ਸੋਧਿਆ ਗਿਆ",
+      "embed_complete": "F5 ਏਮਬੈਡਿੰਗ ਪੂਰੀ ਹੋਈ",
+      "embed_start": "F5 ਏਮਬੈਡਿੰਗ ਸ਼ੁਰੂ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ",
+      "header_embedded": "ਸੁਨੇਹਾ ਹੈਡਰ ਏਮਬੈਡ ਕੀਤਾ ਗਿਆ",
+      "k_selected": "ਅਨੁਕੂਲ k ਪੈਰਾਮੀਟਰ ਚੁਣਿਆ ਗਿਆ",
+      "permutation_generated": "ਗੁਣਾਂਕ ਕ੍ਰਮ-ਬੱਧਤਾ ਉਤਪੰਨ ਹੋਈ",
+      "shrinkage_detected": "ਸੁੰਗੜਨ ਦਾ ਪਤਾ ਲੱਗਿਆ, ਬਿੱਟ ਨੂੰ ਦੁਬਾਰਾ ਏਮਬੈਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
+    }
+  }
+}

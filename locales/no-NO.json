@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "trenger %d bits, maksimal kapasitet ved k=1 er %d bits",
+      "empty_coefficients": "koeffisientseksjonen kan ikke være tom",
+      "empty_password": "passordet kan ikke være tomt",
+      "header_embed_failed": "klarte ikke å legge inn meldingsoverskriften: %v",
+      "insufficient_capacity": "meldingen er for stor for tilgjengelig koeffisientkapasitet",
+      "insufficient_coefficients": "utilstrekkelige koeffisienter under innebygging: trenger %d, fikk %d",
+      "insufficient_header_coefficients": "utilstrekkelige brukbare koeffisienter for innebygging av header: trenger 32 bits, fant bare %d brukbare koeffisienter",
+      "invalid_code_word": "Kodeordet kan ikke være tomt",
+      "invalid_coefficient_range": "koeffisientverdi utenfor gyldig område (-2048 til 2047)",
+      "invalid_force_k": "ugyldig ForceK: må være 0 (auto) eller 1-8",
+      "invalid_k_parameter": "k-parameteren må være mellom 1 og 8",
+      "matrix_encode_failed": "matrisekoding mislyktes for kodeordet: %v",
+      "message_embed_failed": "Kunne ikke legge inn meldingen: %v",
+      "message_too_large": "meldingsstørrelsen overstiger maksimalt tillatt (8 388 607 byte)",
+      "nil_random_source": "tilfeldig kilde kan ikke være null: bruk InitializePRNG(passord) eller oppgi en forhåndsdefinert tilfeldig kilde",
+      "permutation_failed": "Kunne ikke generere koeffisientpermutasjon: %v"
+    },
+    "log": {
+      "capacity_calculated": "Koeffisientkapasitet beregnet",
+      "coefficient_modified": "Koeffisient modifisert",
+      "embed_complete": "F5-innbygging fullført",
+      "embed_start": "Starter F5-innebygging",
+      "header_embedded": "Innebygd meldingsoverskrift",
+      "k_selected": "Optimal k-parameter valgt",
+      "permutation_generated": "Generert koeffisientpermutasjon",
+      "shrinkage_detected": "Krymping oppdaget, boret legges inn igjen"
+    }
+  }
+}

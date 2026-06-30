@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "%d bit gerek, k=1-de iň ýokary kuwwatlylyk %d bit",
+      "empty_coefficients": "koeffisiýent bölegi boş bolup bilmez",
+      "empty_password": "parol boş bolup bilmez",
+      "header_embed_failed": "habaryň başlygyny goýmak başartmady: %v",
+      "insufficient_capacity": "elýeterli koeffisiýent kuwwaty üçin habar gaty uly",
+      "insufficient_coefficients": "ýerleşdirmek wagtynda koeffisiýentler ýeterlik däl: %d gerek, %d aldym",
+      "insufficient_header_coefficients": "Başlyk ýerleşdirmek üçin ulanyp boljak koeffisiýentler ýeterlik däl: 32 bit gerek, diňe %d ulanyp boljak koeffisiýent tapyldy",
+      "invalid_code_word": "kod sözi boş bolup bilmez",
+      "invalid_coefficient_range": "koeffisiýentiň bahasy ygtyýarly aralykdan daşary (-2048-den 2047-ä çenli)",
+      "invalid_force_k": "ForceK nädogry: 0 (awtomatik) ýa-da 1-8 bolmaly",
+      "invalid_k_parameter": "k parametri 1 bilen 8 aralygynda bolmaly",
+      "matrix_encode_failed": "%v kod sözi üçin matrisa kodlamasy başa barmady",
+      "message_embed_failed": "%v habaryny ýerleşdirmek başartmady",
+      "message_too_large": "habaryň ölçegi rugsat berlen iň ýokary möçberden geçýär (8,388,607 baýt)",
+      "nil_random_source": "tötänleýin çeşme nol bolup bilmez: InitializePRNG(password) ulanyň ýa-da öňünden tohumlanan RandomSource beriň",
+      "permutation_failed": "koeffisiýent permutasiýasyny döretmek başartmady: %v"
+    },
+    "log": {
+      "capacity_calculated": "Koeffisiýentiň kuwwaty hasaplandy",
+      "coefficient_modified": "Koeffisiýent üýtgedildi",
+      "embed_complete": "F5 ýerleşdirme tamamlandy",
+      "embed_start": "F5 ýerleşdirilişi başlaýar",
+      "header_embedded": "Habaryň başlygy ýerleşdirilen",
+      "k_selected": "Optimal k parametri saýlanyldy",
+      "permutation_generated": "Koeffisiýent permutasiýasy döredildi",
+      "shrinkage_detected": "Kiçelme anyklandy, bit täzeden ýerleşdirilýär"
+    }
+  }
+}

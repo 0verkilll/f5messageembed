@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "ci vole %d bit, a capacità massima à k=1 hè %d bit",
+      "empty_coefficients": "a fetta di cuefficiente ùn pò esse viota",
+      "empty_password": "a password ùn pò esse viota",
+      "header_embed_failed": "ùn hè micca statu pussibule d\u0026#39;incorporà l\u0026#39;intestazione di u missaghju: %v",
+      "insufficient_capacity": "missaghju troppu grande per a capacità di cuefficiente dispunibule",
+      "insufficient_coefficients": "cuefficienti insufficienti durante l\u0026#39;integrazione: bisognu di %d, ottenutu %d",
+      "insufficient_header_coefficients": "cuefficienti utilizabili insufficienti per l\u0026#39;integrazione di l\u0026#39;intestazione: ci vole 32 bit, sò stati trovati solu %d cuefficienti utilizabili",
+      "invalid_code_word": "a parola di codice ùn pò esse viota",
+      "invalid_coefficient_range": "valore di u cuefficiente fora di l\u0026#39;intervallu validu (-2048 à 2047)",
+      "invalid_force_k": "ForceK invalidu: deve esse 0 (auto) o 1-8",
+      "invalid_k_parameter": "U parametru k deve esse trà 1 è 8",
+      "matrix_encode_failed": "A codificazione di a matrice hà fiascatu per a parola di codice: %v",
+      "message_embed_failed": "ùn hè micca statu pussibule d\u0026#39;incorporà u missaghju: %v",
+      "message_too_large": "A dimensione di u missaghju supera u massimu permessu (8.388.607 byte)",
+      "nil_random_source": "A fonte aleatoria ùn pò esse nulla: aduprate InitializePRNG(password) o furnite una RandomSource pre-seminata",
+      "permutation_failed": "ùn hè micca statu pussibule di generà a permutazione di u cuefficiente: %v"
+    },
+    "log": {
+      "capacity_calculated": "Capacità di u coefficiente calculata",
+      "coefficient_modified": "Coefficiente mudificatu",
+      "embed_complete": "Integrazione F5 cumpletata",
+      "embed_start": "Avvià l\u0026#39;incrustazione F5",
+      "header_embedded": "Intestazione di u missaghju integrata",
+      "k_selected": "Parametru k ottimale sceltu",
+      "permutation_generated": "Permutazione di coefficienti generata",
+      "shrinkage_detected": "Ritrazione rilevata, bit di riintegrazione"
+    }
+  }
+}

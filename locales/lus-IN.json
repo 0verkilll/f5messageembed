@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "%d bits mamawh a nih chuan k=1-a capacity sang ber chu %d bits a ni",
+      "empty_coefficients": "coefficient slice chu a hring thei lo",
+      "empty_password": "password chu a khar thei lo",
+      "header_embed_failed": "message header embed a hlawhchham: %v",
+      "insufficient_capacity": "message lian lutuk chu coefficient capacity awmsa tan a ni",
+      "insufficient_coefficients": "embedding laiin coefficient tling lo: %d mamawh, %d a hmu",
+      "insufficient_header_coefficients": "header embedding atana hman theih coefficient tling lo: bit 32 mamawh, %d hman theih coefficient chauh hmuh",
+      "invalid_code_word": "code word chu a hring thei lo",
+      "invalid_coefficient_range": "coefficient value chu a dikna (-2048 atanga 2047) atanga chhuak a ni.",
+      "invalid_force_k": "invalid ForceK: chu 0 (auto) emaw 1-8 emaw a ni tur a ni",
+      "invalid_k_parameter": "k parameter chu 1 leh 8 inkar a ni tur a ni",
+      "matrix_encode_failed": "Code word: %v atan matrix encoding a hlawhchham",
+      "message_embed_failed": "message embed a hlawhchham: %v",
+      "message_too_large": "message size chu phal zat (8,388,607 bytes) aia tam a ni.",
+      "nil_random_source": "random source hi nil a ni thei lo: InitializePRNG(password) hmang la, pre-seeded RandomSource pe rawh",
+      "permutation_failed": "coefficient permutation a siam thei lo: %v"
+    },
+    "log": {
+      "capacity_calculated": "Coefficient capacity chhiar chhuah a ni",
+      "coefficient_modified": "Coefficient siam danglam a ni",
+      "embed_complete": "F5 embedding tih zawh tawh a ni",
+      "embed_start": "F5 embedding tan a ni",
+      "header_embedded": "Message header a awm bawk",
+      "k_selected": "Optimal k parameter thlan a ni",
+      "permutation_generated": "Coefficient permutation hmanga siam chhuah a ni",
+      "shrinkage_detected": "Shrinkage hmuhchhuah a ni a, re-embedding bit"
+    }
+  }
+}

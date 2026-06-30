@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "需要 %d 位，當 k=1 時最大容量為 %d 位",
+      "empty_coefficients": "係數切片不能為空",
+      "empty_password": "密碼不能為空",
+      "header_embed_failed": "嵌入郵件頭失敗：%v",
+      "insufficient_capacity": "訊息過大，超出可用係數容量。",
+      "insufficient_coefficients": "嵌入過程中係數不足：需 %d 個係數，實際得到 %d 個係數",
+      "insufficient_header_coefficients": "可用於頭部嵌入的係數不足：需要 32 位，但只找到 %d 個可用係數",
+      "invalid_code_word": "代碼字不能為空",
+      "invalid_coefficient_range": "係數值超出有效範圍（-2048 至 2047）",
+      "invalid_force_k": "無效的 ForceK：必須為 0（自動）或 1-8。",
+      "invalid_k_parameter": "k 參數必須介於 1 和 8 之間。",
+      "matrix_encode_failed": "矩陣編碼失敗，碼字為：%v",
+      "message_embed_failed": "嵌入訊息失敗：%v",
+      "message_too_large": "訊息大小超過允許的最大值（8,388,607 位元組）",
+      "nil_random_source": "隨機數源不能為空：請使用 InitializePRNG(password) 或提供預先初始化的 RandomSource。",
+      "permutation_failed": "生成係數排列失敗：%v"
+    },
+    "log": {
+      "capacity_calculated": "計算係數容量",
+      "coefficient_modified": "修正係數",
+      "embed_complete": "F5嵌入完成",
+      "embed_start": "開始 F5 嵌入",
+      "header_embedded": "嵌入的消息頭",
+      "k_selected": "已選擇最優 k 參數",
+      "permutation_generated": "生成的係數排列",
+      "shrinkage_detected": "偵測到收縮，正在重新嵌入比特"
+    }
+  }
+}

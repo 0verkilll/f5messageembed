@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "nedich %d bits, maksimale kapasiteit by k=1 is %d bits",
+      "empty_coefficients": "koëffisjintplak kin net leech wêze",
+      "empty_password": "wachtwurd kin net leech wêze",
+      "header_embed_failed": "koe berjochtkoptekst net ynbêde: %v",
+      "insufficient_capacity": "berjocht te grut foar beskikbere koëffisjintkapasiteit",
+      "insufficient_coefficients": "ûnfoldwaande koëffisjinten by it ynbêdzjen: %d nedich, %d krigen",
+      "insufficient_header_coefficients": "net genôch brûkbere koëffisiënten foar ynbêding fan kopteksten: 32 bits nedich, mar %d brûkbere koëffisiënten fûn",
+      "invalid_code_word": "koadewurd kin net leech wêze",
+      "invalid_coefficient_range": "koëffisjintwearde bûten jildich berik (-2048 oant 2047)",
+      "invalid_force_k": "ûnjildige ForceK: moat 0 (auto) of 1-8 wêze",
+      "invalid_k_parameter": "De k-parameter moat tusken 1 en 8 wêze",
+      "matrix_encode_failed": "matrikskodearring mislearre foar koadewurd: %v",
+      "message_embed_failed": "koe berjocht net ynbêde: %v",
+      "message_too_large": "berjochtgrutte oerskriuwt it maksimum tastiene (8.388.607 bytes)",
+      "nil_random_source": "willekeurige boarne kin net nul wêze: brûk InitializePRNG(wachtwurd) of jou in foarôf seede RandomSource",
+      "permutation_failed": "koe koëffisjintpermutaasje net generearje: %v"
+    },
+    "log": {
+      "capacity_calculated": "Koëffisjintkapasiteit berekkene",
+      "coefficient_modified": "Koëffisjint oanpast",
+      "embed_complete": "F5 ynbêding foltôge",
+      "embed_start": "Begjinne mei F5-ynbêding",
+      "header_embedded": "Berjochtkoptekst ynbêde",
+      "k_selected": "Optimale k-parameter selektearre",
+      "permutation_generated": "Koëffisjintpermutaasje generearre",
+      "shrinkage_detected": "Krimp ûntdutsen, bit opnij ynbêde"
+    }
+  }
+}

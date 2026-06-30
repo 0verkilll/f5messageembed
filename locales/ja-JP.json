@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "%d ビットが必要です。k=1 での最大容量は %d ビットです。",
+      "empty_coefficients": "係数スライスは空にできません",
+      "empty_password": "パスワードは空欄にできません",
+      "header_embed_failed": "メッセージヘッダーの埋め込みに失敗しました: %v",
+      "insufficient_capacity": "メッセージが利用可能な係数容量に対して大きすぎます",
+      "insufficient_coefficients": "埋め込み中に係数が足りません: %d 必要でしたが、%d しか得られませんでした",
+      "insufficient_header_coefficients": "ヘッダー埋め込みに使用できる係数が不足しています: 32 ビット必要ですが、使用可能な係数は %d 個しか見つかりません",
+      "invalid_code_word": "コードワードは空にできません",
+      "invalid_coefficient_range": "係数値が有効な範囲外です（-2048～2047）",
+      "invalid_force_k": "無効なForceK: 0（自動）または1～8である必要があります",
+      "invalid_k_parameter": "kパラメータは1から8の間でなければなりません",
+      "matrix_encode_failed": "コードワード %v のマトリックスエンコードに失敗しました",
+      "message_embed_failed": "メッセージの埋め込みに失敗しました: %v",
+      "message_too_large": "メッセージサイズが最大値（8,388,607 バイト）を超えています",
+      "nil_random_source": "ランダムソースはnilにできません: InitializePRNG(password)を使用するか、事前にシードされたRandomSourceを指定してください",
+      "permutation_failed": "係数順列の生成に失敗しました: %v"
+    },
+    "log": {
+      "capacity_calculated": "係数容量を計算しました",
+      "coefficient_modified": "係数修正",
+      "embed_complete": "F5埋め込み完了",
+      "embed_start": "F5 埋め込みを開始",
+      "header_embedded": "メッセージヘッダーが埋め込まれました",
+      "k_selected": "最適なkパラメータが選択されました",
+      "permutation_generated": "生成された係数順列",
+      "shrinkage_detected": "収縮が検出されました。ビットを再埋め込みます。"
+    }
+  }
+}

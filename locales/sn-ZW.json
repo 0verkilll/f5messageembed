@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "ndinoda %d bits, kugona kwakanyanya pa k=1 i %d bits",
+      "empty_coefficients": "chikamu che coefficient hachifanirwe kunge chisina chinhu",
+      "empty_password": "password haigone kusava nechinhu",
+      "header_embed_failed": "yakundikana kuisa musoro wemeseji: %v",
+      "insufficient_capacity": "meseji yakakura zvakanyanya kuti isakwanise kuverengerwa coefficient",
+      "insufficient_coefficients": "ma coefficients asina kukwana panguva yekuisa: inoda %d, yakawana %d",
+      "insufficient_header_coefficients": "ma coefficients asina kukwana ekuisa musoro: inoda 32 bits, yakawana %d chete ma coefficients anoshandiswa",
+      "invalid_code_word": "kodhi izwi harifaniri kushaya chinhu",
+      "invalid_coefficient_range": "kukosha kwekodhesiti hakusi kwehuwandu hwakakodzera (-2048 kusvika 2047)",
+      "invalid_force_k": "ForceK isiriyo: inofanira kunge iri 0 (auto) kana 1-8",
+      "invalid_k_parameter": "parameter ye k inofanira kunge iri pakati pe1 ne8",
+      "matrix_encode_failed": "Kunyora matrix kwakundikana pa kodhi yezwi: %v",
+      "message_embed_failed": "yakundikana kuisa meseji: %v",
+      "message_too_large": "Saizi yemeseji inodarika huwandu hwakabvumidzwa (8,388,607 bytes)",
+      "nil_random_source": "source isina kurongeka haigone kuva isina: shandisa InitializePRNG(password) kana kupa RandomSource yakadyarwa kare",
+      "permutation_failed": "yakundikana kugadzira coefficient permutation: %v"
+    },
+    "log": {
+      "capacity_calculated": "Kukwanisa kushanda zvakanaka kwakaverengerwa",
+      "coefficient_modified": "Coefficient yakagadziridzwa",
+      "embed_complete": "Kuisa F5 kwapera",
+      "embed_start": "Kutanga kuisa F5",
+      "header_embedded": "Musoro wemashoko wakadzikwa",
+      "k_selected": "Paramita ye k yakakodzera yakasarudzwa",
+      "permutation_generated": "Kugadziriswa kwe coefficient kwakagadzirwa",
+      "shrinkage_detected": "Kudzikira kwaonekwa, chidimbu chiri kuiswazve"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "þarf %d bita, hámarksafköst við k=1 eru %d bita",
+      "empty_coefficients": "stuðulsneið má ekki vera tóm",
+      "empty_password": "lykilorð má ekki vera tómt",
+      "header_embed_failed": "Mistókst að fella inn skilaboðahaus: %v",
+      "insufficient_capacity": "Skilaboðin eru of stór miðað við tiltæka stuðulgetu",
+      "insufficient_coefficients": "ófullnægjandi stuðlar við innfellingu: þarf %d, fékk %d",
+      "insufficient_header_coefficients": "Ófullnægjandi nothæfir stuðlar fyrir hausinnfellingu: þarf 32 bita, fundust aðeins %d nothæfir stuðlar",
+      "invalid_code_word": "Kóðaorð má ekki vera tómt",
+      "invalid_coefficient_range": "stuðulgildi utan gilds bils (-2048 til 2047)",
+      "invalid_force_k": "ógild ForceK: verður að vera 0 (sjálfvirkt) eða 1-8",
+      "invalid_k_parameter": "k breytan verður að vera á milli 1 og 8",
+      "matrix_encode_failed": "Fylkiskóðun mistókst fyrir kóðaorðið: %v",
+      "message_embed_failed": "Mistókst að fella inn skilaboð: %v",
+      "message_too_large": "Stærð skilaboða fer yfir leyfilegt hámark (8.388.607 bæti)",
+      "nil_random_source": "Handahófskennd uppspretta getur ekki verið núll: notaðu InitializePRNG(password) eða gefðu upp fyrirfram frædda Handahófskennda uppsprettu.",
+      "permutation_failed": "Mistókst að búa til stuðulstillingu: %v"
+    },
+    "log": {
+      "capacity_calculated": "Reiknuð afkastagetustuðull",
+      "coefficient_modified": "Stuðull breyttur",
+      "embed_complete": "F5 innfellingu lokið",
+      "embed_start": "Byrja F5 innfellingu",
+      "header_embedded": "Fyrirsögn skilaboða innbyggð",
+      "k_selected": "Besti k breytilegur valinn",
+      "permutation_generated": "Stuðullinn umröðun myndaður",
+      "shrinkage_detected": "Rýrnun greind, bitinn fellur aftur inn"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+name: Release
+
+on:
+  push:
+    tags: [ 'v*' ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Cross-compile & publish
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+          check-latest: true
+
+      - name: Cross-compile f5embed for all platforms
+        env:
+          CGO_ENABLED: "0"
+          GOFLAGS: "-mod=mod"
+        run: |
+          set -u
+          BIN=f5embed
+          DIR=cmd/f5embed
+          mkdir -p "$GITHUB_WORKSPACE/dist"
+          built=0; skipped=0
+          for plat in $(go tool dist list); do
+            os="${plat%/*}"; arch="${plat#*/}"
+            # CLI tool: skip non-native / CGO-only targets
+            case "$os" in ios|android|js|wasip1|aix) continue;; esac
+            ext=""; [ "$os" = "windows" ] && ext=".exe"
+            out="${BIN}_${os}_${arch}${ext}"
+            if ( cd "$DIR" && GOOS="$os" GOARCH="$arch" go build -trimpath -ldflags "-s -w" -o "$GITHUB_WORKSPACE/dist/$out" . ) 2>/dev/null; then
+              if [ "$os" = "windows" ]; then
+                ( cd "$GITHUB_WORKSPACE/dist" && zip -q "${BIN}_${os}_${arch}.zip" "$out" && rm -f "$out" )
+              else
+                ( cd "$GITHUB_WORKSPACE/dist" && tar -czf "${BIN}_${os}_${arch}.tar.gz" "$out" && rm -f "$out" )
+              fi
+              built=$((built+1)); echo "built  $plat"
+            else
+              skipped=$((skipped+1)); echo "skip   $plat"
+            fi
+          done
+          ( cd "$GITHUB_WORKSPACE/dist" && shasum -a 256 * > SHA256SUMS.txt )
+          echo "built=$built skipped=$skipped"
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: f5embed-binaries
+          path: dist/*
+
+      - name: Publish GitHub Release
+        if: startsWith(github.ref, 'refs/tags/')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="${GITHUB_REF_NAME}"
+          gh release create "$tag" dist/* \
+            --repo "$GITHUB_REPOSITORY" --title "$tag" --generate-notes \
+          || gh release upload "$tag" dist/* --clobber --repo "$GITHUB_REPOSITORY"

@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "behöver %d bitar, maximal kapacitet vid k=1 är %d bitar",
+      "empty_coefficients": "koefficientsegmentet får inte vara tomt",
+      "empty_password": "lösenordet får inte vara tomt",
+      "header_embed_failed": "misslyckades med att bädda in meddelanderubriken: %v",
+      "insufficient_capacity": "meddelandet är för stort för tillgänglig koefficientkapacitet",
+      "insufficient_coefficients": "otillräckliga koefficienter under inbäddning: behöver %d, fick %d",
+      "insufficient_header_coefficients": "otillräckliga användbara koefficienter för header-inbäddning: behöver 32 bitar, hittade endast %d användbara koefficienter",
+      "invalid_code_word": "Kodordet får inte vara tomt",
+      "invalid_coefficient_range": "koefficientvärde utanför giltigt intervall (-2048 till 2047)",
+      "invalid_force_k": "ogiltig ForceK: måste vara 0 (auto) eller 1-8",
+      "invalid_k_parameter": "k-parametern måste vara mellan 1 och 8",
+      "matrix_encode_failed": "matriskodning misslyckades för kodordet: %v",
+      "message_embed_failed": "misslyckades med att bädda in meddelandet: %v",
+      "message_too_large": "meddelandestorleken överstiger maximum tillåtet (8 388 607 byte)",
+      "nil_random_source": "slumpmässig källa kan inte vara noll: använd InitializePRNG(lösenord) eller ange en förinställd RandomSource",
+      "permutation_failed": "misslyckades med att generera koefficientpermutation: %v"
+    },
+    "log": {
+      "capacity_calculated": "Beräknad koefficientkapacitet",
+      "coefficient_modified": "Koefficient modifierad",
+      "embed_complete": "F5-inbäddning slutförd",
+      "embed_start": "Starta F5-inbäddning",
+      "header_embedded": "Meddelanderubrik inbäddad",
+      "k_selected": "Optimal k-parameter vald",
+      "permutation_generated": "Genererad koefficientpermutation",
+      "shrinkage_detected": "Krympning upptäckt, återinbäddad bit"
+    }
+  }
+}

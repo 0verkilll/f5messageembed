@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "vaja %d bitti, maksimaalne mahtuvus k=1 juures on %d bitti",
+      "empty_coefficients": "koefitsiendi viil ei tohi olla tühi",
+      "empty_password": "parool ei tohi olla tühi",
+      "header_embed_failed": "Sõnumi päise manustamine ebaõnnestus: %v",
+      "insufficient_capacity": "sõnum on saadaoleva koefitsiendi mahutavuse jaoks liiga suur",
+      "insufficient_coefficients": "manustamise ajal ebapiisavad koefitsiendid: vaja %d, saadud %d",
+      "insufficient_header_coefficients": "päise manustamiseks pole piisavalt kasutatavaid koefitsiente: vaja on 32 bitti, leiti ainult %d kasutatavat koefitsienti",
+      "invalid_code_word": "koodisõna ei tohi olla tühi",
+      "invalid_coefficient_range": "koefitsiendi väärtus on väljaspool kehtivat vahemikku (-2048 kuni 2047)",
+      "invalid_force_k": "sobimatu ForceK: peab olema 0 (automaatne) või 1–8",
+      "invalid_k_parameter": "k parameeter peab olema vahemikus 1 kuni 8",
+      "matrix_encode_failed": "Maatriksi kodeering ebaõnnestus koodisõna %v puhul",
+      "message_embed_failed": "Sõnumi manustamine ebaõnnestus: %v",
+      "message_too_large": "sõnumi suurus ületab lubatud maksimumi (8 388 607 baiti)",
+      "nil_random_source": "juhuslik allikas ei saa olla null: kasutage InitializePRNG(parool) või sisestage eelnevalt sisestatud juhuslik allikas",
+      "permutation_failed": "koefitsiendi permutatsiooni genereerimine ebaõnnestus: %v"
+    },
+    "log": {
+      "capacity_calculated": "Koefitsiendi mahutavus arvutatud",
+      "coefficient_modified": "Koefitsient muudetud",
+      "embed_complete": "F5 manustamine on lõpetatud",
+      "embed_start": "F5 manustamise alustamine",
+      "header_embedded": "Sõnumi päis on manustatud",
+      "k_selected": "Valitud optimaalne k parameeter",
+      "permutation_generated": "Koefitsiendi permutatsioon genereeritud",
+      "shrinkage_detected": "Kahanemine tuvastatud, biti uuesti manustamine"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "%d بٹس کی ضرورت ہے، k=1 پر زیادہ سے زیادہ گنجائش %d بٹس ہے۔",
+      "empty_coefficients": "گتانک کا ٹکڑا خالی نہیں ہو سکتا",
+      "empty_password": "پاس ورڈ خالی نہیں ہو سکتا",
+      "header_embed_failed": "پیغام ہیڈر ایمبیڈ کرنے میں ناکام: %v",
+      "insufficient_capacity": "دستیاب گتانک کی گنجائش کے لیے پیغام بہت بڑا ہے۔",
+      "insufficient_coefficients": "سرایت کے دوران ناکافی گتانک: %d کی ضرورت ہے، %d ملا",
+      "insufficient_header_coefficients": "ہیڈر ایمبیڈنگ کے لیے ناکافی قابل استعمال گتانک: 32 بٹس کی ضرورت ہے، صرف %d قابل استعمال گتانک ملے",
+      "invalid_code_word": "کوڈ ورڈ خالی نہیں ہو سکتا",
+      "invalid_coefficient_range": "گتانک قدر درست حد سے باہر (-2048 سے 2047)",
+      "invalid_force_k": "غلط فورس کے: 0 (آٹو) یا 1-8 ہونا چاہیے۔",
+      "invalid_k_parameter": "k پیرامیٹر 1 اور 8 کے درمیان ہونا چاہیے۔",
+      "matrix_encode_failed": "کوڈ ورڈ کے لیے میٹرکس انکوڈنگ ناکام ہوگئی: %v",
+      "message_embed_failed": "پیغام سرایت کرنے میں ناکام: %v",
+      "message_too_large": "پیغام کا سائز زیادہ سے زیادہ اجازت سے زیادہ ہے (8,388,607 بائٹس)",
+      "nil_random_source": "رینڈم سورس صفر نہیں ہو سکتا: InitializePRNG (پاس ورڈ) استعمال کریں یا پہلے سے سیڈ رینڈم سورس فراہم کریں",
+      "permutation_failed": "عددی ترتیب پیدا کرنے میں ناکام: %v"
+    },
+    "log": {
+      "capacity_calculated": "قابلیت کی گنجائش کا حساب لگایا گیا۔",
+      "coefficient_modified": "قابلیت میں ترمیم کی گئی۔",
+      "embed_complete": "F5 سرایت مکمل ہو گئی۔",
+      "embed_start": "F5 ایمبیڈنگ شروع کر رہا ہے۔",
+      "header_embedded": "پیغام کا ہیڈر سرایت کر گیا۔",
+      "k_selected": "بہترین k پیرامیٹر منتخب کیا گیا۔",
+      "permutation_generated": "قابلیت کی ترتیب پیدا کی گئی۔",
+      "shrinkage_detected": "سکڑنے کا پتہ چلا، بٹ کو دوبارہ سرایت کرنا"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "precisan %d bits, a capacidade máxima en k=1 é de %d bits",
+      "empty_coefficients": "A porción de coeficiente non pode estar baleira",
+      "empty_password": "o contrasinal non pode estar baleiro",
+      "header_embed_failed": "Non se puido inserir a cabeceira da mensaxe: %v",
+      "insufficient_capacity": "mensaxe demasiado grande para a capacidade de coeficiente dispoñible",
+      "insufficient_coefficients": "coeficientes insuficientes durante a incrustación: necesítanse %d, obtéñense %d",
+      "insufficient_header_coefficients": "Coeficientes utilizables insuficientes para a incrustación da cabeceira: necesítanse 32 bits, atopáronse só %d coeficientes utilizables",
+      "invalid_code_word": "A palabra de código non pode estar baleira",
+      "invalid_coefficient_range": "valor do coeficiente fóra do rango válido (-2048 a 2047)",
+      "invalid_force_k": "ForceK non válido: debe ser 0 (automático) ou 1-8",
+      "invalid_k_parameter": "O parámetro k debe estar entre 1 e 8",
+      "matrix_encode_failed": "Fallou a codificación matricial para a palabra de código: %v",
+      "message_embed_failed": "Non se puido inserir a mensaxe: %v",
+      "message_too_large": "o tamaño da mensaxe supera o máximo permitido (8.388.607 bytes)",
+      "nil_random_source": "a fonte aleatoria non pode ser nula: use InitializePRNG(contrasinal) ou proporcione unha fonte aleatoria preconfigurada",
+      "permutation_failed": "Non se puido xerar a permutación do coeficiente: %v"
+    },
+    "log": {
+      "capacity_calculated": "Capacidade do coeficiente calculada",
+      "coefficient_modified": "Coeficiente modificado",
+      "embed_complete": "Integración de F5 completada",
+      "embed_start": "Iniciando a incrustación F5",
+      "header_embedded": "Cabeceira da mensaxe incrustada",
+      "k_selected": "Parámetro k óptimo seleccionado",
+      "permutation_generated": "Permutación de coeficientes xerada",
+      "shrinkage_detected": "Detectouse unha contracción, reincorporando o bit"
+    }
+  }
+}

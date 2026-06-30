@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "%d ቢትስ ያስፈልጋል፣ ከፍተኛው የ k=1 አቅም %d ቢትስ ነው",
+      "empty_coefficients": "የኮፊሸንት ቁራጭ ባዶ ሊሆን አይችልም",
+      "empty_password": "የይለፍ ቃል ባዶ ሊሆን አይችልም",
+      "header_embed_failed": "የመልእክት ራስጌን ማካተት አልተሳካም፡ %v",
+      "insufficient_capacity": "መልዕክቱ ለሚገኘው የኮፊሸንት አቅም በጣም ትልቅ ነው",
+      "insufficient_coefficients": "በማካተት ጊዜ በቂ ያልሆኑ ኮፊሸንቶች፡ %d ያስፈልጋል፣ %d አግኝቷል",
+      "insufficient_header_coefficients": "ለአርዕስት መክተት በቂ ያልሆኑ ጥቅም ላይ የሚውሉ ኮፊሸንቶች፡ 32 ቢት ያስፈልጋቸዋል፣ %d ጥቅም ላይ የሚውሉ ኮፊሸንቶች ብቻ ተገኝተዋል",
+      "invalid_code_word": "የኮድ ቃል ባዶ ሊሆን አይችልም",
+      "invalid_coefficient_range": "የኮፊሸንት እሴት ከትክክለኛ ክልል ውጪ (-2048 እስከ 2047)",
+      "invalid_force_k": "ልክ ያልሆነ ForceK፡ 0 (ራስ-ሰር) ወይም 1-8 መሆን አለበት",
+      "invalid_k_parameter": "የ k መለኪያ በ1 እና 8 መካከል መሆን አለበት",
+      "matrix_encode_failed": "የማትሪክስ ኢንኮዲንግ ለኮድ ቃል፡ %v አልተሳካም",
+      "message_embed_failed": "መልእክት ማካተት አልተሳካም፡ %v",
+      "message_too_large": "የመልዕክት መጠን ከሚፈቀደው ከፍተኛ መጠን በላይ ነው (8,388,607 ባይት)",
+      "nil_random_source": "የዘፈቀደ ምንጭ ዜሮ ሊሆን አይችልም፡ InitializePRNG(password) ይጠቀሙ ወይም አስቀድሞ የተዘረዘረ RandomSource ያቅርቡ",
+      "permutation_failed": "የኮፊሸንት ፔርሙቴሽን ማመንጨት አልተሳካም፡ %v"
+    },
+    "log": {
+      "capacity_calculated": "የተሰላው የኮፊሸንት አቅም",
+      "coefficient_modified": "ኮፊሸንት ተሻሽሏል",
+      "embed_complete": "የF5 መክተት ተጠናቅቋል",
+      "embed_start": "የF5 መክተትን በመጀመር ላይ",
+      "header_embedded": "የመልእክት ራስጌ ተካትቷል",
+      "k_selected": "ምርጥ k መለኪያ ተመርጧል",
+      "permutation_generated": "የተፈጠሩት የኮፊሸንት ፔርሙቴሽን",
+      "shrinkage_detected": "መጨማደድ ተገኝቷል፣ ቢት እንደገና በማካተት ላይ"
+    }
+  }
+}

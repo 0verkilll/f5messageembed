@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "hiã %d bits, ŋutete si sɔ gbɔ wu le k=1 nye %d bits",
+      "empty_coefficients": "coefficient slice mate ŋu anye ƒuƒlu o",
+      "empty_password": "password mate ŋu anye ƒuƒlu o",
+      "header_embed_failed": "do kpo gbedasi ƒe tanya dede eme: %v",
+      "insufficient_capacity": "gbedasi si lolo akpa na xexlẽdzesi ƒe ŋutete si li",
+      "insufficient_coefficients": "xexlẽdzesi siwo mesɔ gbɔ le embedding me o: hiã %d, xɔ %d",
+      "insufficient_header_coefficients": "xexlẽdzesi siwo woateŋu azã si mesɔ gbɔ na tanya ƒe tsɔtsɔ de eme o: hiã bit 32, %d xexlẽdzesi siwo woateŋu azã koe wokpɔ",
+      "invalid_code_word": "code word mate ŋu anye ƒuƒlu o",
+      "invalid_coefficient_range": "xexlẽdzesi ƒe asixɔxɔ si le vovototo si sɔ me (-2048 va ɖo 2047) .",
+      "invalid_force_k": "invalid ForceK: ele be wòanye 0 (auto) alo 1-8",
+      "invalid_k_parameter": "ele be k parameter nanɔ 1 kple 8 dome",
+      "matrix_encode_failed": "matrix encoding do kpo nu na code nya: %v",
+      "message_embed_failed": "do kpo gbedasi dede eme: %v",
+      "message_too_large": "gbedasi ƒe lolome wu esi ŋu woɖe mɔ ɖo (8,388,607 bytes) .",
+      "nil_random_source": "random source mateŋu anye nil o: zã InitializePRNG(password) alo na RandomSource si woƒã do ŋgɔ",
+      "permutation_failed": "do kpo xexlẽdzesi ƒe tɔtrɔ wɔwɔ: %v"
+    },
+    "log": {
+      "capacity_calculated": "Coefficient ŋutete si wobu akɔnta",
+      "coefficient_modified": "Wotrɔ asi le xexlẽdzesiwo ŋu",
+      "embed_complete": "F5 embedding wu enu",
+      "embed_start": "F5 ƒe embedding gɔmedzedze",
+      "header_embedded": "Gbedasɛ ƒe tanya si wotsɔ de eme",
+      "k_selected": "Optimal k parameter si wotia",
+      "permutation_generated": "Coefficient ƒe tɔtrɔ si wowɔ",
+      "shrinkage_detected": "Wode dzesi shrinkage, gbugbɔ de bit"
+    }
+  }
+}

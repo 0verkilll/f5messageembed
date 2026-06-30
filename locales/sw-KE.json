@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "nahitaji biti %d, uwezo wa juu zaidi katika k=1 ni biti %d",
+      "empty_coefficients": "kipande cha mgawo hakiwezi kuwa tupu",
+      "empty_password": "nenosiri haliwezi kuwa tupu",
+      "header_embed_failed": "imeshindwa kupachika kichwa cha ujumbe: %v",
+      "insufficient_capacity": "Ujumbe ni mkubwa mno kwa uwezo wa mgawo unaopatikana",
+      "insufficient_coefficients": "vigezo visivyotosha wakati wa kupachika: nahitaji %d, nimepata %d",
+      "insufficient_header_coefficients": "viambatisho visivyofaa kutumika kwa ajili ya kupachika kichwa: nahitaji biti 32, zimepatikana viambatisho vinavyoweza kutumika vya %d pekee",
+      "invalid_code_word": "neno la msimbo haliwezi kuwa tupu",
+      "invalid_coefficient_range": "thamani ya mgawo nje ya masafa halali (-2048 hadi 2047)",
+      "invalid_force_k": "ForceK batili: lazima iwe 0 (otomatiki) au 1-8",
+      "invalid_k_parameter": "kigezo cha k lazima kiwe kati ya 1 na 8",
+      "matrix_encode_failed": "Usimbaji wa matrix umeshindwa kwa neno la msimbo: %v",
+      "message_embed_failed": "imeshindwa kupachika ujumbe: %v",
+      "message_too_large": "Ukubwa wa ujumbe unazidi kiwango cha juu kinachoruhusiwa (baiti 8,388,607)",
+      "nil_random_source": "chanzo nasibu hakiwezi kuwa sifuri: tumia InitializePRNG(nenosiri) au toa RandomSource iliyopandwa tayari",
+      "permutation_failed": "imeshindwa kutoa mabadiliko ya mgawo: %v"
+    },
+    "log": {
+      "capacity_calculated": "Uwezo wa mgawo umehesabiwa",
+      "coefficient_modified": "Kipimo cha ufanisi kimebadilishwa",
+      "embed_complete": "Upachikaji wa F5 umekamilika",
+      "embed_start": "Inaanza kupachika F5",
+      "header_embedded": "Kichwa cha ujumbe kilichopachikwa",
+      "k_selected": "Kigezo bora cha k kimechaguliwa",
+      "permutation_generated": "Ubadilishaji wa mgawo unaofaa unaozalishwa",
+      "shrinkage_detected": "Kupungua kwa umbo kumegunduliwa, biti inapachikwa tena"
+    }
+  }
+}

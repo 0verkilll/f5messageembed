@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "%d bit lazımdır, k=1-də maksimum tutum %d bitdir",
+      "empty_coefficients": "əmsal dilimi boş ola bilməz",
+      "empty_password": "parol boş ola bilməz",
+      "header_embed_failed": "Mesaj başlığını yerləşdirmək uğursuz oldu: %v",
+      "insufficient_capacity": "mesaj mövcud əmsal tutumu üçün çox böyükdür",
+      "insufficient_coefficients": "Yerləşdirmə zamanı qeyri-kafi əmsallar: %d lazımdır, %d alınıb",
+      "insufficient_header_coefficients": "Başlıq yerləşdirmə üçün istifadəyə yararlı əmsallar kifayət deyil: 32 bit lazımdır, yalnız %d istifadəyə yararlı əmsal tapıldı",
+      "invalid_code_word": "kod sözü boş ola bilməz",
+      "invalid_coefficient_range": "əmsal dəyəri etibarlı diapazondan (-2048 - 2047) kənardadır",
+      "invalid_force_k": "etibarsız ForceK: 0 (avtomatik) və ya 1-8 olmalıdır",
+      "invalid_k_parameter": "k parametri 1 ilə 8 arasında olmalıdır",
+      "matrix_encode_failed": "%v kod sözü üçün matris kodlaşdırması uğursuz oldu",
+      "message_embed_failed": "%v mesajını yerləşdirmək alınmadı",
+      "message_too_large": "mesaj ölçüsü icazə verilən maksimumu (8,388,607 bayt) aşır",
+      "nil_random_source": "təsadüfi mənbə sıfır ola bilməz: InitializePRNG(password) istifadə edin və ya əvvəlcədən seçilmiş RandomSource təmin edin",
+      "permutation_failed": "%v əmsal permutasiyası yaradıla bilmədi"
+    },
+    "log": {
+      "capacity_calculated": "Əmsal tutumu hesablandı",
+      "coefficient_modified": "Əmsal dəyişdirildi",
+      "embed_complete": "F5 yerləşdirmə tamamlandı",
+      "embed_start": "F5 yerləşdirməsi başlayır",
+      "header_embedded": "Mesaj başlığı daxil edilib",
+      "k_selected": "Optimal k parametri seçildi",
+      "permutation_generated": "Yaranan əmsal permutasiyası",
+      "shrinkage_detected": "Büzülmə aşkarlandı, bit yenidən yerləşdirildi"
+    }
+  }
+}

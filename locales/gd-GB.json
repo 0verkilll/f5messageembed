@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "feumach air %d bit, is e %d bit an comas as motha aig k=1",
+      "empty_coefficients": "Chan fhaod sliseag co-èifeachd a bhith falamh",
+      "empty_password": "chan fhaod am facal-faire a bhith falamh",
+      "header_embed_failed": "dh’fhàillig ceann-naidheachd na teachdaireachd a leabachadh: %v",
+      "insufficient_capacity": "teachdaireachd ro mhòr airson comas co-èifeachd a tha ri fhaighinn",
+      "insufficient_coefficients": "co-èifeachdan neo-iomchaidh rè an leabachaidh: feum air %d, fhuaireadh %d",
+      "insufficient_header_coefficients": "co-èifeachdan feumail gu leòr airson leabachadh cinn-cinn: feumach air 32 bit, cha deach ach %d co-èifeachdan feumail a lorg",
+      "invalid_code_word": "Chan fhaod am facal còd a bhith falamh",
+      "invalid_coefficient_range": "luach co-èifeachd taobh a-muigh raon dligheach (-2048 gu 2047)",
+      "invalid_force_k": "ForceK neo-dhligheach: feumaidh e a bhith 0 (fèin-ghluasadach) no 1-8",
+      "invalid_k_parameter": "Feumaidh paramadair k a bhith eadar 1 agus 8",
+      "matrix_encode_failed": "Dh’fhàillig còdachadh maitrís airson facal còd: %v",
+      "message_embed_failed": "dh’fhàillig le teachdaireachd a leabachadh: %v",
+      "message_too_large": "Tha meud na teachdaireachd nas motha na an ìre as àirde a tha ceadaichte (8,388,607 bytes)",
+      "nil_random_source": "chan urrainn don stòr air thuaiream a bhith neoni: cleachd InitializePRNG(facal-faire) no thoir seachad RandomSource ro-sìolaichte",
+      "permutation_failed": "dh’fhàillig gineadh permutation co-èifeachd: %v"
+    },
+    "log": {
+      "capacity_calculated": "Comas co-èifeachd air a thomhas",
+      "coefficient_modified": "Co-èifeachd atharraichte",
+      "embed_complete": "Leabachadh F5 deiseil",
+      "embed_start": "A’ tòiseachadh air leabachadh F5",
+      "header_embedded": "Ceann-naidheachd teachdaireachd leabaithe",
+      "k_selected": "Paramadair k as fheàrr air a thaghadh",
+      "permutation_generated": "Co-èifeachd atharrachaidh air a chruthachadh",
+      "shrinkage_detected": "Lorgar crìonadh, a’ cur a-steach am pìos a-rithist"
+    }
+  }
+}

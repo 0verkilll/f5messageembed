@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "potrzeba %d bitów, maksymalna pojemność przy k=1 to %d bitów",
+      "empty_coefficients": "wycinek współczynnika nie może być pusty",
+      "empty_password": "hasło nie może być puste",
+      "header_embed_failed": "nie udało się osadzić nagłówka wiadomości: %v",
+      "insufficient_capacity": "wiadomość jest za duża w stosunku do dostępnej pojemności współczynnika",
+      "insufficient_coefficients": "niewystarczające współczynniki podczas osadzania: potrzeba %d, otrzymano %d",
+      "insufficient_header_coefficients": "niewystarczająca liczba użytecznych współczynników do osadzenia nagłówka: potrzebne są 32 bity, znaleziono tylko %d użytecznych współczynników",
+      "invalid_code_word": "słowo kodowe nie może być puste",
+      "invalid_coefficient_range": "wartość współczynnika poza prawidłowym zakresem (-2048 do 2047)",
+      "invalid_force_k": "nieprawidłowy ForceK: musi być 0 (automatycznie) lub 1-8",
+      "invalid_k_parameter": "parametr k musi mieścić się w przedziale od 1 do 8",
+      "matrix_encode_failed": "kodowanie macierzowe nie powiodło się dla słowa kodowego: %v",
+      "message_embed_failed": "nie udało się osadzić wiadomości: %v",
+      "message_too_large": "rozmiar wiadomości przekracza maksymalny dozwolony rozmiar (8 388 607 bajtów)",
+      "nil_random_source": "losowe źródło nie może być zerowe: użyj InitializePRNG(hasło) lub podaj wstępnie zasiane losowe źródło",
+      "permutation_failed": "nie udało się wygenerować permutacji współczynników: %v"
+    },
+    "log": {
+      "capacity_calculated": "Obliczony współczynnik pojemności",
+      "coefficient_modified": "Współczynnik zmodyfikowany",
+      "embed_complete": "Zakończono osadzanie F5",
+      "embed_start": "Rozpoczęcie osadzania F5",
+      "header_embedded": "Nagłówek wiadomości osadzony",
+      "k_selected": "Wybrano optymalny parametr k",
+      "permutation_generated": "Wygenerowano permutację współczynników",
+      "shrinkage_detected": "Wykryto skurcz, ponownie osadzono bit"
+    }
+  }
+}

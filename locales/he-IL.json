@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "צריך %d ביטים, הקיבולת המקסימלית ב-k=1 היא %d ביטים",
+      "empty_coefficients": "פרוסת המקדם אינה יכולה להיות ריקה",
+      "empty_password": "הסיסמה לא יכולה להיות ריקה",
+      "header_embed_failed": "נכשל בהטמעת כותרת ההודעה: %v",
+      "insufficient_capacity": "ההודעה גדולה מדי עבור קיבולת המקדם הזמינה",
+      "insufficient_coefficients": "מקדמים לא מספיקים במהלך ההטמעה: צריך %d, קיבל %d",
+      "insufficient_header_coefficients": "מקדמים שמישים לא מספיקים להטמעת כותרת: צריך 32 סיביות, נמצאו רק %d מקדמים שמישים",
+      "invalid_code_word": "מילת הקוד אינה יכולה להיות ריקה",
+      "invalid_coefficient_range": "ערך המקדם מחוץ לטווח התקף (-2048 עד 2047)",
+      "invalid_force_k": "ForceK לא חוקי: חייב להיות 0 (אוטומטי) או 1-8",
+      "invalid_k_parameter": "הפרמטר k חייב להיות בין 1 ל-8",
+      "matrix_encode_failed": "קידוד מטריצה נכשל עבור מילת קוד: %v",
+      "message_embed_failed": "נכשל בהטמעת ההודעה: %v",
+      "message_too_large": "גודל ההודעה חורג מהגודל המקסימלי המותר (8,388,607 בתים)",
+      "nil_random_source": "מקור אקראי לא יכול להיות אפס: השתמש ב-InitializePRNG(password) או ספק מקור אקראי שנקבע מראש",
+      "permutation_failed": "נכשלה יצירת תמורה של מקדם: %v"
+    },
+    "log": {
+      "capacity_calculated": "מקדם קיבולת מחושב",
+      "coefficient_modified": "מקדם שונה",
+      "embed_complete": "הטמעת F5 הושלמה",
+      "embed_start": "התחלת הטמעה ב-F5",
+      "header_embedded": "כותרת ההודעה מוטמעת",
+      "k_selected": "נבחר פרמטר k אופטימלי",
+      "permutation_generated": "תמורה של מקדם שנוצרה",
+      "shrinkage_detected": "זוהתה התכווצות, ביט משולב מחדש"
+    }
+  }
+}

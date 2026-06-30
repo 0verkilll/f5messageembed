@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "potrebuje %d bitov, maximálna kapacita pri k=1 je %d bitov",
+      "empty_coefficients": "koeficientový segment nemôže byť prázdny",
+      "empty_password": "heslo nemôže byť prázdne",
+      "header_embed_failed": "Nepodarilo sa vložiť hlavičku správy: %v",
+      "insufficient_capacity": "správa je príliš veľká pre dostupnú kapacitu koeficientov",
+      "insufficient_coefficients": "nedostatočné koeficienty počas vkladania: potrebné %d, získané %d",
+      "insufficient_header_coefficients": "nedostatočné použiteľné koeficienty pre vkladanie hlavičky: potrebných 32 bitov, nájdených iba %d použiteľných koeficientov",
+      "invalid_code_word": "kódové slovo nemôže byť prázdne",
+      "invalid_coefficient_range": "hodnota koeficientu mimo platného rozsahu (-2048 až 2047)",
+      "invalid_force_k": "neplatný ForceK: musí byť 0 (automatické) alebo 1-8",
+      "invalid_k_parameter": "Parameter k musí byť medzi 1 a 8",
+      "matrix_encode_failed": "Kódovanie matice zlyhalo pre kódové slovo: %v",
+      "message_embed_failed": "Nepodarilo sa vložiť správu: %v",
+      "message_too_large": "veľkosť správy prekračuje maximálnu povolenú veľkosť (8 388 607 bajtov)",
+      "nil_random_source": "náhodný zdroj nemôže byť nulový: použite InitializePRNG(heslo) alebo zadajte prednastavený RandomSource",
+      "permutation_failed": "Nepodarilo sa vygenerovať permutáciu koeficientov: %v"
+    },
+    "log": {
+      "capacity_calculated": "Vypočítaný koeficient kapacity",
+      "coefficient_modified": "Upravený koeficient",
+      "embed_complete": "Vkladanie F5 dokončené",
+      "embed_start": "Spustenie vkladania F5",
+      "header_embedded": "Vložená hlavička správy",
+      "k_selected": "Vybraný optimálny parameter k",
+      "permutation_generated": "Vygenerovaná permutácia koeficientov",
+      "shrinkage_detected": "Zistené zmrštenie, bit pre opätovné vkladanie"
+    }
+  }
+}

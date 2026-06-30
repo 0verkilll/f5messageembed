@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "potrebno je %d bitova, maksimalni kapacitet pri k=1 je %d bitova",
+      "empty_coefficients": "koeficijentni segment ne može biti prazan",
+      "empty_password": "lozinka ne može biti prazna",
+      "header_embed_failed": "Ugrađivanje zaglavlja poruke nije uspjelo: %v",
+      "insufficient_capacity": "poruka je prevelika za raspoloživi kapacitet koeficijenata",
+      "insufficient_coefficients": "nedovoljni koeficijenti tokom ugrađivanja: potrebno %d, dobijeno %d",
+      "insufficient_header_coefficients": "nedovoljno upotrebljivih koeficijenata za ugrađivanje zaglavlja: potrebno 32 bita, pronađeno je samo %d upotrebljivih koeficijenata",
+      "invalid_code_word": "kodna riječ ne može biti prazna",
+      "invalid_coefficient_range": "Vrijednost koeficijenta je izvan važećeg raspona (-2048 do 2047)",
+      "invalid_force_k": "nevažeći ForceK: mora biti 0 (automatski) ili 1-8",
+      "invalid_k_parameter": "Parametar k mora biti između 1 i 8",
+      "matrix_encode_failed": "Kodiranje matrice nije uspjelo za kodnu riječ: %v",
+      "message_embed_failed": "Ugrađivanje poruke nije uspjelo: %v",
+      "message_too_large": "Veličina poruke prelazi maksimalno dozvoljenu (8.388.607 bajtova)",
+      "nil_random_source": "Slučajni izvor ne može biti nula: koristite InitializePRNG(lozinka) ili navedite unaprijed postavljeni RandomSource",
+      "permutation_failed": "Nije uspjelo generiranje permutacije koeficijenata: %v"
+    },
+    "log": {
+      "capacity_calculated": "Izračunati koeficijent kapaciteta",
+      "coefficient_modified": "Koeficijent modificiran",
+      "embed_complete": "Ugradnja F5 završena",
+      "embed_start": "Početak ugrađivanja F5",
+      "header_embedded": "Ugrađeno zaglavlje poruke",
+      "k_selected": "Odabran optimalni k parametar",
+      "permutation_generated": "Generirana permutacija koeficijenata",
+      "shrinkage_detected": "Otkriveno skupljanje, bit za ponovno ugrađivanje"
+    }
+  }
+}

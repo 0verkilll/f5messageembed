@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "São necessários %d bits, a capacidade máxima em k=1 é de %d bits",
+      "empty_coefficients": "A fatia do coeficiente não pode estar vazia.",
+      "empty_password": "A senha não pode estar vazia.",
+      "header_embed_failed": "falha ao incorporar o cabeçalho da mensagem: %v",
+      "insufficient_capacity": "A mensagem é muito grande para a capacidade de coeficiente disponível.",
+      "insufficient_coefficients": "Coeficientes insuficientes durante a incorporação: são necessários %d, foram obtidos %d",
+      "insufficient_header_coefficients": "Número insuficiente de coeficientes utilizáveis para a incorporação do cabeçalho: são necessários 32 bits, apenas %d coeficientes utilizáveis foram encontrados.",
+      "invalid_code_word": "A palavra-código não pode estar vazia.",
+      "invalid_coefficient_range": "Valor do coeficiente fora do intervalo válido (-2048 a 2047)",
+      "invalid_force_k": "ForceK inválido: deve ser 0 (automático) ou 1-8",
+      "invalid_k_parameter": "O parâmetro k deve estar entre 1 e 8.",
+      "matrix_encode_failed": "A codificação da matriz falhou para a palavra-código: %v",
+      "message_embed_failed": "falha ao incorporar a mensagem: %v",
+      "message_too_large": "O tamanho da mensagem excede o máximo permitido (8.388.607 bytes)",
+      "nil_random_source": "A fonte aleatória não pode ser nula: use InitializePRNG(senha) ou forneça uma RandomSource pré-inicializada.",
+      "permutation_failed": "falha ao gerar permutação de coeficientes: %v"
+    },
+    "log": {
+      "capacity_calculated": "Coeficiente de capacidade calculado",
+      "coefficient_modified": "Coeficiente modificado",
+      "embed_complete": "Incorporação F5 concluída",
+      "embed_start": "Iniciando a incorporação F5",
+      "header_embedded": "Cabeçalho da mensagem incorporado",
+      "k_selected": "Parâmetro k ótimo selecionado",
+      "permutation_generated": "Permutação de coeficientes gerada",
+      "shrinkage_detected": "Encolhimento detectado, bit sendo reinserido."
+    }
+  }
+}

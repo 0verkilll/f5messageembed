@@ -1,0 +1,31 @@
+{
+  "f5messageembed": {
+    "error": {
+      "empty_coefficients": "coefficient slice cannot be empty",
+      "empty_password": "password cannot be empty",
+      "message_too_large": "message size exceeds maximum allowed (8,388,607 bytes)",
+      "insufficient_capacity": "message too large for available coefficient capacity",
+      "invalid_coefficient_range": "coefficient value out of valid range (-2048 to 2047)",
+      "invalid_k_parameter": "k parameter must be between 1 and 8",
+      "invalid_force_k": "invalid ForceK: must be 0 (auto) or 1-8",
+      "permutation_failed": "failed to generate coefficient permutation: %v",
+      "header_embed_failed": "failed to embed message header: %v",
+      "message_embed_failed": "failed to embed message: %v",
+      "matrix_encode_failed": "matrix encoding failed for code word: %v",
+      "insufficient_coefficients": "insufficient coefficients during embedding: need %d, got %d",
+      "insufficient_header_coefficients": "insufficient usable coefficients for header embedding: need 32 bits, found only %d usable coefficients",
+      "capacity_details": "need %d bits, maximum capacity at k=1 is %d bits",
+      "nil_random_source": "random source cannot be nil: use InitializePRNG(password) or provide a pre-seeded RandomSource"
+    },
+    "log": {
+      "embed_start": "Starting F5 embedding",
+      "embed_complete": "F5 embedding completed",
+      "capacity_calculated": "Coefficient capacity calculated",
+      "k_selected": "Optimal k parameter selected",
+      "shrinkage_detected": "Shrinkage detected, re-embedding bit",
+      "coefficient_modified": "Coefficient modified",
+      "header_embedded": "Message header embedded",
+      "permutation_generated": "Coefficient permutation generated"
+    }
+  }
+}

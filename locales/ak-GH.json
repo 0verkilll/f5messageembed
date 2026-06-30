@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "hia %d bits, tumi a ɛsen biara wɔ k=1 yɛ %d bits",
+      "empty_coefficients": "coefficient slice ntumi nyɛ nea hwee nni mu",
+      "empty_password": "password ntumi nyɛ hunu",
+      "header_embed_failed": "entumi mfa nkrasɛm atiri no nhyɛ mu: %v",
+      "insufficient_capacity": "nkrasɛm a ɛsõ dodo ma coefficient tumi a ɛwɔ hɔ",
+      "insufficient_coefficients": "coefficients a ɛnnɔɔso wɔ embedding bere mu: hia %d, anya %d",
+      "insufficient_header_coefficients": "coefficients a wontumi mfa nni dwuma a ɛnnɔɔso mma header embedding: hia bits 32, wohuu %d coefficients a wotumi de di dwuma nkutoo",
+      "invalid_code_word": "code word ntumi nyɛ hunu",
+      "invalid_coefficient_range": "coefficient value a ɛboro nea ɛfata so (-2048 kosi 2047) .",
+      "invalid_force_k": "invalid ForceK: ɛsɛ sɛ ɛyɛ 0 (auto) anaa 1-8",
+      "invalid_k_parameter": "ɛsɛ sɛ k parameter no yɛ 1 ne 8 ntam",
+      "matrix_encode_failed": "matrix encoding adi nkogu amma code asɛmfua: %v",
+      "message_embed_failed": "entumi mfa nkra nhyɛ mu: %v",
+      "message_too_large": "nkra kɛse boro nea wɔama ho kwan (8,388,607 bytes) .",
+      "nil_random_source": "random source ntumi nyɛ nil: fa InitializePRNG(password) di dwuma anaa fa RandomSource a wɔadi kan ahyɛ mu ma",
+      "permutation_failed": "entumi mmaa coefficient permutation: %v"
+    },
+    "log": {
+      "capacity_calculated": "Coefficient tumi a wɔabu ho akontaa",
+      "coefficient_modified": "Coefficient a wɔayɛ no foforo",
+      "embed_complete": "F5 embedding awie",
+      "embed_start": "F5 embedding a wofi ase",
+      "header_embedded": "Nkrasɛm ti a wɔde ahyɛ mu",
+      "k_selected": "Optimal k parameter a wɔapaw",
+      "permutation_generated": "Coefficient permutation a wɔde aba",
+      "shrinkage_detected": "Shrinkage a wɔahu, re-embedding bit"
+    }
+  }
+}

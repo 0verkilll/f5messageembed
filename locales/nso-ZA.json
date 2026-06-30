@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "hloka % d dikotwana tse, palo e kahodimodimo bokgoni ka k = 1 ke % d dikotwana tse",
+      "empty_coefficients": "segokanyipalo selae ke ke ba lefeela",
+      "empty_password": "phasewete e ka se be le selo",
+      "header_embed_failed": "e paletšwe ke go tsenya hlogo ya molaetša: %v",
+      "insufficient_capacity": "molaetša o mogolo kudu bakeng sa bokgoni bja segokanyipalo bjo bo lego gona",
+      "insufficient_coefficients": "dikoefisiente tše di sa lekanego nakong ya go tsenya: hloka % d, got % d",
+      "insufficient_header_coefficients": "dikoefisiente tše di sa lekanego tše di šomišegago bakeng sa go tsenya hlogo: hloka dibit tše 32, di hweditšwe fela %d dikoefisiente tše di šomišegago",
+      "invalid_code_word": "lentšu la khoutu le ka se be le lefeela",
+      "invalid_coefficient_range": "boleng bja segokanyipalo ka ntle ga tekanyo ye e šomago (-2048 go ya go 2047) .",
+      "invalid_force_k": "ForceK e sa šomego: e swanetše go ba 0 (auto) goba 1-8",
+      "invalid_k_parameter": "k paramethara e swanetše go ba magareng ga 1 le 8",
+      "matrix_encode_failed": "go ngwala khoutu ya matrix go paletšwe bakeng sa lentšu la khoutu: %v",
+      "message_embed_failed": "e paletšwe ke go tsenya molaetša: %v",
+      "message_too_large": "bogolo bja molaetša bo feta palomoka ye e dumeletšwego (8,388,607 bytes) .",
+      "nil_random_source": "mohlodi wa go se kgethe o ka se be lefela: šomiša InitializePRNG (phasewete) goba o fa RandomSource yeo e bjetšwego pele",
+      "permutation_failed": "e paletšwe ke go tšweletša phetošo ya segokanyipalo: %v"
+    },
+    "log": {
+      "capacity_calculated": "Segokanyipalo bokgoni balwa",
+      "coefficient_modified": "Segokanyipalo se fetotšwego",
+      "embed_complete": "F5 embedding phethoa",
+      "embed_start": "Go thoma go tsenya F5",
+      "header_embedded": "Hlogo ya molaetša e tsentšwe",
+      "k_selected": "Optimal k paramethara kgethile",
+      "permutation_generated": "Segokanyipalo phetolelo generated",
+      "shrinkage_detected": "Shrinkage lemohiloe, hape embedding hanyenyane"
+    }
+  }
+}

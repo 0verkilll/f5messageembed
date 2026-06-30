@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "Es werden %d Bits benötigt, die maximale Kapazität bei k=1 beträgt %d Bits.",
+      "empty_coefficients": "Der Koeffizientenschnitt darf nicht leer sein.",
+      "empty_password": "Das Passwort darf nicht leer sein.",
+      "header_embed_failed": "Fehler beim Einbetten des Nachrichtenkopfes: %v",
+      "insufficient_capacity": "Nachricht zu groß für die verfügbare Koeffizientenkapazität",
+      "insufficient_coefficients": "Unzureichende Koeffizienten beim Einbetten: benötigt %d, erhalten %d",
+      "insufficient_header_coefficients": "Unzureichende nutzbare Koeffizienten für die Header-Einbettung: 32 Bit erforderlich, nur %d nutzbare Koeffizienten gefunden",
+      "invalid_code_word": "Das Codewort darf nicht leer sein.",
+      "invalid_coefficient_range": "Der Koeffizientenwert liegt außerhalb des gültigen Bereichs (-2048 bis 2047).",
+      "invalid_force_k": "Ungültiger ForceK-Wert: Muss 0 (automatisch) oder 1-8 sein.",
+      "invalid_k_parameter": "Der Parameter k muss zwischen 1 und 8 liegen.",
+      "matrix_encode_failed": "Matrixkodierung für Codewort fehlgeschlagen: %v",
+      "message_embed_failed": "Nachricht konnte nicht eingebettet werden: %v",
+      "message_too_large": "Die Nachrichtengröße überschreitet das maximal zulässige Maß (8.388.607 Bytes).",
+      "nil_random_source": "Die Zufallsquelle darf nicht null sein: Verwenden Sie InitializePRNG(password) oder geben Sie eine vordefinierte Zufallsquelle an.",
+      "permutation_failed": "Fehler beim Generieren der Koeffizientenpermutation: %v"
+    },
+    "log": {
+      "capacity_calculated": "Kapazitätskoeffizient berechnet",
+      "coefficient_modified": "Koeffizient modifiziert",
+      "embed_complete": "F5-Einbettung abgeschlossen",
+      "embed_start": "F5-Einbettung starten",
+      "header_embedded": "eingebetteter Nachrichtenkopf",
+      "k_selected": "Optimaler k-Parameter ausgewählt",
+      "permutation_generated": "Koeffizientenpermutation generiert",
+      "shrinkage_detected": "Schrumpfung erkannt, Bit neu einbetten"
+    }
+  }
+}

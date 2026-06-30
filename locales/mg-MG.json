@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "mila %d bits, ny fahafaha-mamokatra ambony indrindra amin\u0026#39;ny k=1 dia %d bits",
+      "empty_coefficients": "tsy mety ho foana ny sombin-koefficient",
+      "empty_password": "tsy tokony ho foana ny tenimiafina",
+      "header_embed_failed": "tsy nahomby ny fampidirana ny lohatenin\u0026#39;ny hafatra: %v",
+      "insufficient_capacity": "Lehibe loatra ny hafatra raha oharina amin\u0026#39;ny fahafahan\u0026#39;ny coefficient azo ampiasaina",
+      "insufficient_coefficients": "tsy ampy ny coefficient nandritra ny fampidirana: mila %d, nahazo %d",
+      "insufficient_header_coefficients": "tsy ampy ny coefficient azo ampiasaina amin\u0026#39;ny fampidirana lohateny: mila 32 bits, %d coefficient azo ampiasaina ihany no hita",
+      "invalid_code_word": "tsy tokony ho foana ny teny kaody",
+      "invalid_coefficient_range": "tsy tafiditra ao anatin\u0026#39;ny elanelana azo ampiasaina ny sandan\u0026#39;ny koefisiena (-2048 hatramin\u0026#39;ny 2047)",
+      "invalid_force_k": "ForceK tsy manan-kery: tsy maintsy 0 (auto) na 1-8",
+      "invalid_k_parameter": "Tsy maintsy eo anelanelan\u0026#39;ny 1 sy 8 ny masontsivana k",
+      "matrix_encode_failed": "Tsy nahomby ny fandikana matrisa ho an\u0026#39;ny teny kaody: %v",
+      "message_embed_failed": "tsy nahomby ny fampidirana hafatra: %v",
+      "message_too_large": "Mihoatra ny fetran\u0026#39;ny haben\u0026#39;ny hafatra azo atao (8,388,607 bytes)",
+      "nil_random_source": "Tsy tokony ho aotra ny loharano kisendrasendra: ampiasao ny InitializePRNG (tenimiafina) na omeo RandomSource efa voafafy mialoha",
+      "permutation_failed": "tsy nahavita namorona permutation coefficient: %v"
+    },
+    "log": {
+      "capacity_calculated": "Kajy ny fahafaha-mitahiry",
+      "coefficient_modified": "Koefisiena novaina",
+      "embed_complete": "Vita ny fametrahana F5",
+      "embed_start": "Manomboka ny fametrahana F5",
+      "header_embedded": "Lohatenin\u0026#39;ny hafatra tafiditra",
+      "k_selected": "Voafantina ny masontsivana k tsara indrindra",
+      "permutation_generated": "Koefisiena permutation novokarina",
+      "shrinkage_detected": "Hita ny fihenan\u0026#39;ny bit, mametraka azy indray"
+    }
+  }
+}

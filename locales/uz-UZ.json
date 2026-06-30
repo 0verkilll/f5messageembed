@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "%d bit kerak, k=1 da maksimal sig\u0026#39;im %d bit",
+      "empty_coefficients": "koeffitsient bo\u0026#39;lagi bo\u0026#39;sh bo\u0026#39;lmasligi kerak",
+      "empty_password": "parol bo\u0026#39;sh bo\u0026#39;lmasligi kerak",
+      "header_embed_failed": "Xabar sarlavhasini joylashtirishda xatolik yuz berdi: %v",
+      "insufficient_capacity": "Xabar mavjud koeffitsient sig\u0026#39;imi uchun juda katta",
+      "insufficient_coefficients": "joylashtirish paytida koeffitsientlar yetarli emas: %d kerak, %d olindi",
+      "insufficient_header_coefficients": "Sarlavha joylashtirish uchun yetarli bo\u0026#39;lmagan foydalanish koeffitsientlari: 32 bit kerak, faqat %d ta foydalanish koeffitsienti topildi",
+      "invalid_code_word": "kod so\u0026#39;zi bo\u0026#39;sh bo\u0026#39;lmasligi kerak",
+      "invalid_coefficient_range": "koeffitsient qiymati amal qiladigan diapazondan tashqarida (-2048 dan 2047 gacha)",
+      "invalid_force_k": "ForceK noto\u0026#39;g\u0026#39;ri: 0 (avtomatik) yoki 1-8 bo\u0026#39;lishi kerak",
+      "invalid_k_parameter": "k parametri 1 va 8 orasida bo\u0026#39;lishi kerak",
+      "matrix_encode_failed": "%v kod so\u0026#39;zi uchun matritsa kodlash muvaffaqiyatsiz tugadi",
+      "message_embed_failed": "%v xabarini joylashtirishda xatolik yuz berdi",
+      "message_too_large": "xabar hajmi ruxsat etilgan maksimal hajmdan oshib ketdi (8,388,607 bayt)",
+      "nil_random_source": "tasodifiy manba nolga teng bo\u0026#39;lishi mumkin emas: InitializePRNG(password) dan foydalaning yoki oldindan urug\u0026#39;langan RandomSource ni taqdim eting",
+      "permutation_failed": "%v koeffitsient permutatsiyasini yaratishda xatolik yuz berdi"
+    },
+    "log": {
+      "capacity_calculated": "Koeffitsient sig\u0026#39;imi hisoblandi",
+      "coefficient_modified": "Koeffitsient o\u0026#39;zgartirildi",
+      "embed_complete": "F5 joylash tugallandi",
+      "embed_start": "F5 ichki o\u0026#39;rnatish boshlanmoqda",
+      "header_embedded": "Xabar sarlavhasi joylashtirilgan",
+      "k_selected": "Optimal k parametri tanlandi",
+      "permutation_generated": "Koeffitsient permutatsiyasi yaratildi",
+      "shrinkage_detected": "Qisqarish aniqlandi, bit qayta joylashtirildi"
+    }
+  }
+}

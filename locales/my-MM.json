@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "%d bits လိုအပ်ပြီး၊ k=1 မှာ အများဆုံးစွမ်းရည်က %d bits ပါ။",
+      "empty_coefficients": "ကိန်းဂဏန်းအပိုင်းကို ဗလာထား၍မရပါ",
+      "empty_password": "စကားဝှက်ကို ဗလာထား၍မရပါ",
+      "header_embed_failed": "မက်ဆေ့ချ်ခေါင်းစဉ်ကို ထည့်သွင်း၍မရပါ- %v",
+      "insufficient_capacity": "ရရှိနိုင်သော ကိန်းပမာဏအတွက် မက်ဆေ့ချ် အလွန်ကြီးနေပါသည်",
+      "insufficient_coefficients": "ထည့်သွင်းစဉ်အတွင်း မလုံလောက်သော ကိန်းဂဏန်းများ- %d လိုအပ်သည်၊ %d ရရှိသည်",
+      "insufficient_header_coefficients": "header embedding အတွက် အသုံးပြုနိုင်သော coefficients မလုံလောက်ပါ- bits ၃၂ ခု လိုအပ်သည်၊ အသုံးပြုနိုင်သော coefficients %d ခုသာ တွေ့ရှိသည်",
+      "invalid_code_word": "ကုဒ်စကားလုံးကို ဗလာထား၍မရပါ",
+      "invalid_coefficient_range": "ကိန်းဂဏန်းတန်ဖိုးသည် တရားဝင်အပိုင်းအခြားထက် ကျော်လွန်နေသည် (-၂၀၄၈ မှ ၂၀၄၇)",
+      "invalid_force_k": "ForceK မမှန်ကန်ပါ- ၀ (အလိုအလျောက်) သို့မဟုတ် ၁-၈ ဖြစ်ရမည်",
+      "invalid_k_parameter": "k ကန့်သတ်ချက်သည် ၁ မှ ၈ အကြားတွင် ရှိရမည်",
+      "matrix_encode_failed": "ကုဒ်စကားလုံးအတွက် matrix encoding မအောင်မြင်ပါ- %v",
+      "message_embed_failed": "မက်ဆေ့ချ်ကို ထည့်သွင်း၍မရပါ- %v",
+      "message_too_large": "မက်ဆေ့ချ်အရွယ်အစားသည် အများဆုံးခွင့်ပြုထားသော ပမာဏထက် ကျော်လွန်နေသည် (၈,၃၈၈,၆၀၇ ဘိုက်)",
+      "nil_random_source": "ကျပန်းရင်းမြစ်သည် nil ဖြစ်၍မရပါ- InitializePRNG(password) ကိုသုံးပါ သို့မဟုတ် ကြိုတင်ထည့်သွင်းထားသော RandomSource ကို ပေးပါ။",
+      "permutation_failed": "ကိန်းပြောင်းလဲမှုကို ထုတ်ပေး၍မရပါ- %v"
+    },
+    "log": {
+      "capacity_calculated": "ကိန်းစွမ်းရည် တွက်ချက်ထားသည်",
+      "coefficient_modified": "ကိန်းကို ပြုပြင်ထားသည်",
+      "embed_complete": "F5 ထည့်သွင်းခြင်း ပြီးစီးပါပြီ",
+      "embed_start": "F5 ထည့်သွင်းခြင်း စတင်ခြင်း",
+      "header_embedded": "မက်ဆေ့ချ်ခေါင်းစဉ် ထည့်သွင်းထားသည်",
+      "k_selected": "အကောင်းဆုံး k ကန့်သတ်ချက်ကို ရွေးချယ်ထားသည်",
+      "permutation_generated": "ကိန်းပြောင်းလဲမှု ထုတ်ပေးသည်",
+      "shrinkage_detected": "ကျုံ့သွားခြင်းကို တွေ့ရှိပြီး၊ ပြန်လည်ထည့်သွင်းထားသော ဘစ်"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "potrebuje %d bitov, največja zmogljivost pri k=1 je %d bitov",
+      "empty_coefficients": "rezina koeficienta ne more biti prazna",
+      "empty_password": "geslo ne sme biti prazno",
+      "header_embed_failed": "Vdelava glave sporočila ni uspela: %v",
+      "insufficient_capacity": "sporočilo je preveliko za razpoložljivo zmogljivost koeficientov",
+      "insufficient_coefficients": "premalo koeficientov med vgrajevanjem: potrebno %d, pridobljeno %d",
+      "insufficient_header_coefficients": "premalo uporabnih koeficientov za vdelavo glave: potrebnih 32 bitov, najdenih le %d uporabnih koeficientov",
+      "invalid_code_word": "kodna beseda ne sme biti prazna",
+      "invalid_coefficient_range": "vrednost koeficienta izven veljavnega območja (od -2048 do 2047)",
+      "invalid_force_k": "neveljaven ForceK: mora biti 0 (samodejno) ali 1–8",
+      "invalid_k_parameter": "Parameter k mora biti med 1 in 8",
+      "matrix_encode_failed": "Kodiranje matrice ni uspelo za kodno besedo: %v",
+      "message_embed_failed": "Vdelava sporočila ni uspela: %v",
+      "message_too_large": "velikost sporočila presega največjo dovoljeno velikost (8.388.607 bajtov)",
+      "nil_random_source": "naključni vir ne more biti nič: uporabite InitializePRNG(geslo) ali navedite vnaprej določen RandomSource",
+      "permutation_failed": "ni uspelo ustvariti permutacije koeficientov: %v"
+    },
+    "log": {
+      "capacity_calculated": "Izračunan koeficient zmogljivosti",
+      "coefficient_modified": "Spremenjeni koeficient",
+      "embed_complete": "Vdelava F5 je končana",
+      "embed_start": "Začetek vdelave F5",
+      "header_embedded": "Vdelana glava sporočila",
+      "k_selected": "Izbran optimalni parameter k",
+      "permutation_generated": "Ustvarjena permutacija koeficientov",
+      "shrinkage_detected": "Zaznano krčenje, ponovno vdelava bita"
+    }
+  }
+}

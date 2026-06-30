@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "nilo awọn biti %d, agbara ti o pọ julọ ni k=1 jẹ awọn biti %d",
+      "empty_coefficients": "ege iye-apapọ ko le ṣofo",
+      "empty_password": "ọ̀rọ̀ìpamọ́ kò le ṣofo",
+      "header_embed_failed": "kò lè fi àkọlé ìránṣẹ́ sí i: %v",
+      "insufficient_capacity": "ifiranṣẹ naa tobi ju fun agbara coefficient to wa",
+      "insufficient_coefficients": "Àwọn iye tí kò tó nígbà tí a bá ń fi sínú nǹkan: nílò %d, wọ́n ti rí %d",
+      "insufficient_header_coefficients": "Àwọn ìwọ̀n tó wúlò tó láti lò fún ìfipamọ́ àkọlé: nílò àwọn bítì 32, a rí àwọn ìwọ̀n tó wúlò %d nìkan",
+      "invalid_code_word": "ọ̀rọ̀ koodu kò le ṣofo",
+      "invalid_coefficient_range": "iye iye ti ko ni iye ti o wulo (-2048 si 2047)",
+      "invalid_force_k": "ForceK aláìlágbára: gbọ́dọ̀ jẹ́ 0 (àìfọwọ́sowọ́pọ̀) tàbí 1-8",
+      "invalid_k_parameter": "paramita k gbọdọ wa laarin 1 ati 8",
+      "matrix_encode_failed": "ìṣàkóṣo matrix kùnà fún ọ̀rọ̀ kódì: %v",
+      "message_embed_failed": "kò lè fi ìránṣẹ́ sí i: %v",
+      "message_too_large": "Iwọn ifiranṣẹ naa ju iwọn ti a gba laaye lọ (8,388,607 baiti)",
+      "nil_random_source": "orísun àìròtẹ́lẹ̀ kò le jẹ́ òfo: lo InitializePRNG(ọ̀rọ̀ìpamọ́) tàbí pèsè RandomSource tí a ti gbìn tẹ́lẹ̀",
+      "permutation_failed": "kò lè ṣe àgbékalẹ̀ ìyípadà coefficient: %v"
+    },
+    "log": {
+      "capacity_calculated": "Agbára ìṣàfilọ́lẹ̀ tí a ṣírò",
+      "coefficient_modified": "Àtúnṣe Ìsọdipúpọ̀",
+      "embed_complete": "Ìfipamọ́ F5 ti parí",
+      "embed_start": "Bíbẹ̀rẹ̀ ìfipamọ́ F5",
+      "header_embedded": "Àkọlé ìránṣẹ́ tí a fi sínú rẹ̀",
+      "k_selected": "A ti yan paramita k to dara julọ",
+      "permutation_generated": "Ìyípadà olùgbékalẹ̀ tí a ṣẹ̀dá",
+      "shrinkage_detected": "A ti rí ìfàsẹ́yìn, a tún fi bit sí i"
+    }
+  }
+}

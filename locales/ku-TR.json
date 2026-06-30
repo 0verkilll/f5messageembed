@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "pêdivî bi %d bit heye, kapasîteya herî zêde li k=1 %d bit e",
+      "empty_coefficients": "perçeya koefîsyentê nikare vala be",
+      "empty_password": "şîfre nikare vala be",
+      "header_embed_failed": "sernivîsa peyamê nehat bicihkirin: %v",
+      "insufficient_capacity": "peyam ji bo kapasîteya katsayiya berdest pir mezin e",
+      "insufficient_coefficients": "katsayiyên têrê nakin di dema bicihkirinê de: pêdivî bi %d heye, %d hatiye bidestxistin",
+      "insufficient_header_coefficients": "katsayiyên bikêrhatî ji bo bicihkirina sernivîsê têrê nakin: 32 bit hewce ne, tenê %d katsayiyên bikêrhatî hatin dîtin",
+      "invalid_code_word": "peyva kodê nikare vala be",
+      "invalid_coefficient_range": "nirxa koefîsyentê ji rêza derbasdar derketiye (-2048 heta 2047)",
+      "invalid_force_k": "ForceK ya nederbasdar: divê 0 (otomatîk) an 1-8 be",
+      "invalid_k_parameter": "parametreya k divê di navbera 1 û 8 de be",
+      "matrix_encode_failed": "kodkirina matrîksê ji bo peyva kodê: %v bi ser neket",
+      "message_embed_failed": "peyam nehat bicihkirin: %v",
+      "message_too_large": "mezinahiya peyamê ji rêjeya herî zêde ya destûrdayî derbas dibe (8,388,607 byte)",
+      "nil_random_source": "çavkaniya rasthatî nikare sifir be: InitializePRNG(şîfre) bikar bînin an jî RandomSource-ek pêş-tovekirî peyda bikin",
+      "permutation_failed": "nekarî permutasyona koefîsyentê çêbike: %v"
+    },
+    "log": {
+      "capacity_calculated": "Kapasîteya koefîsyentê hat hesabkirin",
+      "coefficient_modified": "Koefîsyon hate guhertin",
+      "embed_complete": "Çêkirina F5 qediya",
+      "embed_start": "Destpêkirina bicihkirina F5",
+      "header_embedded": "Sernivîsa peyamê hatiye bicihkirin",
+      "k_selected": "Parametreya k ya çêtirîn hat hilbijartin",
+      "permutation_generated": "Permutasyona koefîsyentê çêbûye",
+      "shrinkage_detected": "Kêmbûn hat tespîtkirin, perçe ji nû ve tê bicihkirin"
+    }
+  }
+}

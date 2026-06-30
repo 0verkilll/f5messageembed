@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "نحتاج إلى %d بت، والسعة القصوى عند k=1 هي %d بت.",
+      "empty_coefficients": "لا يمكن أن تكون شريحة المعامل فارغة",
+      "empty_password": "لا يمكن أن تكون كلمة المرور فارغة",
+      "header_embed_failed": "فشل تضمين رأس الرسالة: %v",
+      "insufficient_capacity": "الرسالة كبيرة جدًا بالنسبة لسعة المعاملات المتاحة",
+      "insufficient_coefficients": "معاملات غير كافية أثناء التضمين: المطلوب %d، تم الحصول على %d",
+      "insufficient_header_coefficients": "عدد المعاملات الصالحة غير كافٍ لتضمين الترويسة: يلزم 32 بت، تم العثور على %d معامل صالح فقط.",
+      "invalid_code_word": "لا يمكن أن تكون كلمة السر فارغة",
+      "invalid_coefficient_range": "قيمة المعامل خارج النطاق الصحيح (-2048 إلى 2047)",
+      "invalid_force_k": "قيمة ForceK غير صالحة: يجب أن تكون 0 (تلقائي) أو من 1 إلى 8",
+      "invalid_k_parameter": "يجب أن تكون قيمة المعامل k بين 1 و 8",
+      "matrix_encode_failed": "فشل ترميز المصفوفة للكلمة المشفرة: %v",
+      "message_embed_failed": "فشل تضمين الرسالة: %v",
+      "message_too_large": "حجم الرسالة يتجاوز الحد الأقصى المسموح به (8,388,607 بايت)",
+      "nil_random_source": "لا يمكن أن يكون مصدر الأرقام العشوائية فارغًا: استخدم InitializePRNG(password) أو قم بتوفير مصدر أرقام عشوائية مُهيأ مسبقًا.",
+      "permutation_failed": "فشل في توليد تبديل المعاملات: %v"
+    },
+    "log": {
+      "capacity_calculated": "تم حساب معامل السعة",
+      "coefficient_modified": "معامل معدل",
+      "embed_complete": "اكتمل تضمين F5",
+      "embed_start": "بدء تضمين F5",
+      "header_embedded": "تم تضمين رأس الرسالة",
+      "k_selected": "تم اختيار المعامل الأمثل k",
+      "permutation_generated": "تم توليد تبديل المعاملات",
+      "shrinkage_detected": "تم اكتشاف انكماش، جارٍ إعادة تضمين البت"
+    }
+  }
+}

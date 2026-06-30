@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "Ana buƙatar bit %d, matsakaicin ƙarfin da ke k=1 shine bit %d",
+      "empty_coefficients": "yanki mai ma\u0026#39;auni ba zai iya zama fanko ba",
+      "empty_password": "kalmar sirri ba za ta iya zama fanko ba",
+      "header_embed_failed": "An kasa saka taken saƙo: %v",
+      "insufficient_capacity": "saƙon ya yi girma sosai don ƙarfin ma\u0026#39;aunin da ake da shi",
+      "insufficient_coefficients": "rashin isassun ma\u0026#39;auni yayin sakawa: buƙatar %d, an samu %d",
+      "insufficient_header_coefficients": "ƙarancin ma\u0026#39;aunin amfani don saka kanun labarai: ana buƙatar rago 32, an sami ma\u0026#39;aunin amfani %d kawai",
+      "invalid_code_word": "Kalmar lambar ba za ta iya zama fanko ba",
+      "invalid_coefficient_range": "ƙimar ma\u0026#39;auni daga cikin ingantaccen kewayon (-2048 zuwa 2047)",
+      "invalid_force_k": "ForceK mara inganci: dole ne ya zama 0 (atomatik) ko 1-8",
+      "invalid_k_parameter": "Dole ne sigar k ta kasance tsakanin 1 da 8",
+      "matrix_encode_failed": "An kasa daidaita matrix don kalmar lambar: %v",
+      "message_embed_failed": "an kasa saka saƙo: %v",
+      "message_too_large": "Girman saƙon ya wuce matsakaicin da aka yarda (bytes 8,388,607)",
+      "nil_random_source": "Ba za a iya amfani da tushen bazuwar a matsayin nil ba: yi amfani da InitializePRNG(kalmar sirri) ko kuma samar da tushen Random da aka riga aka yi amfani da shi",
+      "permutation_failed": "kasa samar da canjin ma\u0026#39;auni: %v"
+    },
+    "log": {
+      "capacity_calculated": "An ƙididdige ƙarfin ma\u0026#39;auni",
+      "coefficient_modified": "An gyara ma\u0026#39;aunin daidaito",
+      "embed_complete": "An kammala saka F5",
+      "embed_start": "Fara shigar da F5",
+      "header_embedded": "An saka kan saƙo",
+      "k_selected": "An zaɓi mafi kyawun sigar k",
+      "permutation_generated": "An samar da canjin ma\u0026#39;auni mai inganci",
+      "shrinkage_detected": "An gano raguwar aiki, an sake saka bit ɗin"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "kasapulan dagiti %d a bit, ti kangatuan a kapasidad iti k=1 ket %d a bit",
+      "empty_coefficients": "saan a mabalin nga empty ti coefficient slice",
+      "empty_password": "saan a mabalin nga empty ti password",
+      "header_embed_failed": "napaay a mangikabil ti ulo ti mensahe: %v",
+      "insufficient_capacity": "mensahe a dakkel unay para iti magun-od a kapasidad ti koepisiente",
+      "insufficient_coefficients": "saan nga umdas a koepisiente bayat ti panagikabil: kasapulan ti %d, nagun-od ti %d",
+      "insufficient_header_coefficients": "saan nga umdas a mausar a koepisiente para iti panangikabil ti ulo: kasapulan ti 32 a bit, nasarakan laeng dagiti %d a mausar a koepisiente",
+      "invalid_code_word": "saan a mabalin nga empty ti code word",
+      "invalid_coefficient_range": "pateg ti koepisiente iti ruar ti balido a sakop (-2048 aginggana ti 2047) .",
+      "invalid_force_k": "saan nga umiso a ForceK: masapul nga 0 (auto) wenno 1-8",
+      "invalid_k_parameter": "ti k parametro ket masapul nga adda iti nagbaetan ti 1 ken 8",
+      "matrix_encode_failed": "ti panagkodigo ti matrix ket napaay para iti balikas ti kodigo: %v",
+      "message_embed_failed": "napaay a mangikabil ti mensahe: %v",
+      "message_too_large": "ti kadakkel ti mensahe ket lumablabas iti kangatuan a maipalubos (8,388,607 byte) .",
+      "nil_random_source": "ti random a taudan ket saan a mabalin a nil: usaren ti InitializePRNG(password) wenno mangipaay ti nasakbay a naimula a RandomSource",
+      "permutation_failed": "napaay a mangpataud ti panagbalbaliw ti koepisiente: %v"
+    },
+    "log": {
+      "capacity_calculated": "Nakuenta ti kapasidad ti koepisiente",
+      "coefficient_modified": "Nabaliwan ti koepisiente",
+      "embed_complete": "F5 embedding ti nalpasen",
+      "embed_start": "Mangrugi ti F5 embedding",
+      "header_embedded": "Naikabil ti ulo ti mensahe",
+      "k_selected": "Optimal k parametro ti napili",
+      "permutation_generated": "Napataud ti koepisiente a panagbalbaliw",
+      "shrinkage_detected": "Naduktalan ti panagkissay, re-embedding bit"
+    }
+  }
+}

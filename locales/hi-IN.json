@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "%d बिट्स की आवश्यकता है, k=1 पर अधिकतम क्षमता %d बिट्स है।",
+      "empty_coefficients": "गुणांक स्लाइस खाली नहीं हो सकता",
+      "empty_password": "पासवर्ड खाली नहीं हो सकता",
+      "header_embed_failed": "संदेश हेडर एम्बेड करने में विफल: %v",
+      "insufficient_capacity": "उपलब्ध गुणांक क्षमता के लिए संदेश बहुत बड़ा है",
+      "insufficient_coefficients": "एम्बेडिंग के दौरान अपर्याप्त गुणांक: %d की आवश्यकता थी, %d प्राप्त हुए",
+      "insufficient_header_coefficients": "हेडर एम्बेडिंग के लिए अपर्याप्त उपयोगी गुणांक: 32 बिट्स की आवश्यकता है, केवल %d उपयोगी गुणांक ही मिले।",
+      "invalid_code_word": "कोड शब्द खाली नहीं हो सकता",
+      "invalid_coefficient_range": "गुणांक का मान मान्य सीमा (-2048 से 2047) से बाहर है।",
+      "invalid_force_k": "अमान्य ForceK: 0 (स्वचालित) या 1-8 होना चाहिए",
+      "invalid_k_parameter": "k पैरामीटर का मान 1 और 8 के बीच होना चाहिए।",
+      "matrix_encode_failed": "कोड शब्द %v के लिए मैट्रिक्स एन्कोडिंग विफल रही",
+      "message_embed_failed": "संदेश एम्बेड करने में विफल: %v",
+      "message_too_large": "संदेश का आकार अधिकतम अनुमत आकार (8,388,607 बाइट्स) से अधिक है।",
+      "nil_random_source": "रैंडम स्रोत शून्य नहीं हो सकता: InitializePRNG(password) का उपयोग करें या पहले से निर्धारित रैंडम स्रोत प्रदान करें",
+      "permutation_failed": "गुणांक क्रमचय उत्पन्न करने में विफल: %v"
+    },
+    "log": {
+      "capacity_calculated": "गुणांक क्षमता की गणना की गई",
+      "coefficient_modified": "गुणांक संशोधित",
+      "embed_complete": "F5 एम्बेडिंग पूरी हो गई",
+      "embed_start": "F5 एम्बेडिंग शुरू हो रही है",
+      "header_embedded": "संदेश शीर्षक एम्बेडेड",
+      "k_selected": "इष्टतम k पैरामीटर का चयन किया गया",
+      "permutation_generated": "गुणांक क्रमचय उत्पन्न हुआ",
+      "shrinkage_detected": "सिकुड़न का पता चला, बिट को पुनः एम्बेड किया जा रहा है"
+    }
+  }
+}

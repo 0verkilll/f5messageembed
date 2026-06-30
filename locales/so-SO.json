@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "waxay u baahan yihiin %d bits, awoodda ugu badan ee k=1 waa %d bits",
+      "empty_coefficients": "Qaybta isku-dhafka ah ma madhnaan karto",
+      "empty_password": "eraygaaga sirta ah ma madhnaan karo",
+      "header_embed_failed": "Ku guuldareystay inuu geliyo cinwaanka fariinta: %v",
+      "insufficient_capacity": "fariin aad u weyn oo aan loo isticmaali karin awoodda isku-xirnaanta la heli karo",
+      "insufficient_coefficients": "isku-dheelitirnaan aan ku filnayn inta lagu jiro ku-darka: u baahan %d, helay %d",
+      "insufficient_header_coefficients": "Isku-xidhka aan la isticmaali karin ee ku-xidhka cinwaanka: waxay u baahan yihiin 32 bits, waxaa la helay oo keliya isku-xidhka la isticmaali karo ee %d",
+      "invalid_code_word": "Ereyga koodku ma madhnaan karo",
+      "invalid_coefficient_range": "qiimaha isku-dhafka ah ee ka baxsan xadka ansax ah (-2048 ilaa 2047)",
+      "invalid_force_k": "ForceK aan sax ahayn: waa inay noqotaa 0 (otomaatig ah) ama 1-8",
+      "invalid_k_parameter": "Halbeegga k waa inuu ahaadaa inta u dhaxaysa 1 iyo 8",
+      "matrix_encode_failed": "Habaynta matrix-ka ayaa ku guuldareysatay ereyga koodhka: %v",
+      "message_embed_failed": "ku guuldareystay inuu soo geliyo fariin: %v",
+      "message_too_large": "Cabbirka farriintu wuxuu dhaafayaa inta ugu badan ee la oggol yahay (8,388,607 bayt)",
+      "nil_random_source": "Ilo aan kala sooc lahayn ma noqon karaan eber: isticmaal InitializePRNG(password) ama bixi RandomSource hore loo sii sameeyay",
+      "permutation_failed": "ku guuldareystay inuu soo saaro isbeddelka isku-dhafka ah: %v"
+    },
+    "log": {
+      "capacity_calculated": "Awoodda Isku-xidhka ee la xisaabiyay",
+      "coefficient_modified": "Wax laga beddelay isku-xidhka",
+      "embed_complete": "Ku-darista F5 waa la dhammeeyay",
+      "embed_start": "Bilaabidda ku-xidhka F5",
+      "header_embedded": "Cinwaanka farriinta ayaa ku dhex jira",
+      "k_selected": "Halbeegga k ee ugu habboon ayaa la doortay",
+      "permutation_generated": "Isbeddelka Coefficient-ka ee la soo saaray",
+      "shrinkage_detected": "Yaraanshaha ayaa la ogaaday, qayb dib loo gelinayo"
+    }
+  }
+}

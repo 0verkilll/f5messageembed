@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "nid %d bit, maksimal kapasiti na k=1 na %d bit",
+      "empty_coefficients": "kofishin slais nɔ kin ɛmti",
+      "empty_password": "paswɔd nɔ go ebul fɔ ɛmti",
+      "header_embed_failed": "nɔ ebul fɔ ɛmbas mɛsej hεda: %v",
+      "insufficient_capacity": "mɛsej tu big fɔ di kɔfishin kapasiti we de",
+      "insufficient_coefficients": "insufishɛnt kɔfishin dɛn we dɛn de ɛmbas: nid %d, gɛt %d",
+      "insufficient_header_coefficients": "insufishɛnt yuzable kɔfishin fɔ hεda ɛmbadin: nid 32 bit, fɛn ɔl %d yuzable kɔfishin",
+      "invalid_code_word": "kɔd wɔd nɔ go ebul fɔ ɛmti",
+      "invalid_coefficient_range": "kofishin valyu aut ɔf valid rɛnj (-2048 to 2047)",
+      "invalid_force_k": "invalid ForceK: fɔ bi 0 (ɔto) ɔ 1-8",
+      "invalid_k_parameter": "k paramita fɔ de bitwin 1 ɛn 8",
+      "matrix_encode_failed": "matris ɛnkɔdin nɔ wok fɔ kɔd wɔd: %v",
+      "message_embed_failed": "nɔ bin ebul fɔ ɛmbas mɛsej: %v",
+      "message_too_large": "mɛsej saiz pas di maksimal we dɛn alaw (8,388,607 bayt)",
+      "nil_random_source": "random source nɔ kin bi nil: yuz InitializePRNG(paswɔd) ɔ gi wan RandomSource we dɛn dɔn sid bifo tɛm",
+      "permutation_failed": "fail fכ jεnarεt kכfishεnt pεrmyutεshכn: %v"
+    },
+    "log": {
+      "capacity_calculated": "Kofishin kapasiti we dɛn kɔl",
+      "coefficient_modified": "Kofishin we dɛn dɔn modify",
+      "embed_complete": "F5 embedding dɔn dɔn",
+      "embed_start": "Start F5 embedding",
+      "header_embedded": "Mesej hεda we dɛn dɔn ɛmbas",
+      "k_selected": "Optimal k paramita we dɛn pik",
+      "permutation_generated": "Kofishin pεrmyutεshכn we dεn jεnarεt",
+      "shrinkage_detected": "Shrinkage detekt, ri-ɛmbed bit"
+    }
+  }
+}

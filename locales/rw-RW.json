@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "hakenewe %d bits, ubushobozi ntarengwa kuri k=1 ni %d bits",
+      "empty_coefficients": "agace k\u0026#39;ibipimo (coefficient slice) ntigashobora kuba ubusa",
+      "empty_password": "ijambo ry\u0026#39;ibanga ntirishobora kuba ubusa",
+      "header_embed_failed": "yananiwe gushyiramo umutwe w\u0026#39;ubutumwa: %v",
+      "insufficient_capacity": "ubutumwa bunini cyane ku buryo ubushobozi bwa coefficient buhari",
+      "insufficient_coefficients": "coefficients zidahagije mu gihe cyo gushyiramo: hakenewe %d, nabonye %d",
+      "insufficient_header_coefficients": "coefficients zidahagije zo gushyiramo umutwe: hakenewe bits 32, habonetse coefficients %d gusa zikoreshwa",
+      "invalid_code_word": "kode word ntishobora kuba ubusa",
+      "invalid_coefficient_range": "agaciro k\u0026#39;igipimo ntarengwa cyemewe (-2048 kugeza 2047)",
+      "invalid_force_k": "ForceK idakwiye: igomba kuba 0 (auto) cyangwa 1-8",
+      "invalid_k_parameter": "parametero k igomba kuba hagati ya 1 na 8",
+      "matrix_encode_failed": "Guhindura inyuguti byananiwe kuri kode word: %v",
+      "message_embed_failed": "yananiwe gushyiramo ubutumwa: %v",
+      "message_too_large": "Ingano y\u0026#39;ubutumwa irenze urugero rwemewe (8,388,607 bytes)",
+      "nil_random_source": "isoko ritunguranye ntirishobora kuba ntaho rihuriye n\u0026#39;inyandiko: koresha InitializePRNG (ijambo ry\u0026#39;ibanga) cyangwa utange RandomSource yashyizwemo mbere",
+      "permutation_failed": "yananiwe gukora ihinduka ry\u0026#39;ikigereranyo: %v"
+    },
+    "log": {
+      "capacity_calculated": "Ubushobozi bwo gukoresha coefficient bwabazwe",
+      "coefficient_modified": "Korejimeteri yahinduwe",
+      "embed_complete": "Gushyiramo F5 byararangiye",
+      "embed_start": "Gutangira gushyiramo F5",
+      "header_embedded": "Umutwe w\u0026#39;ubutumwa washyizwemo",
+      "k_selected": "Igipimo cya k cyiza cyatoranyijwe",
+      "permutation_generated": "Impinduka mu mikorere y\u0026#39;ingufu zakozwe",
+      "shrinkage_detected": "Kugabanuka kwabonetse, kongera gushyiramo igice"
+    }
+  }
+}

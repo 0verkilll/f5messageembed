@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "esengeli na %d bits, capacité maximale na k=1 ezali %d bits",
+      "empty_coefficients": "slice ya coefficient ekoki kozala vide te",
+      "empty_password": "mot de passe ekoki kozala pamba te",
+      "header_embed_failed": "elongi te kokɔtisa motó ya nsango: %v",
+      "insufficient_capacity": "message munene mingi pona capacité ya coefficient oyo ezali",
+      "insufficient_coefficients": "ba coefficients ekoki te na tango ya intégration: esengeli %d, azui %d",
+      "insufficient_header_coefficients": "ba coefficients oyo ekoki kosalelama ekoki te mpo na kokɔtisa motó: esengeli na bits 32, ezwami kaka %d coefficients oyo ekoki kosalelama",
+      "invalid_code_word": "liloba ya code ekoki kozala mpamba te",
+      "invalid_coefficient_range": "motuya ya coefficient libanda ya intervalle ya valide (-2048 kino 2047)",
+      "invalid_force_k": "invalid ForceK: esengeli kozala 0 (auto) to 1-8",
+      "invalid_k_parameter": "paramètre k esengeli kozala kati ya 1 na 8",
+      "matrix_encode_failed": "encodage ya matrice elongi te mpo na liloba ya code: %v",
+      "message_embed_failed": "elongi te kokɔtisa nsango: %v",
+      "message_too_large": "bonene ya nsango eleki oyo epesami nzela (8.388.607 octets)",
+      "nil_random_source": "source aléatoire ekoki kozala nil te: salela InitializePRNG(mot de passe) to pesa RandomSource oyo ezwami liboso",
+      "permutation_failed": "elongi te kobimisa permutation ya coefficient : %v"
+    },
+    "log": {
+      "capacity_calculated": "Capacité ya coefficient oyo e calculer",
+      "coefficient_modified": "Coefficient oyo ebongwani",
+      "embed_complete": "F5 embedding esili",
+      "embed_start": "Kobanda kokɔtisa F5",
+      "header_embedded": "Motó ya nsango ekɔtisami",
+      "k_selected": "Paramètre k optimal eponami",
+      "permutation_generated": "Permutation ya coefficient oyo esalemi",
+      "shrinkage_detected": "Rétrécissement détecté, re-embedding bit"
+    }
+  }
+}

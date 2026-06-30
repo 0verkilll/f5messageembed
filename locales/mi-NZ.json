@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "me %d ngā moka, ko te kaha mōrahi i te k=1 ko %d ngā moka",
+      "empty_coefficients": "kāore e taea te noho kau i te wāhanga tauwehenga",
+      "empty_password": "kāore e taea te noho kau i te kupuhipa",
+      "header_embed_failed": "i rahua te whakauru i te pane karere: %v",
+      "insufficient_capacity": "he nui rawa te karere mō te kaha tauwehenga e wātea ana",
+      "insufficient_coefficients": "kāore i te rawaka ngā tauwehenga i te wā e whakauru ana: me %d, i whiwhi %d",
+      "insufficient_header_coefficients": "kāore i te rawaka ngā taunga whai hua mō te whakauru pane: me 32 ngā moka, %d noa iho ngā taunga whai hua i kitea",
+      "invalid_code_word": "kāore e taea te noho kau te kupu waehere",
+      "invalid_coefficient_range": "kei waho te uara tauwehenga i te awhe whaimana (-2048 ki te 2047)",
+      "invalid_force_k": "ForceK kore mana: me 0 (aunoa) me 1-8 rānei",
+      "invalid_k_parameter": "Me noho te tawhā k i waenga i te 1 me te 8",
+      "matrix_encode_failed": "i rahua te whakakōwae matihiko mō te kupu waehere: %v",
+      "message_embed_failed": "i rahua te whakauru i te karere: %v",
+      "message_too_large": "kua hipa te rahi o te karere i te mōrahi e whakaaetia ana (8,388,607 paita)",
+      "nil_random_source": "Kāore e taea te kore te pūtake matapōkere: whakamahia te InitializePRNG (kupuhipa) me te whakarato rānei i tētahi Pūtake Matapōkere kua whakatōkia i mua",
+      "permutation_failed": "i rahua te whakaputa i te tauwehenga tauwehenga: %v"
+    },
+    "log": {
+      "capacity_calculated": "Te tatau i te kaha tauwehenga",
+      "coefficient_modified": "Tauwehenga kua whakarerekētia",
+      "embed_complete": "Kua oti te tāmau F5",
+      "embed_start": "Te tīmatanga o te tāmau F5",
+      "header_embedded": "Kua whakauruhia te pane karere",
+      "k_selected": "Kua tīpakohia te tawhā k tino pai",
+      "permutation_generated": "Te tauwehenga taurite i hangaia",
+      "shrinkage_detected": "Kua kitea te whakahekenga, kei te whakauru anō i te moka"
+    }
+  }
+}

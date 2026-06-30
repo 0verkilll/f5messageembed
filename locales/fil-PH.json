@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "kailangan ng %d bits, ang pinakamataas na kapasidad sa k=1 ay %d bits",
+      "empty_coefficients": "Hindi maaaring walang laman ang slice ng coefficient",
+      "empty_password": "hindi maaaring walang laman ang password",
+      "header_embed_failed": "Nabigong i-embed ang header ng mensahe: %v",
+      "insufficient_capacity": "masyadong malaki ang mensahe para sa magagamit na kapasidad ng koepisyent",
+      "insufficient_coefficients": "hindi sapat na mga koepisyente habang nag-eembed: kailangan %d, nakuha %d",
+      "insufficient_header_coefficients": "hindi sapat ang magagamit na mga koepisyente para sa pag-embed ng header: kailangan ng 32 bits, %d magagamit na mga koepisyente lamang ang natagpuan",
+      "invalid_code_word": "hindi maaaring walang laman ang code word",
+      "invalid_coefficient_range": "halaga ng koepisyent na wala sa wastong saklaw (-2048 hanggang 2047)",
+      "invalid_force_k": "hindi wastong ForceK: dapat ay 0 (awtomatikong) o 1-8",
+      "invalid_k_parameter": "Ang k parameter ay dapat nasa pagitan ng 1 at 8",
+      "matrix_encode_failed": "Nabigo ang matrix encoding para sa code word na: %v",
+      "message_embed_failed": "Nabigong i-embed ang mensahe: %v",
+      "message_too_large": "Lumagpas ang laki ng mensahe sa pinakamataas na pinapayagan (8,388,607 bytes)",
+      "nil_random_source": "Hindi maaaring wala ang random source: gamitin ang InitializePRNG(password) o magbigay ng pre-seeded na RandomSource",
+      "permutation_failed": "nabigong makabuo ng koepisyent na permutasyon: %v"
+    },
+    "log": {
+      "capacity_calculated": "Kinakalkula ang kapasidad ng koepisyent",
+      "coefficient_modified": "Binago ang koepisyent",
+      "embed_complete": "Nakumpleto na ang pag-embed ng F5",
+      "embed_start": "Sinisimulan ang pag-embed ng F5",
+      "header_embedded": "Naka-embed na header ng mensahe",
+      "k_selected": "Napili ang pinakamainam na parametrong k",
+      "permutation_generated": "Nabuo ang koepisyent na permutasyon",
+      "shrinkage_detected": "May nakitang pag-urong, muling inilalagay ang bit"
+    }
+  }
+}

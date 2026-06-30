@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "bżonn %d bits, il-kapaċità massima f\u0026#39;k=1 hija %d bits",
+      "empty_coefficients": "Il-porzjon tal-koeffiċjent ma jistax ikun vojt",
+      "empty_password": "Il-password ma tistax tkun vojta",
+      "header_embed_failed": "Ma rnexxiex inkorpora l-intestatura tal-messaġġ: %v",
+      "insufficient_capacity": "messaġġ kbir wisq għall-kapaċità tal-koeffiċjent disponibbli",
+      "insufficient_coefficients": "koeffiċjenti insuffiċjenti waqt l-inkorporazzjoni: bżonn %d, ksib %d",
+      "insufficient_header_coefficients": "koeffiċjenti insuffiċjenti li jistgħu jintużaw għall-inkorporazzjoni tal-header: hemm bżonn ta\u0026#39; 32 bit, instabu biss %d koeffiċjenti li jistgħu jintużaw",
+      "invalid_code_word": "kelma kodiċi ma tistax tkun vojta",
+      "invalid_coefficient_range": "il-valur tal-koeffiċjent barra mill-medda valida (-2048 sa 2047)",
+      "invalid_force_k": "ForceK invalida: trid tkun 0 (awtomatika) jew 1-8",
+      "invalid_k_parameter": "Il-parametru k irid ikun bejn 1 u 8",
+      "matrix_encode_failed": "Il-kodifikazzjoni tal-matriċi falliet għall-kelma kodiċi: %v",
+      "message_embed_failed": "Ma rnexxiex inkorpora l-messaġġ: %v",
+      "message_too_large": "Id-daqs tal-messaġġ jaqbeż il-massimu permess (8,388,607 bytes)",
+      "nil_random_source": "sors każwali ma jistax ikun nil: uża InitializePRNG(password) jew ipprovdi RandomSource miżrugħa minn qabel",
+      "permutation_failed": "ma rnexxilux jiġġenera permutazzjoni tal-koeffiċjent: %v"
+    },
+    "log": {
+      "capacity_calculated": "Il-kapaċità tal-koeffiċjent ikkalkulata",
+      "coefficient_modified": "Koeffiċjent modifikat",
+      "embed_complete": "L-inkorporazzjoni tal-F5 tlestiet",
+      "embed_start": "Nibdew l-inkorporazzjoni F5",
+      "header_embedded": "Intestatura tal-messaġġ inkorporata",
+      "k_selected": "Parametru k ottimali magħżul",
+      "permutation_generated": "Permutazzjoni tal-koeffiċjent iġġenerata",
+      "shrinkage_detected": "Jinxtorob it-tnaqqis, qed jerġa\u0026#39; jiġi inkorporat il-bit"
+    }
+  }
+}

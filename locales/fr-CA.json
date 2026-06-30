@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "Il faut %d bits, la capacité maximale à k=1 est de %d bits",
+      "empty_coefficients": "La tranche de coefficient ne peut pas être vide.",
+      "empty_password": "Le mot de passe ne peut pas être vide.",
+      "header_embed_failed": "Échec de l\u0026#39;intégration de l\u0026#39;en-tête du message : %v",
+      "insufficient_capacity": "Message trop volumineux pour la capacité de coefficients disponibles",
+      "insufficient_coefficients": "Coefficients insuffisants lors de l\u0026#39;intégration : %d requis, %d obtenu",
+      "insufficient_header_coefficients": "Nombre insuffisant de coefficients utilisables pour l\u0026#39;intégration d\u0026#39;en-tête : 32 bits sont nécessaires, seuls %d coefficients utilisables ont été trouvés.",
+      "invalid_code_word": "Le mot de code ne peut pas être vide.",
+      "invalid_coefficient_range": "Valeur du coefficient hors de la plage valide (-2048 à 2047)",
+      "invalid_force_k": "ForceK invalide : doit être égal à 0 (automatique) ou à 1-8",
+      "invalid_k_parameter": "Le paramètre k doit être entre 1 et 8",
+      "matrix_encode_failed": "L\u0026#39;encodage matriciel a échoué pour le mot de code : %v",
+      "message_embed_failed": "Échec de l\u0026#39;intégration du message : %v",
+      "message_too_large": "La taille du message dépasse la taille maximale permise (8 388 607 octets).",
+      "nil_random_source": "La source aléatoire ne peut pas être nulle : utilisez InitializePRNG(password) ou fournissez une source aléatoire pré-initialisée.",
+      "permutation_failed": "Échec de la génération de la permutation des coefficients : %v"
+    },
+    "log": {
+      "capacity_calculated": "Coefficient de capacité calculé",
+      "coefficient_modified": "Coefficient modifié",
+      "embed_complete": "Intégration F5 terminée",
+      "embed_start": "Démarrage de l\u0026#39;intégration F5",
+      "header_embedded": "En-tête de message intégré",
+      "k_selected": "Paramètre k optimal sélectionné",
+      "permutation_generated": "permutation des coefficients générée",
+      "shrinkage_detected": "Rétrécissement détecté, réintégration du bit"
+    }
+  }
+}

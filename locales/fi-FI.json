@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "tarvitaan %d bittiä, maksimikapasiteetti k=1:llä on %d bittiä",
+      "empty_coefficients": "kerroinlohko ei voi olla tyhjä",
+      "empty_password": "salasana ei voi olla tyhjä",
+      "header_embed_failed": "Viestin otsikon upottaminen epäonnistui: %v",
+      "insufficient_capacity": "viesti liian suuri käytettävissä olevaan kerroinkapasiteettiin nähden",
+      "insufficient_coefficients": "riittämättömät kertoimet upotuksen aikana: tarvitaan %d, saadaan %d",
+      "insufficient_header_coefficients": "riittämättömät käyttökelpoiset kertoimet otsikon upottamiseen: tarvitaan 32 bittiä, löydettiin vain %d käyttökelpoista kerrointa",
+      "invalid_code_word": "koodisana ei voi olla tyhjä",
+      "invalid_coefficient_range": "kerroinarvo on kelvollisen alueen ulkopuolella (-2048 - 2047)",
+      "invalid_force_k": "virheellinen ForceK:n arvo: sen on oltava 0 (automaattinen) tai 1–8",
+      "invalid_k_parameter": "k-parametrin arvon on oltava välillä 1–8",
+      "matrix_encode_failed": "matriisikoodaus epäonnistui koodisanalle: %v",
+      "message_embed_failed": "Viestin upottaminen epäonnistui: %v",
+      "message_too_large": "viestin koko ylittää sallitun enimmäiskoon (8 388 607 tavua)",
+      "nil_random_source": "satunnainen lähde ei voi olla nolla: käytä InitializePRNG(password)-metodia tai anna valmiiksi kylvetty satunnaislähde",
+      "permutation_failed": "kerroinpermutaation luominen epäonnistui: %v"
+    },
+    "log": {
+      "capacity_calculated": "Kerroinkapasiteetti laskettu",
+      "coefficient_modified": "Kerroin muokattu",
+      "embed_complete": "F5-upotus valmis",
+      "embed_start": "F5-upotus aloitetaan",
+      "header_embedded": "Viestin otsikko upotettu",
+      "k_selected": "Optimaalinen k-parametri valittu",
+      "permutation_generated": "Kertoimen permutaatio generoitu",
+      "shrinkage_detected": "Kutistuminen havaittu, bitti upotetaan uudelleen"
+    }
+  }
+}

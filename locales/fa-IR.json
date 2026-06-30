@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "به %d بیت نیاز داریم، حداکثر ظرفیت در k=1، %d بیت است.",
+      "empty_coefficients": "برش ضریب نمی‌تواند خالی باشد",
+      "empty_password": "رمز عبور نمی‌تواند خالی باشد",
+      "header_embed_failed": "جاسازی سربرگ پیام ناموفق بود: %v",
+      "insufficient_capacity": "پیام برای ظرفیت ضریب موجود خیلی بزرگ است",
+      "insufficient_coefficients": "ضرایب ناکافی در حین جاسازی: به %d نیاز داریم، %d را دریافت می‌کنیم",
+      "insufficient_header_coefficients": "ضرایب قابل استفاده برای جاسازی هدر ناکافی است: به ۳۲ بیت نیاز است، فقط %d ضریب قابل استفاده یافت شد",
+      "invalid_code_word": "کلمه کد نمی‌تواند خالی باشد",
+      "invalid_coefficient_range": "مقدار ضریب خارج از محدوده معتبر (-2048 تا 2047)",
+      "invalid_force_k": "ForceK نامعتبر: باید 0 (خودکار) یا 1-8 باشد",
+      "invalid_k_parameter": "پارامتر k باید بین ۱ تا ۸ باشد",
+      "matrix_encode_failed": "رمزگذاری ماتریس برای کلمه کد ناموفق بود: %v",
+      "message_embed_failed": "پیام جاسازی نشد: %v",
+      "message_too_large": "اندازه پیام از حداکثر مجاز (۸,۳۸۸,۶۰۷ بایت) بیشتر است.",
+      "nil_random_source": "منبع تصادفی نمی‌تواند تهی باشد: از InitializePRNG(password) استفاده کنید یا یک RandomSource از پیش آماده شده ارائه دهید",
+      "permutation_failed": "ایجاد جایگشت ضریب ناموفق بود: %v"
+    },
+    "log": {
+      "capacity_calculated": "ضریب ظرفیت محاسبه شده",
+      "coefficient_modified": "ضریب اصلاح‌شده",
+      "embed_complete": "جاسازی F5 تکمیل شد",
+      "embed_start": "شروع جاسازی F5",
+      "header_embedded": "هدر پیام تعبیه شده است",
+      "k_selected": "پارامتر k بهینه انتخاب شد",
+      "permutation_generated": "جایگشت ضریب تولید شده",
+      "shrinkage_detected": "انقباض تشخیص داده شد، بیت دوباره جاسازی شد"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "oikotevẽ %d bits, capacidad máximo k=1-pe haꞌehína %d bits",
+      "empty_coefficients": "coeficiente rebanada ndaikatúi oî nandi",
+      "empty_password": "ñe’ẽñemi ndaikatúi oĩ nandi",
+      "header_embed_failed": "ndoikói oñemoinge hag̃ua marandu iñakãrapu’ãva: %v",
+      "insufficient_capacity": "marandu tuichaitereíva capacidad coeficiente ojeguerekóvape g̃uarã",
+      "insufficient_coefficients": "coeficiente insuficiente oñemboguapy jave: oikotevẽ %d, ohupyty %d",
+      "insufficient_header_coefficients": "coeficiente ojepurukuaa’ỹva insuficiente iñakãrapu’ã ñemboguapyrã: oikotevẽ 32 bits, ojejuhu %d coeficiente ojepurukuaáva añoite",
+      "invalid_code_word": "ñe’ẽ código ndaikatúi oĩ nandi",
+      "invalid_coefficient_range": "valor coeficiente osẽva rango válido-gui (-2048 guive 2047 peve) .",
+      "invalid_force_k": "ndojeporúiva FuerzaK: haꞌevaꞌerã 0 (auto) térã 1-8",
+      "invalid_k_parameter": "k parámetro oîva\u0026#39;erâ 1 ha 8 mbytépe",
+      "matrix_encode_failed": "codificación matriz rehegua ndoikói ñe’ẽ kódigo-pe g̃uarã: %v",
+      "message_embed_failed": "ndoikói oñemoinge hag̃ua marandu: %v",
+      "message_too_large": "marandu tuichakue ohasa máximo ojehejáva (8.388.607 byte) .",
+      "nil_random_source": "fuente aleatoria ndaikatúi nil: eipuru InitializePRNG(ñe’ẽñemi) térã eme’ẽ peteĩ RandomSource oñeñotỹ mboyve",
+      "permutation_failed": "ndohupytýi omoheñóivo permutación coeficiente rehegua: %v"
+    },
+    "log": {
+      "capacity_calculated": "Capacidad coeficiente rehegua ojekalkuláva",
+      "coefficient_modified": "Coeficiente oñemoambuéva",
+      "embed_complete": "F5 incrustación oñembotýma",
+      "embed_start": "Oñepyrũvo F5 ñembohysýi",
+      "header_embedded": "Marandu iñakãrapu’ãva oñemboguapýva",
+      "k_selected": "Parámetro k óptimo ojeporavóva",
+      "permutation_generated": "Permutación coeficiente rehegua ojejapóva",
+      "shrinkage_detected": "Ojejuhúva encogimiento, oñemoinge jey bit"
+    }
+  }
+}

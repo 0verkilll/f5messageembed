@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "Se necesitan %d bits, la capacidad máxima en k=1 es %d bits",
+      "empty_coefficients": "La porción de coeficiente no puede estar vacía",
+      "empty_password": "La contraseña no puede estar vacía",
+      "header_embed_failed": "No se pudo insertar el encabezado del mensaje: %v",
+      "insufficient_capacity": "mensaje demasiado grande para la capacidad de coeficiente disponible",
+      "insufficient_coefficients": "coeficientes insuficientes durante la incrustación: se necesitan %d, se obtuvieron %d",
+      "insufficient_header_coefficients": "Coeficientes utilizables insuficientes para la incrustación del encabezado: se necesitan 32 bits, solo se encontraron %d coeficientes utilizables",
+      "invalid_code_word": "La palabra clave no puede estar vacía",
+      "invalid_coefficient_range": "Valor del coeficiente fuera del rango válido (-2048 a 2047)",
+      "invalid_force_k": "ForceK no válido: debe ser 0 (automático) o 1-8",
+      "invalid_k_parameter": "El parámetro k debe estar entre 1 y 8",
+      "matrix_encode_failed": "La codificación de matriz falló para la palabra de código: %v",
+      "message_embed_failed": "No se pudo insertar el mensaje: %v",
+      "message_too_large": "El tamaño del mensaje excede el máximo permitido (8.388.607 bytes)",
+      "nil_random_source": "La fuente aleatoria no puede ser nula: use InitializePRNG(contraseña) o proporcione una fuente aleatoria preseleccionada",
+      "permutation_failed": "No se pudo generar la permutación del coeficiente: %v"
+    },
+    "log": {
+      "capacity_calculated": "Coeficiente de capacidad calculado",
+      "coefficient_modified": "Coeficiente modificado",
+      "embed_complete": "Incorporación de F5 completada",
+      "embed_start": "Iniciando la incrustación de F5",
+      "header_embedded": "Encabezado del mensaje incrustado",
+      "k_selected": "Parámetro k óptimo seleccionado",
+      "permutation_generated": "Permutación de coeficientes generada",
+      "shrinkage_detected": "Contracción detectada, reincrustando bit"
+    }
+  }
+}

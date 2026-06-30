@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "mukufuna %d bits, mphamvu yayikulu pa k=1 ndi %d bits",
+      "empty_coefficients": "chidutswa cha coefficient sichingakhale chopanda kanthu",
+      "empty_password": "mawu achinsinsi sangakhale opanda kanthu",
+      "header_embed_failed": "yalephera kuyika mutu wa uthenga: %v",
+      "insufficient_capacity": "Uthenga waukulu kwambiri kuti ukhale ndi mphamvu yokwanira yokwanira",
+      "insufficient_coefficients": "ma coefficient osakwanira panthawi yoyika: akufunika %d, apeza %d",
+      "insufficient_header_coefficients": "ma coefficient osakwanira ogwiritsira ntchito mutu: akufunika ma bits 32, apeza ma coefficients ogwiritsidwa ntchito %d okha",
+      "invalid_code_word": "mawu a khodi sangakhale opanda kanthu",
+      "invalid_coefficient_range": "mtengo wa coefficient wapita pamlingo wovomerezeka (-2048 mpaka 2047)",
+      "invalid_force_k": "ForceK yosavomerezeka: iyenera kukhala 0 (yokha) kapena 1-8",
+      "invalid_k_parameter": "gawo la k liyenera kukhala pakati pa 1 ndi 8",
+      "matrix_encode_failed": "Kulemba matrix kwalephera pa mawu a code: %v",
+      "message_embed_failed": "yalephera kuyika uthenga: %v",
+      "message_too_large": "Kukula kwa uthenga kupitirira malire ololedwa (mabaiti 8,388,607)",
+      "nil_random_source": "gwero lachisawawa silingakhale lopanda pake: gwiritsani ntchito InitializePRNG(password) kapena perekani RandomSource yomwe yabzalidwa kale",
+      "permutation_failed": "yalephera kupanga coefficient permutation: %v"
+    },
+    "log": {
+      "capacity_calculated": "Kuchuluka kwa koyefifiti kumawerengedwa",
+      "coefficient_modified": "Koefficient yasinthidwa",
+      "embed_complete": "Kuyika kwa F5 kwatha",
+      "embed_start": "Kuyamba kuyika F5",
+      "header_embedded": "Mutu wa uthenga waikidwa",
+      "k_selected": "Gawo labwino kwambiri la k lasankhidwa",
+      "permutation_generated": "Kusintha kwa coefficient komwe kwapangidwa",
+      "shrinkage_detected": "Kuchepa kwapezeka, kuyikanso chidutswa"
+    }
+  }
+}

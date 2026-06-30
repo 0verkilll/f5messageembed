@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "hebben %d bits nodig, maximale capaciteit bij k=1 is %d bits",
+      "empty_coefficients": "De coëfficiëntenschijf mag niet leeg zijn.",
+      "empty_password": "Het wachtwoord mag niet leeg zijn.",
+      "header_embed_failed": "Het insluiten van de berichtheader is mislukt: %v",
+      "insufficient_capacity": "bericht te groot voor beschikbare capaciteit",
+      "insufficient_coefficients": "Onvoldoende coëfficiënten tijdens het inbedden: %d nodig, %d ontvangen",
+      "insufficient_header_coefficients": "Onvoldoende bruikbare coëfficiënten voor header-integratie: 32 bits nodig, slechts %d bruikbare coëfficiënten gevonden.",
+      "invalid_code_word": "Het codewoord mag niet leeg zijn.",
+      "invalid_coefficient_range": "Coëfficiëntwaarde buiten geldig bereik (-2048 tot 2047)",
+      "invalid_force_k": "Ongeldige ForceK: moet 0 (automatisch) of 1-8 zijn.",
+      "invalid_k_parameter": "De parameter k moet tussen 1 en 8 liggen.",
+      "matrix_encode_failed": "Matrixcodering mislukt voor codewoord: %v",
+      "message_embed_failed": "Het insluiten van het bericht is mislukt: %v",
+      "message_too_large": "De berichtgrootte overschrijdt de maximaal toegestane limiet (8.388.607 bytes).",
+      "nil_random_source": "De willekeurige bron mag niet nil zijn: gebruik InitializePRNG(wachtwoord) of geef een vooraf ingestelde RandomSource op.",
+      "permutation_failed": "Het genereren van coëfficiëntenpermutatie is mislukt: %v"
+    },
+    "log": {
+      "capacity_calculated": "Coëfficiëntcapaciteit berekend",
+      "coefficient_modified": "Coëfficiënt gewijzigd",
+      "embed_complete": "F5-integratie voltooid",
+      "embed_start": "F5-integratie starten",
+      "header_embedded": "Berichtkop ingesloten",
+      "k_selected": "Optimale k-parameter geselecteerd",
+      "permutation_generated": "Coëfficiëntpermutatie gegenereerd",
+      "shrinkage_detected": "Krimp gedetecteerd, bit opnieuw inbedden"
+    }
+  }
+}

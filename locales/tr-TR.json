@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "%d bit gerekiyor, k=1\u0026#39;deki maksimum kapasite %d bittir.",
+      "empty_coefficients": "katsayı dilimi boş olamaz",
+      "empty_password": "Parola boş bırakılamaz.",
+      "header_embed_failed": "Mesaj başlığını yerleştirme başarısız oldu: %v",
+      "insufficient_capacity": "Mesaj, mevcut katsayı kapasitesi için çok büyük.",
+      "insufficient_coefficients": "Gömme işlemi sırasında yetersiz katsayılar: %d\u0026#39;ye ihtiyaç var, %d elde edildi.",
+      "insufficient_header_coefficients": "Başlık yerleştirme için yetersiz kullanılabilir katsayı: 32 bit gerekiyor, yalnızca %d kullanılabilir katsayı bulundu.",
+      "invalid_code_word": "Kod kelimesi boş bırakılamaz.",
+      "invalid_coefficient_range": "Katsayı değeri geçerli aralığın dışında (-2048 ila 2047)",
+      "invalid_force_k": "Geçersiz ForceK: 0 (otomatik) veya 1-8 arasında olmalıdır.",
+      "invalid_k_parameter": "k parametresi 1 ile 8 arasında olmalıdır.",
+      "matrix_encode_failed": "Kod sözcüğü %v için matris kodlaması başarısız oldu.",
+      "message_embed_failed": "Mesaj yerleştirme başarısız oldu: %v",
+      "message_too_large": "Mesaj boyutu izin verilen maksimum boyutu (8.388.607 bayt) aşıyor.",
+      "nil_random_source": "Rastgele kaynak boş olamaz: InitializePRNG(password) kullanın veya önceden tanımlanmış bir RandomSource sağlayın.",
+      "permutation_failed": "Katsayı permütasyonu oluşturulamadı: %v"
+    },
+    "log": {
+      "capacity_calculated": "hesaplanan kapasite katsayısı",
+      "coefficient_modified": "Katsayı değiştirildi",
+      "embed_complete": "F5 yerleştirme işlemi tamamlandı.",
+      "embed_start": "F5 yerleştirme işlemi başlatılıyor",
+      "header_embedded": "Mesaj başlığı gömülü",
+      "k_selected": "En uygun k parametresi seçildi.",
+      "permutation_generated": "Katsayı permütasyonu oluşturuldu",
+      "shrinkage_detected": "Küçülme tespit edildi, bit yeniden yerleştiriliyor."
+    }
+  }
+}

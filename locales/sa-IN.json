@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "%d बिट् आवश्यकाः, k=1 इत्यत्र अधिकतमक्षमता %d बिट् अस्ति",
+      "empty_coefficients": "गुणांकस्लाइस् रिक्तं न भवितुम् अर्हति",
+      "empty_password": "गुप्तशब्दः रिक्तः न भवितुम् अर्हति",
+      "header_embed_failed": "सन्देशशीर्षकं एम्बेड् कर्तुं असफलम्: %v",
+      "insufficient_capacity": "उपलब्धगुणांकक्षमतायाः कृते सन्देशः अतीव विशालः",
+      "insufficient_coefficients": "एम्बेडिंग्-काले अपर्याप्ताः गुणांकाः: %d आवश्यकाः, %d प्राप्ताः",
+      "insufficient_header_coefficients": "हेडर एम्बेडिंग् कृते अपर्याप्ताः उपयोगयोग्याः गुणांकाः: 32 बिट् आवश्यकाः, केवलं %d उपयोगयोग्याः गुणांकाः प्राप्ताः",
+      "invalid_code_word": "कोडशब्दः रिक्तः न भवितुम् अर्हति",
+      "invalid_coefficient_range": "गुणांकमूल्यं वैधपरिधितः बहिः (-२०४८ तः २०४७ पर्यन्तम्)",
+      "invalid_force_k": "अमान्य ForceK: 0 (auto) अथवा 1-8 भवितुमर्हति",
+      "invalid_k_parameter": "k पैरामीटर् 1 तः 8 पर्यन्तं भवितुमर्हति",
+      "matrix_encode_failed": "कोडशब्दस्य कृते matrix encoding विफलम्: %v",
+      "message_embed_failed": "सन्देशं एम्बेड् कर्तुं असफलम्: %v",
+      "message_too_large": "सन्देशस्य आकारः अधिकतमं अनुमतं (८,३८८,६०७ बाइट्) अतिक्रमति ।",
+      "nil_random_source": "यादृच्छिकस्रोतः शून्यः न भवितुम् अर्हति: InitializePRNG(गुप्तशब्द) इत्यस्य उपयोगं कुर्वन्तु अथवा पूर्व-बीजयुक्तं RandomSource प्रदातव्यम्",
+      "permutation_failed": "गुणांकक्रमपरिवर्तनं जनयितुं असफलः: %v"
+    },
+    "log": {
+      "capacity_calculated": "गुणांक क्षमता गणना",
+      "coefficient_modified": "गुणांक परिवर्तित",
+      "embed_complete": "F5 एम्बेडिंग् सम्पन्नम्",
+      "embed_start": "F5 एम्बेडिंग् आरभ्यते",
+      "header_embedded": "सन्देशशीर्षकं एम्बेडेड्",
+      "k_selected": "इष्टतम k पैरामीटर चयनितम्",
+      "permutation_generated": "गुणांक क्रमपरिवर्तन उत्पन्न",
+      "shrinkage_detected": "संकोचनं ज्ञातम्, पुनः एम्बेडिंग् बिट्"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "%d बिटांची गरज आसा, k=1 चेर चडांत चड क्षमता %d बिट आसा",
+      "empty_coefficients": "गुणांक स्लाइस रिती आसूंक शकना",
+      "empty_password": "पासवर्ड रितो आसूंक शकना",
+      "header_embed_failed": "संदेश शीर्षक एम्बेड करपाक अपेस: %v",
+      "insufficient_capacity": "उपलब्ध गुणांक क्षमतेक लागून संदेश चड व्हड",
+      "insufficient_coefficients": "एम्बेडिंग करतना अपुर्णांक गुणांक: %d गरज आसा, %d मेळ्ळा",
+      "insufficient_header_coefficients": "हेडर एम्बेडींग करपाखातीर अपुर्णांक वापरपाक योग्य गुणांक: 32 बिटांची गरज आसा, फकत %d वापरपाक योग्य गुणांक मेळ्ळे",
+      "invalid_code_word": "कोड शब्द रितो आसूंक शकना",
+      "invalid_coefficient_range": "वैध श्रेणी भायर गुणांक मोल (-2048 ते 2047)",
+      "invalid_force_k": "अवैध ForceK: 0 (ऑटो) वा 1-8 आसूंक जाय",
+      "invalid_k_parameter": "k मापदंड 1 ते 8 मदीं आसपाक जाय",
+      "matrix_encode_failed": "कोड शब्दाखातीर मॅट्रिक्स एन्कोडींग अपयशी थारलें: %v",
+      "message_embed_failed": "संदेश एम्बेड करपाक अपेस आयलें: %v",
+      "message_too_large": "संदेशाचो आकार चडांत चड परवानगी दिल्ल्या (8,388,607 बाइट) परस चड आसा",
+      "nil_random_source": "यादस्तिक स्त्रोत शून्य आसूंक शकना: InitializePRNG(पासवर्ड) वापरात वा पूर्व-बीज केल्लो RandomSource पुरवण करात",
+      "permutation_failed": "गुणांक क्रमविकास तयार करपाक अपेस आयलें: %v"
+    },
+    "log": {
+      "capacity_calculated": "गुणांक क्षमता मेजली",
+      "coefficient_modified": "गुणांक सुदारीत केल्लो",
+      "embed_complete": "F5 एम्बेडिंग पुराय जालें",
+      "embed_start": "F5 एम्बेडिंग सुरू करप",
+      "header_embedded": "संदेश शीर्षक एम्बेडेड केला",
+      "k_selected": "इष्टतम k मापदंड निवडला",
+      "permutation_generated": "गुणांक क्रमविकास निर्माण जाता",
+      "shrinkage_detected": "संकोचन सोदून काडलो, बिट परतून एम्बेड करप"
+    }
+  }
+}

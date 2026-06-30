@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "bezwen %d bit, kapasite maksimòm nan k=1 se %d bit",
+      "empty_coefficients": "Tranch koyefisyan an pa ka vid",
+      "empty_password": "modpas la pa ka vid",
+      "header_embed_failed": "echwe pou entegre antet mesaj la: %v",
+      "insufficient_capacity": "mesaj la twò gwo pou kapasite koyefisyan ki disponib la",
+      "insufficient_coefficients": "koyefisyan ensifizan pandan entegrasyon an: bezwen %d, jwenn %d",
+      "insufficient_header_coefficients": "koyefisyan itilizab ensifizan pou entegre header la: bezwen 32 bit, yo jwenn sèlman %d koyefisyan itilizab",
+      "invalid_code_word": "mo kòd la pa ka vid",
+      "invalid_coefficient_range": "valè koyefisyan an pa nan limit valab la (-2048 rive 2047)",
+      "invalid_force_k": "ForceK ki pa valab: dwe 0 (otomatik) oubyen 1-8",
+      "invalid_k_parameter": "Paramèt k a dwe ant 1 ak 8",
+      "matrix_encode_failed": "Kodaj matris la echwe pou mo kòd la: %v",
+      "message_embed_failed": "Echèk pou entegre mesaj la: %v",
+      "message_too_large": "Gwosè mesaj la depase maksimòm otorize a (8,388,607 okte)",
+      "nil_random_source": "sous o aza a pa ka nil: itilize InitializePRNG(modpas) oubyen bay yon RandomSource pre-deziyen",
+      "permutation_failed": "echwe pou jenere pèmitasyon koyefisyan: %v"
+    },
+    "log": {
+      "capacity_calculated": "Kapasite koyefisyan kalkile",
+      "coefficient_modified": "Koyefisyan modifye",
+      "embed_complete": "Entegrasyon F5 la fini",
+      "embed_start": "Kòmanse entegre F5",
+      "header_embedded": "Antèt mesaj la entegre",
+      "k_selected": "Paramèt k optimal chwazi",
+      "permutation_generated": "Pèmitasyon koyefisyan ki pwodui",
+      "shrinkage_detected": "Yo detekte yon kontraksyon, y ap re-entegre bit la"
+    }
+  }
+}

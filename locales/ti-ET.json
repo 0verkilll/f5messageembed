@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "%d ቢት የድልዮም፣ ዝለዓለ ዓቕሚ ኣብ k=1 %d ቢት እዩ።",
+      "empty_coefficients": "ኮፊሸንት ስላይስ ባዶ ክኸውን ኣይክእልን እዩ።",
+      "empty_password": "ፓስዎርድ ባዶ ክኸውን ኣይክእልን እዩ።",
+      "header_embed_failed": "ርእሲ መልእኽቲ ምትእትታው ኣይከኣለን: %v",
+      "insufficient_capacity": "መልእኽቲ ንዘሎ ዓቕሚ ምውህሃድ ኣዝዩ ዓቢ",
+      "insufficient_coefficients": "ኣብ እዋን ምትእትታው እኹል ዘይኮነ ምውህሃድ: %d የድሊ፣ %d ረኺቡ።",
+      "insufficient_header_coefficients": "ንርእሲ ምትእትታው እኹል ዘይኮኑ ኣብ ጥቕሚ ዝውዕሉ ምውህሃዳት: 32 ቢት የድልዮም፣ %d ኣብ ጥቕሚ ዝውዕሉ ምልክታታት ጥራይ ተረኺቡ።",
+      "invalid_code_word": "ኮድ ቃል ባዶ ክኸውን ኣይክእልን እዩ።",
+      "invalid_coefficient_range": "ዋጋ ምውህሃድ ካብ ቅኑዕ ደረጃ ወጻኢ (-2048 ክሳብ 2047)",
+      "invalid_force_k": "invalid ForceK: 0 (ኣውቶ) ወይ 1-8 ክኸውን ኣለዎ።",
+      "invalid_k_parameter": "k መለክዒ ኣብ መንጎ 1ን 8ን ክኸውን ኣለዎ።",
+      "matrix_encode_failed": "ማትሪክስ ኢንኮዲንግ ንኮድ ቃል ፈሺሉ: %v",
+      "message_embed_failed": "መልእኽቲ ምትእትታው ኣይከኣለን: %v",
+      "message_too_large": "መጠን መልእኽቲ ካብቲ ዝለዓለ ዝፍቀድ (8,388,607 ባይት) ሓሊፉ",
+      "nil_random_source": "random source nil ክኸውን ኣይክእልን እዩ: InitializePRNG(password) ተጠቐም ወይ ቅድሚ ሕጂ ዝተዘርዘ RandomSource ኣቕርብ",
+      "permutation_failed": "ምውህሃድ ምልውዋጥ ምፍጣር ኣይከኣለን: %v"
+    },
+    "log": {
+      "capacity_calculated": "ናይ ምውህሃድ ዓቕሚ ዝተቖፀረ",
+      "coefficient_modified": "ኮፊሸንት ዝተመሓየሸ",
+      "embed_complete": "F5 embedding ተዛዚሙ",
+      "embed_start": "F5 ምትእትታው ምጅማር",
+      "header_embedded": "ርእሲ መልእኽቲ ተሰዂዑ",
+      "k_selected": "ምቹእ k መለክዒ ተመሪጹ",
+      "permutation_generated": "ኮፊሸንት ፐርሙቴሽን ዝፍጠር",
+      "shrinkage_detected": "ምሽርሻር ተረኺቡ፣ ዳግማይ ምትእትታው ቢት።"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "beetaaga %d bits, obusobozi obusinga obunene ku k=1 ye %d bits",
+      "empty_coefficients": "coefficient slice tesobola kuba njereere",
+      "empty_password": "password tesobola kuba njereere",
+      "header_embed_failed": "eremereddwa okuyingiza omutwe gw\u0026#39;obubaka: %v",
+      "insufficient_capacity": "obubaka bunene nnyo ku busobozi bw’omugerageranyo obuliwo",
+      "insufficient_coefficients": "emigerageranyo egitamala mu kiseera ky\u0026#39;okuyingiza: yeetaaga %d, yafuna %d",
+      "insufficient_header_coefficients": "emigerageranyo egitamala egy\u0026#39;okukozesa egy\u0026#39;okuyingiza omutwe: yeetaaga bits 32, ezuuliddwa emigerageranyo egikozesebwa %d gyokka",
+      "invalid_code_word": "ekigambo kya koodi tekiyinza kuba bwereere",
+      "invalid_coefficient_range": "omuwendo gw’omugerageranyo okuva mu bbanga erituufu (-2048 okutuuka ku 2047)",
+      "invalid_force_k": "invalid ForceK: erina okuba 0 (auto) oba 1-8",
+      "invalid_k_parameter": "k parameter erina okuba wakati wa 1 ne 8",
+      "matrix_encode_failed": "encoding ya matrix eremereddwa ku kigambo kya code: %v",
+      "message_embed_failed": "eremereddwa okuyingiza obubaka: %v",
+      "message_too_large": "obunene bw\u0026#39;obubaka busukka obunene obukkirizibwa (8,388,607 bytes)",
+      "nil_random_source": "ensibuko ya random teyinza kuba nil: kozesa InitializePRNG(password) oba okuwa RandomSource eyasiigibwa nga tennabaawo",
+      "permutation_failed": "yalemererwa okukola enkyukakyuka y\u0026#39;omugerageranyo: %v"
+    },
+    "log": {
+      "capacity_calculated": "Obusobozi bw’omugerageranyo (coefficient capacity) obubaliriddwa",
+      "coefficient_modified": "Omugerageranyo gukyusiddwa",
+      "embed_complete": "F5 embedding ewedde",
+      "embed_start": "Okutandika okuyingiza F5",
+      "header_embedded": "Omutwe gw\u0026#39;obubaka guteekeddwamu",
+      "k_selected": "Ekipimo kya k ekisinga obulungi kyalondeddwa",
+      "permutation_generated": "Enkyukakyuka y’omugerageranyo (coefficient permutation) ekoleddwa",
+      "shrinkage_detected": "Okukendeera kuzuuliddwa, okuddamu okuyingiza bit"
+    }
+  }
+}

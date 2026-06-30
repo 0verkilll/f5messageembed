@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "%d bits barbaadu, dandeettiin guddaan k=1 irratti %d bits dha",
+      "empty_coefficients": "coefficient slice duwwaa ta\u0026#39;uu hin danda\u0026#39;u",
+      "empty_password": "jecha icciitii duwwaa ta\u0026#39;uu hin danda\u0026#39;u",
+      "header_embed_failed": "mataduree ergaa galchuu hin dandeenye: %v",
+      "insufficient_capacity": "ergaan dandeettii koofiishinii jiruuf baay’ee guddaadha",
+      "insufficient_coefficients": "yeroo ukkaamsuu koofiishinoota gahaa hin taane: %d barbaachisa, %d argate",
+      "insufficient_header_coefficients": "koofiishinoota fayyadamaa gahaa hin taane mataduree keessa galchuuf: bittii 32 barbaachisa, koofiishinoota fayyadamaa %d qofa argame",
+      "invalid_code_word": "jechi koodii duwwaa ta\u0026#39;uu hin danda\u0026#39;u",
+      "invalid_coefficient_range": "gatii koofiishinii daangaa sirrii ta’een ala (-2048 hanga 2047) .",
+      "invalid_force_k": "sirrii hin taane ForceK: 0 (auto) ykn 1-8 ta\u0026#39;uu qaba",
+      "invalid_k_parameter": "k paaraameetirii 1 fi 8 gidduutti ta’uu qaba",
+      "matrix_encode_failed": "koodii maatriksii jecha koodii: %v tiif hin milkoofne",
+      "message_embed_failed": "ergaa galchuu hin dandeenye: %v",
+      "message_too_large": "guddinni ergaa guddaa hayyamame (8,388,607 baayitii) caala .",
+      "nil_random_source": "maddi tasaa nil ta\u0026#39;uu hin danda\u0026#39;u: InitializePRNG(password) fayyadami ykn RandomSource dursee facaafame kenni",
+      "permutation_failed": "jijjiirraa koofiishinii uumuu hin dandeenye: %v"
+    },
+    "log": {
+      "capacity_calculated": "Dandeettii koofiishinii shallagame",
+      "coefficient_modified": "Koofiishinii fooyya’e",
+      "embed_complete": "F5 embedding xumurameera",
+      "embed_start": "F5 embedding jalqabuu",
+      "header_embedded": "Mata duree ergaa kan ukkaamfame",
+      "k_selected": "Paarameetara k optimal filatame",
+      "permutation_generated": "Jijjiirraa koofiishinii uumame",
+      "shrinkage_detected": "Xiqqeessuun adda baafame, bit deebi\u0026#39;ee ukkaamsuu"
+    }
+  }
+}

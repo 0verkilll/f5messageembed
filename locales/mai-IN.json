@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "%d बिट क जरूरत अछि, k=1 पर अधिकतम क्षमता %d बिट अछि",
+      "empty_coefficients": "गुणांक स्लाइस खाली नहि भ सकैत अछि",
+      "empty_password": "पासवर्ड खाली नहि भ\u0026#39; सकैत अछि",
+      "header_embed_failed": "संदेश हेडर एम्बेड करबामे विफल: %v",
+      "insufficient_capacity": "उपलब्ध गुणांक क्षमता कें लेल बहुत पैघ संदेश",
+      "insufficient_coefficients": "एम्बेडिंग क दौरान अपर्याप्त गुणांक: %d क जरूरत अछि, %d भेटल",
+      "insufficient_header_coefficients": "हेडर एम्बेडिंग क लेल अपर्याप्त उपयोगी गुणांक: 32 बिट क जरूरत अछि, केवल %d उपयोगी गुणांक भेटल",
+      "invalid_code_word": "कोड शब्द खाली नहि भ\u0026#39; सकैत अछि",
+      "invalid_coefficient_range": "गुणांक मान वैध सीमा स बाहर (-2048 स 2047)",
+      "invalid_force_k": "अमान्य ForceK: 0 (ऑटो) या 1-8 होबाक चाही",
+      "invalid_k_parameter": "k पैरामीटर 1 आ 8 के बीच होबाक चाही",
+      "matrix_encode_failed": "कोड शब्द: %v क लेल मैट्रिक्स एन्कोडिंग विफल भ\u0026#39; गेल",
+      "message_embed_failed": "संदेश एम्बेड करबामे विफल: %v",
+      "message_too_large": "संदेश आकार अधिकतम अनुमत (8,388,607 बाइट) स बेसी अछि",
+      "nil_random_source": "यादृच्छिक स्रोत शून्य नहि भ सकैत अछि: InitializePRNG(पासवर्ड) क उपयोग करू अथवा पूर्व-बीज कएल गेल RandomSource प्रदान करू",
+      "permutation_failed": "गुणांक क्रमपरिवर्तन उत्पन्न करबा मे विफल रहल: %v"
+    },
+    "log": {
+      "capacity_calculated": "गुणांक क्षमता गणना",
+      "coefficient_modified": "गुणांक संशोधित",
+      "embed_complete": "F5 एम्बेडिंग पूरा",
+      "embed_start": "F5 एम्बेडिंग शुरू करब",
+      "header_embedded": "संदेश हेडर एम्बेडेड",
+      "k_selected": "इष्टतम k पैरामीटर चयनित",
+      "permutation_generated": "गुणांक क्रमपरिवर्तन उत्पन्न",
+      "shrinkage_detected": "संकोचन के पता चलल, बिट के पुनः एम्बेडिंग"
+    }
+  }
+}

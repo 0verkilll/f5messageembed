@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "%d bits nisqakunata necesitanku, k=1 nisqapi aswan atiyqa %d bits nisqakunam",
+      "empty_coefficients": "coeficiente phatmaqa manam ch\u0026#39;usaq kanmanchu",
+      "empty_password": "contraseñaqa manam ch\u0026#39;usaq kanmanchu",
+      "header_embed_failed": "willay umalliqta mana churayta atirqanchu: %v",
+      "insufficient_capacity": "willakuy ancha hatunmi coeficiente atiyniyuq kananpaq",
+      "insufficient_coefficients": "mana suficiente coeficientes nisqakuna churay pachapi: %d necesitan, %d chaskisqa",
+      "insufficient_header_coefficients": "umalliq churanapaq mana suficiente llamk\u0026#39;ana coeficientes: 32 bits necesitan, %d llamk\u0026#39;ana coeficientesllata tarisqa",
+      "invalid_code_word": "codigo simiqa manam ch\u0026#39;usaq kanmanchu",
+      "invalid_coefficient_range": "coeficiente nisqa chaninchasqa mana allin kayninmanta (-2048 watamanta 2047 watakama) .",
+      "invalid_force_k": "mana allin FuerzaK: 0 (auto) utaq 1-8 kanan tiyan",
+      "invalid_k_parameter": "k parámetro nisqa 1manta 8kama kanan",
+      "matrix_encode_failed": "matriz codificación mana atikunchu codigo simipaq: %v",
+      "message_embed_failed": "willayta churayta mana atirqanchu: %v",
+      "message_too_large": "willakuypa sayayninqa aswan saqisqa (8.388.607 byte) nisqamanta aswan hatunmi.",
+      "nil_random_source": "random pukyuta mana nil kayta atinchu: InitializePRNG(contraseña) llamk\u0026#39;achiy utaq ñawpaqmanta tarpusqa RandomSource quy",
+      "permutation_failed": "mana coeficiente permutacionta paqarichiyta atirqanchu: %v"
+    },
+    "log": {
+      "capacity_calculated": "Coeficiente nisqa atiy yupasqa",
+      "coefficient_modified": "Coeficiente modificado nisqa",
+      "embed_complete": "F5 churay tukusqa",
+      "embed_start": "F5 churayta qallariy",
+      "header_embedded": "Willakuy umalliq churasqa",
+      "k_selected": "Parámetro k óptimo nisqa akllasqa",
+      "permutation_generated": "Coeficiente permutación nisqa paqarichisqa",
+      "shrinkage_detected": "Encogimiento detectado, re-embedding bit"
+    }
+  }
+}

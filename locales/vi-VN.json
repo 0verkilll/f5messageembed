@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "cần %d bit, dung lượng tối đa tại k=1 là %d bit",
+      "empty_coefficients": "lát cắt hệ số không được để trống",
+      "empty_password": "Mật khẩu không được để trống.",
+      "header_embed_failed": "Không thể nhúng tiêu đề tin nhắn: %v",
+      "insufficient_capacity": "Thông báo quá lớn so với dung lượng hệ số khả dụng.",
+      "insufficient_coefficients": "Số lượng hệ số không đủ trong quá trình nhúng: cần %d, nhận được %d",
+      "insufficient_header_coefficients": "Không đủ hệ số khả dụng cho việc nhúng tiêu đề: cần 32 bit, chỉ tìm thấy %d hệ số khả dụng",
+      "invalid_code_word": "Mã từ không được để trống",
+      "invalid_coefficient_range": "Giá trị hệ số nằm ngoài phạm vi hợp lệ (-2048 đến 2047)",
+      "invalid_force_k": "ForceK không hợp lệ: phải là 0 (tự động) hoặc 1-8",
+      "invalid_k_parameter": "Tham số k phải nằm trong khoảng từ 1 đến 8.",
+      "matrix_encode_failed": "Mã hóa ma trận thất bại cho từ mã: %v",
+      "message_embed_failed": "Không thể nhúng tin nhắn: %v",
+      "message_too_large": "Kích thước tin nhắn vượt quá giới hạn tối đa cho phép (8.388.607 byte)",
+      "nil_random_source": "Nguồn ngẫu nhiên không thể là nil: hãy sử dụng InitializePRNG(password) hoặc cung cấp một RandomSource được gieo hạt trước.",
+      "permutation_failed": "Không thể tạo hoán vị hệ số: %v"
+    },
+    "log": {
+      "capacity_calculated": "Hệ số công suất được tính toán",
+      "coefficient_modified": "Hệ số được điều chỉnh",
+      "embed_complete": "Quá trình nhúng F5 đã hoàn tất.",
+      "embed_start": "Bắt đầu nhúng F5",
+      "header_embedded": "Tiêu đề tin nhắn được nhúng",
+      "k_selected": "Tham số k tối ưu được chọn",
+      "permutation_generated": "Hoán vị hệ số được tạo ra",
+      "shrinkage_detected": "Phát hiện hiện tượng co rút, đang nhúng lại bit."
+    }
+  }
+}

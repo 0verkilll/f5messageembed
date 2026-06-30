@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "%d bitre van szükség, a maximális kapacitás k=1 esetén %d bit",
+      "empty_coefficients": "az együttható szelet nem lehet üres",
+      "empty_password": "jelszó nem lehet üres",
+      "header_embed_failed": "Nem sikerült beágyazni az üzenet fejlécét: %v",
+      "insufficient_capacity": "az üzenet túl nagy a rendelkezésre álló együttható kapacitáshoz képest",
+      "insufficient_coefficients": "elégtelen együtthatók beágyazás közben: %d szükséges, %d lett",
+      "insufficient_header_coefficients": "nincs elegendő használható együttható a fejléc beágyazásához: 32 bitre van szükség, csak %d használható együttható található",
+      "invalid_code_word": "A kódszó nem lehet üres",
+      "invalid_coefficient_range": "az együttható értéke kívül esik az érvényes tartományon (-2048 és 2047 között)",
+      "invalid_force_k": "érvénytelen ForceK: 0-nak (automatikus) vagy 1-8-nak kell lennie",
+      "invalid_k_parameter": "A k paraméternek 1 és 8 között kell lennie",
+      "matrix_encode_failed": "mátrixkódolás sikertelen a következő kódszóhoz: %v",
+      "message_embed_failed": "Nem sikerült beágyazni az üzenetet: %v",
+      "message_too_large": "az üzenet mérete meghaladja a megengedett maximumot (8 388 607 bájt)",
+      "nil_random_source": "A véletlenszerű forrás nem lehet nil: használd az InitializePRNG(jelszó) függvényt, vagy adj meg egy előre meghatározott RandomSource-t",
+      "permutation_failed": "Nem sikerült az együttható permutációt generálni: %v"
+    },
+    "log": {
+      "capacity_calculated": "Kiszámított kapacitási együttható",
+      "coefficient_modified": "Módosított együttható",
+      "embed_complete": "F5 beágyazás kész",
+      "embed_start": "F5 beágyazás indítása",
+      "header_embedded": "Beágyazott üzenetfejléc",
+      "k_selected": "Optimális k paraméter kiválasztása",
+      "permutation_generated": "Együttható permutáció generálva",
+      "shrinkage_detected": "Zsugorodás észlelve, bit újra beágyazása"
+    }
+  }
+}

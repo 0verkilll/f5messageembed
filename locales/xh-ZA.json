@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "ndidinga ii-bits ze-%d, umthamo ophezulu kwi-k=1 yi-bits ze-%d",
+      "empty_coefficients": "isilayi se-coefficient asinakuba nanto",
+      "empty_password": "igama eligqithisiweyo alinakuba lingenanto",
+      "header_embed_failed": "ayiphumelelanga ukufaka isihloko semiyalezo: %v",
+      "insufficient_capacity": "umyalezo mkhulu kakhulu kumthamo we-coefficient okhoyo",
+      "insufficient_coefficients": "ii-coefficients ezinganelanga ngexesha lokufaka: kufuneka %d, ndifumene %d",
+      "insufficient_header_coefficients": "ii-coefficients ezinganeleyo zokusetyenziswa kwe-header embedding: kufuneka ii-bits ezingama-32, kufunyenwe kuphela ii-coefficients ezisebenzisekayo ze-%d",
+      "invalid_code_word": "igama lekhowudi alinakuba lingenanto",
+      "invalid_coefficient_range": "ixabiso le-coefficient alikho kuluhlu olusebenzayo (-2048 ukuya ku-2047)",
+      "invalid_force_k": "iForceK engasebenziyo: kufuneka ibe yi-0 (ngokuzenzekelayo) okanye i-1-8",
+      "invalid_k_parameter": "ipharamitha ka-k kufuneka ibe phakathi kuka-1 no-8",
+      "matrix_encode_failed": "ikhowudi ye-matrix ayiphumelelanga kwikhowudi yegama elithi: %v",
+      "message_embed_failed": "ayiphumelelanga ukufaka umyalezo: %v",
+      "message_too_large": "ubungakanani bomyalezo budlula ubuninzi obuvumelekileyo (iibhayithi eziyi-8,388,607)",
+      "nil_random_source": "umthombo ongacwangciswanga awunakuba yi-nil: sebenzisa i-InitializePRNG(password) okanye unikezele nge-RandomSource esele ityalwe ngaphambili",
+      "permutation_failed": "ayiphumelelanga ukuvelisa i-coefficient permutation: %v"
+    },
+    "log": {
+      "capacity_calculated": "Umthamo we-coefficient ubaliwe",
+      "coefficient_modified": "I-coefficient ilungisiwe",
+      "embed_complete": "Ukufakwa kwe-F5 kugqityiwe",
+      "embed_start": "Ukuqalisa ukubethela i-F5",
+      "header_embedded": "Isihloko semiyalezo sifakwe ngaphakathi",
+      "k_selected": "Ipharamitha ye-k efanelekileyo ikhethiwe",
+      "permutation_generated": "I-coefficient permutation ivelisiwe",
+      "shrinkage_detected": "Ukuncipha kufunyenwe, kufakwa kwakhona i-bit"
+    }
+  }
+}

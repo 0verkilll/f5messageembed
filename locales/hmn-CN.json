@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "xav tau %d bits, qhov muaj peev xwm siab tshaj plaws ntawm k = 1 yog %d bits",
+      "empty_coefficients": "daim coefficient tsis tuaj yeem khoob",
+      "empty_password": "lo lus zais tsis tuaj yeem khoob",
+      "header_embed_failed": "ua tsis tau qhov embed message header: %v",
+      "insufficient_capacity": "Cov lus loj dhau rau qhov muaj peev xwm coefficient",
+      "insufficient_coefficients": "cov coefficients tsis txaus thaum lub sijhawm embedding: xav tau %d, tau txais %d",
+      "insufficient_header_coefficients": "cov coefficients siv tau tsis txaus rau kev muab tso rau hauv header: xav tau 32 bits, pom tsuas yog %d cov coefficients siv tau",
+      "invalid_code_word": "lo lus code tsis tuaj yeem khoob",
+      "invalid_coefficient_range": "tus nqi coefficient tawm ntawm qhov ntau thiab tsawg siv tau (-2048 txog 2047)",
+      "invalid_force_k": "ForceK tsis raug: yuav tsum yog 0 (tsis siv neeg) lossis 1-8",
+      "invalid_k_parameter": "k parameter yuav tsum nyob nruab nrab ntawm 1 thiab 8",
+      "matrix_encode_failed": "Kev encoding matrix tsis ua tiav rau lo lus code: %v",
+      "message_embed_failed": "ua tsis tau qhov embed message: %v",
+      "message_too_large": "qhov loj ntawm cov lus tshaj qhov siab tshaj plaws uas tso cai (8,388,607 bytes)",
+      "nil_random_source": "Qhov chaw random tsis tuaj yeem yog xoom: siv InitializePRNG (password) lossis muab RandomSource uas tau teeb tsa ua ntej",
+      "permutation_failed": "ua tsis tau qhov kev hloov pauv ntawm cov coefficient: %v"
+    },
+    "log": {
+      "capacity_calculated": "Lub peev xwm ntawm cov coefficient tau suav",
+      "coefficient_modified": "Cov coefficient hloov kho",
+      "embed_complete": "F5 embedding tiav lawm",
+      "embed_start": "Pib F5 embedding",
+      "header_embedded": "Cov lus header embedded",
+      "k_selected": "Xaiv qhov zoo tshaj plaws k parameter",
+      "permutation_generated": "Kev hloov pauv ntawm cov coefficient tsim tawm",
+      "shrinkage_detected": "Pom qhov ntsws me me, rov muab lub ntsis tso rau hauv"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "Opus est %d bitis, capacitas maxima apud k=1 est %d bitis",
+      "empty_coefficients": "Sectio coefficientis non potest esse vacua",
+      "empty_password": "tessera vacua esse non potest",
+      "header_embed_failed": "Caput nuntii inserere non potuit: %v",
+      "insufficient_capacity": "Nuntius nimis magnus pro capacitate coefficientis praesto",
+      "insufficient_coefficients": "Coefficientes insufficientes per insertionem: %d requiruntur, %d accipiuntur",
+      "insufficient_header_coefficients": "Coefficientes insufficientes ad includendum caput utiles: 32 biti requiruntur, tantum %d coefficientes utiles inventi sunt.",
+      "invalid_code_word": "Verbum codificatorium vacuum esse non potest",
+      "invalid_coefficient_range": "Valor coefficiens extra limitem validum (-2048 ad 2047)",
+      "invalid_force_k": "ForceK invalida: debet esse 0 (automaticum) vel 1-8",
+      "invalid_k_parameter": "Parametrum k inter 1 et 8 esse debet.",
+      "matrix_encode_failed": "Codificatio matricis defecit pro verbo codificato: %v",
+      "message_embed_failed": "Nuntius inserendus non potuit: %v",
+      "message_too_large": "Magnitudo nuntii maximum permissum (8,388,607 octeti) excedit.",
+      "nil_random_source": "fons fortuitus nullus esse potest: InitializePRNG(password) utere vel RandomSource prae-seminatum praebe.",
+      "permutation_failed": "Permutationem coefficientis generare non potuit: %v"
+    },
+    "log": {
+      "capacity_calculated": "Capacitas coefficiens computata",
+      "coefficient_modified": "Coefficiens modificatus",
+      "embed_complete": "Insertio F5 completa est.",
+      "embed_start": "Initium insertionis F5",
+      "header_embedded": "Inscriptionem capitis nuntii inseruit",
+      "k_selected": "Parametrus k optimus selectus est",
+      "permutation_generated": "Permutatio coefficientis generata",
+      "shrinkage_detected": "Contractio detecta, frustum reinserens."
+    }
+  }
+}

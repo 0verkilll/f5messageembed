@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "sono necessari %d bit, la capacità massima a k=1 è %d bit",
+      "empty_coefficients": "la fetta del coefficiente non può essere vuota",
+      "empty_password": "la password non può essere vuota",
+      "header_embed_failed": "impossibile incorporare l\u0026#39;intestazione del messaggio: %v",
+      "insufficient_capacity": "messaggio troppo grande per la capacità del coefficiente disponibile",
+      "insufficient_coefficients": "coefficienti insufficienti durante l\u0026#39;incorporamento: necessario %d, ottenuto %d",
+      "insufficient_header_coefficients": "coefficienti utilizzabili insufficienti per l\u0026#39;incorporamento dell\u0026#39;intestazione: necessari 32 bit, trovati solo %d coefficienti utilizzabili",
+      "invalid_code_word": "la parola in codice non può essere vuota",
+      "invalid_coefficient_range": "valore del coefficiente fuori dall\u0026#39;intervallo valido (da -2048 a 2047)",
+      "invalid_force_k": "ForceK non valido: deve essere 0 (automatico) o 1-8",
+      "invalid_k_parameter": "il parametro k deve essere compreso tra 1 e 8",
+      "matrix_encode_failed": "codifica della matrice non riuscita per la parola in codice: %v",
+      "message_embed_failed": "impossibile incorporare il messaggio: %v",
+      "message_too_large": "la dimensione del messaggio supera il massimo consentito (8.388.607 byte)",
+      "nil_random_source": "la sorgente casuale non può essere nulla: utilizzare InitializePRNG(password) o fornire una RandomSource pre-seminata",
+      "permutation_failed": "impossibile generare la permutazione del coefficiente: %v"
+    },
+    "log": {
+      "capacity_calculated": "Coefficiente di capacità calcolato",
+      "coefficient_modified": "Coefficiente modificato",
+      "embed_complete": "Incorporamento F5 completato",
+      "embed_start": "Avvio dell\u0026#39;incorporamento F5",
+      "header_embedded": "Intestazione del messaggio incorporata",
+      "k_selected": "Parametro k ottimale selezionato",
+      "permutation_generated": "Permutazione del coefficiente generata",
+      "shrinkage_detected": "Rilevato restringimento, bit di reinserimento"
+    }
+  }
+}

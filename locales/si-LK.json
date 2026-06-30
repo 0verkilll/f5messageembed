@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "බිටු %dක් අවශ්‍යයි, k=1 හි උපරිම ධාරිතාව බිටු %d කි.",
+      "empty_coefficients": "සංගුණක කොටස හිස් විය නොහැක.",
+      "empty_password": "මුරපදය හිස් විය නොහැක.",
+      "header_embed_failed": "පණිවිඩ ශීර්ෂය ඇතුළත් කිරීමට අපොහොසත් විය: %v",
+      "insufficient_capacity": "ලබා ගත හැකි සංගුණක ධාරිතාව සඳහා පණිවිඩය ඉතා විශාලය.",
+      "insufficient_coefficients": "කාවැද්දීමේදී ප්‍රමාණවත් නොවන සංගුණක: අවශ්‍යතාවය %d, ලැබුණා %d",
+      "insufficient_header_coefficients": "ශීර්ෂ කාවැද්දීම සඳහා ප්‍රමාණවත් නොවන භාවිත කළ හැකි සංගුණක: බිටු 32ක් අවශ්‍යයි, භාවිත කළ හැකි සංගුණක %dක් පමණක් හමු විය.",
+      "invalid_code_word": "කේත වචනය හිස් විය නොහැක.",
+      "invalid_coefficient_range": "සංගුණක අගය වලංගු පරාසයෙන් පිටත (-2048 සිට 2047 දක්වා)",
+      "invalid_force_k": "අවලංගු ForceK: 0 (ස්වයංක්‍රීය) හෝ 1-8 විය යුතුය.",
+      "invalid_k_parameter": "k පරාමිතිය 1 සහ 8 අතර විය යුතුය.",
+      "matrix_encode_failed": "කේත වචනය සඳහා අනුකෘති කේතනය අසාර්ථක විය: %v",
+      "message_embed_failed": "පණිවිඩය ඇතුළත් කිරීමට අපොහොසත් විය: %v",
+      "message_too_large": "පණිවිඩ ප්‍රමාණය අවසර දී ඇති උපරිමය ඉක්මවා ඇත (බයිට් 8,388,607)",
+      "nil_random_source": "අහඹු මූලාශ්‍රය ශුන්‍ය විය නොහැක: InitializePRNG(මුරපදය) භාවිතා කරන්න හෝ පෙර-සීඩ් කළ RandomSource එකක් සපයන්න",
+      "permutation_failed": "සංගුණක ප්‍රතිවර්තනය ජනනය කිරීමට අපොහොසත් විය: %v"
+    },
+    "log": {
+      "capacity_calculated": "සංගුණක ධාරිතාව ගණනය කෙරේ",
+      "coefficient_modified": "සංගුණකය වෙනස් කරන ලදී",
+      "embed_complete": "F5 කාවැද්දීම සම්පූර්ණයි",
+      "embed_start": "F5 කාවැද්දීම ආරම්භ කරමින්",
+      "header_embedded": "පණිවිඩ ශීර්ෂය ඇතුළත් කර ඇත",
+      "k_selected": "ප්‍රශස්ත k පරාමිතිය තෝරා ඇත",
+      "permutation_generated": "සංගුණක ප්‍රතිසංස්කරණය ජනනය විය",
+      "shrinkage_detected": "හැකිලීම අනාවරණය විය, බිට් නැවත ඇතුළත් කිරීම"
+    }
+  }
+}

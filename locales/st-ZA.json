@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "hloka di-bits tse %d, bokgoni bo boholo ho k=1 ke di-bits tse %d",
+      "empty_coefficients": "selae sa coefficient ha sea lokela ho ba se se na letho",
+      "empty_password": "phasewete e ke ke ea ba letho",
+      "header_embed_failed": "e hlolehile ho kenya sehlooho sa molaetsa: %v",
+      "insufficient_capacity": "molaetsa o moholo haholo bakeng sa bokgoni bo fumanehang ba coefficient",
+      "insufficient_coefficients": "li-coefficient tse sa lekaneng nakong ea ho kenya: hloka %d, ke fumane %d",
+      "insufficient_header_coefficients": "li-coefficient tse sa lekaneng tse ka sebelisoang bakeng sa ho kenya hlooho: ho hlokahala li-bit tse 32, ho fumanoe li-coefficient tse ka sebelisoang tsa %d feela",
+      "invalid_code_word": "lentsoe la khoutu le ke ke la ba le letho",
+      "invalid_coefficient_range": "boleng ba coefficient bo kantle ho sebaka se nepahetseng (-2048 ho isa ho 2047)",
+      "invalid_force_k": "ForceK e sa sebetseng: e tlameha ho ba 0 (auto) kapa 1-8",
+      "invalid_k_parameter": "paramethara ea k e tlameha ho ba pakeng tsa 1 le 8",
+      "matrix_encode_failed": "ho kenya khoutu ya matrix ho hlolehile bakeng sa lentswe la khoutu: %v",
+      "message_embed_failed": "e hlolehile ho kenya molaetsa: %v",
+      "message_too_large": "boholo ba molaetsa bo feta boholo bo lumelletsoeng (li-byte tse 8,388,607)",
+      "nil_random_source": "mohloli o sa reroang o ke ke oa ba lefela: sebelisa InitializePRNG(password) kapa u fane ka RandomSource e seng e ntse e peoe",
+      "permutation_failed": "e hlolehile ho hlahisa phetoho ya coefficient: %v"
+    },
+    "log": {
+      "capacity_calculated": "Bokhoni ba ho sebetsa hantle bo baloa",
+      "coefficient_modified": "Koefficient e fetotsoe",
+      "embed_complete": "Ho kenya F5 ho phethetsoe",
+      "embed_start": "Ho qala ho kenya F5",
+      "header_embedded": "Sehlooho sa molaetsa se kentswe",
+      "k_selected": "Ho khethiloe paramethara e ntle ka ho fetisisa ea k",
+      "permutation_generated": "Phetoho ea coefficient e hlahisitsoeng",
+      "shrinkage_detected": "Ho fokotseha ho fumanoe, ho kenngoa hape ha biti"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "kinahanglan og %d bits, ang pinakataas nga kapasidad sa k=1 kay %d bits",
+      "empty_coefficients": "ang coefficient slice dili mahimong walay sulod",
+      "empty_password": "dili pwede nga walay sulod ang password",
+      "header_embed_failed": "napakyas sa pag-embed sa header sa mensahe: %v",
+      "insufficient_capacity": "dako ra kaayo ang mensahe para sa magamit nga kapasidad sa koepisyente",
+      "insufficient_coefficients": "dili igo nga mga koepisyente atol sa pag-embed: kinahanglan %d, nakuha %d",
+      "insufficient_header_coefficients": "dili igo nga magamit nga mga koepisyente para sa header embedding: kinahanglan og 32 bits, nakit-an lang ang %d nga magamit nga mga koepisyente",
+      "invalid_code_word": "dili mahimong walay sulod ang code word",
+      "invalid_coefficient_range": "bili sa koepisyente gawas sa balido nga range (-2048 hangtod 2047)",
+      "invalid_force_k": "dili balido nga ForceK: kinahanglan nga 0 (auto) o 1-8",
+      "invalid_k_parameter": "Ang k nga parametro kinahanglan naa sa taliwala sa 1 ug 8",
+      "matrix_encode_failed": "Napakyas ang matrix encoding para sa code word: %v",
+      "message_embed_failed": "napakyas sa pag-embed sa mensahe: %v",
+      "message_too_large": "Ang gidak-on sa mensahe milapas sa gitugot nga maximum (8,388,607 bytes)",
+      "nil_random_source": "Ang random nga tinubdan dili mahimong nil: gamita ang InitializePRNG (password) o paghatag og pre-seeded nga RandomSource",
+      "permutation_failed": "napakyas sa pagmugna og koepisyente nga permutasyon: %v"
+    },
+    "log": {
+      "capacity_calculated": "Kapasidad sa koepisyent nga gikalkulo",
+      "coefficient_modified": "Koepisyent nga giusab",
+      "embed_complete": "Nahuman na ang pag-embed sa F5",
+      "embed_start": "Pagsugod sa pag-embed sa F5",
+      "header_embedded": "Gisulod ang header sa mensahe",
+      "k_selected": "Gipili ang labing maayo nga k parameter",
+      "permutation_generated": "Koepisyent nga permutasyon nga namugna",
+      "shrinkage_detected": "Nakita ang pag-urong, gibalik ang pagbutang sa bit"
+    }
+  }
+}

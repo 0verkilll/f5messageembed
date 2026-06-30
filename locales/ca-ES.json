@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "es necessiten %d bits, la capacitat màxima a k=1 és de %d bits",
+      "empty_coefficients": "El segment de coeficient no pot estar buit",
+      "empty_password": "la contrasenya no pot estar buida",
+      "header_embed_failed": "No s\u0026#39;ha pogut incrustar la capçalera del missatge: %v",
+      "insufficient_capacity": "missatge massa gran per a la capacitat de coeficient disponible",
+      "insufficient_coefficients": "coeficients insuficients durant la incrustació: calen %d, s\u0026#39;obtenen %d",
+      "insufficient_header_coefficients": "Coeficients insuficients per a la incrustació de la capçalera: calen 32 bits, només s\u0026#39;han trobat %d coeficients utilitzables",
+      "invalid_code_word": "la paraula de codi no pot estar buida",
+      "invalid_coefficient_range": "valor del coeficient fora del rang vàlid (-2048 a 2047)",
+      "invalid_force_k": "ForceK no vàlid: ha de ser 0 (automàtic) o 1-8",
+      "invalid_k_parameter": "El paràmetre k ha d\u0026#39;estar entre 1 i 8",
+      "matrix_encode_failed": "La codificació matricial ha fallat per a la paraula de codi: %v",
+      "message_embed_failed": "No s\u0026#39;ha pogut incrustar el missatge: %v",
+      "message_too_large": "la mida del missatge supera el màxim permès (8.388.607 bytes)",
+      "nil_random_source": "La font aleatòria no pot ser nul·la: utilitzeu InitializePRNG(password) o proporcioneu una font aleatòria prèviament configurada.",
+      "permutation_failed": "No s\u0026#39;ha pogut generar la permutació del coeficient: %v"
+    },
+    "log": {
+      "capacity_calculated": "Capacitat del coeficient calculada",
+      "coefficient_modified": "Coeficient modificat",
+      "embed_complete": "Incrustació de F5 completada",
+      "embed_start": "Inici de la incrustació amb F5",
+      "header_embedded": "Capçalera del missatge incrustada",
+      "k_selected": "Paràmetre k òptim seleccionat",
+      "permutation_generated": "Permutació de coeficient generada",
+      "shrinkage_detected": "S\u0026#39;ha detectat una contracció, s\u0026#39;està reincrustant el bit"
+    }
+  }
+}

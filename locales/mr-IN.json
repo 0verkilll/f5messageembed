@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "%d बिट्सची आवश्यकता आहे, k=1 वर कमाल क्षमता %d बिट्स आहे.",
+      "empty_coefficients": "गुणांक स्लाइस रिकामा असू शकत नाही",
+      "empty_password": "पासवर्ड रिकामा असू शकत नाही.",
+      "header_embed_failed": "संदेश शीर्षलेख एम्बेड करण्यात अयशस्वी: %v",
+      "insufficient_capacity": "उपलब्ध गुणांक क्षमतेसाठी संदेश खूप मोठा आहे",
+      "insufficient_coefficients": "एम्बेडिंग दरम्यान अपुरे गुणांक: %d ची आवश्यकता आहे, %d मिळाले",
+      "insufficient_header_coefficients": "हेडर एम्बेडिंगसाठी अपुरे वापरण्यायोग्य सहगुणक: 32 बिट्सची आवश्यकता आहे, फक्त %d वापरण्यायोग्य सहगुणक सापडले",
+      "invalid_code_word": "कोड वर्ड रिकामा असू शकत नाही.",
+      "invalid_coefficient_range": "गुणांक मूल्य वैध श्रेणीबाहेर (-२०४८ ते २०४७)",
+      "invalid_force_k": "अवैध ForceK: ० (स्वयंचलित) किंवा १-८ असणे आवश्यक आहे.",
+      "invalid_k_parameter": "k पॅरामीटर १ आणि ८ च्या दरम्यान असणे आवश्यक आहे.",
+      "matrix_encode_failed": "कोड वर्डसाठी मॅट्रिक्स एन्कोडिंग अयशस्वी: %v",
+      "message_embed_failed": "संदेश एम्बेड करण्यात अयशस्वी: %v",
+      "message_too_large": "संदेशाचा आकार कमाल परवानगीपेक्षा जास्त आहे (८,३८८,६०७ बाइट्स)",
+      "nil_random_source": "यादृच्छिक स्रोत शून्य असू शकत नाही: InitializePRNG(पासवर्ड) वापरा किंवा प्री-सीडेड RandomSource प्रदान करा.",
+      "permutation_failed": "गुणांक क्रमपरिवर्तन निर्माण करण्यात अयशस्वी: %v"
+    },
+    "log": {
+      "capacity_calculated": "गुणांक क्षमता मोजली",
+      "coefficient_modified": "गुणांक सुधारित केला",
+      "embed_complete": "F5 एम्बेडिंग पूर्ण झाले",
+      "embed_start": "F5 एम्बेडिंग सुरू करत आहे",
+      "header_embedded": "मेसेज हेडर एम्बेड केला",
+      "k_selected": "इष्टतम k पॅरामीटर निवडले",
+      "permutation_generated": "गुणांक क्रमपरिवर्तन निर्माण झाले",
+      "shrinkage_detected": "संकोचन आढळले, बिट पुन्हा एम्बेड करत आहे"
+    }
+  }
+}

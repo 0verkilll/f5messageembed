@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "behøver %d bits, maksimal kapacitet ved k=1 er %d bits",
+      "empty_coefficients": "koefficientudsnittet må ikke være tomt",
+      "empty_password": "adgangskoden må ikke være tom",
+      "header_embed_failed": "Kunne ikke integrere beskedheader: %v",
+      "insufficient_capacity": "Beskeden er for stor i forhold til den tilgængelige koefficientkapacitet",
+      "insufficient_coefficients": "utilstrækkelige koefficienter under indlejring: mangler %d, fik %d",
+      "insufficient_header_coefficients": "utilstrækkelige brugbare koefficienter til header-indlejring: brug for 32 bit, fundet kun %d brugbare koefficienter",
+      "invalid_code_word": "Kodeordet må ikke være tomt",
+      "invalid_coefficient_range": "koefficientværdi uden for gyldigt område (-2048 til 2047)",
+      "invalid_force_k": "ugyldig ForceK: skal være 0 (auto) eller 1-8",
+      "invalid_k_parameter": "k-parameteren skal være mellem 1 og 8",
+      "matrix_encode_failed": "matrixkodning mislykkedes for kodeord: %v",
+      "message_embed_failed": "Kunne ikke integrere besked: %v",
+      "message_too_large": "Beskedstørrelsen overstiger den maksimalt tilladte størrelse (8.388.607 bytes)",
+      "nil_random_source": "tilfældig kilde kan ikke være nul: brug InitializePRNG(adgangskode) eller angiv en foruddefineret Tilfældig Kilde",
+      "permutation_failed": "Kunne ikke generere koefficientpermutation: %v"
+    },
+    "log": {
+      "capacity_calculated": "Koefficientkapacitet beregnet",
+      "coefficient_modified": "Koefficient modificeret",
+      "embed_complete": "F5-integrering fuldført",
+      "embed_start": "Start af F5-indlejring",
+      "header_embedded": "Indlejret beskedoverskrift",
+      "k_selected": "Optimal k-parameter valgt",
+      "permutation_generated": "Genereret koefficientpermutation",
+      "shrinkage_detected": "Krympning registreret, genindlejring af bit"
+    }
+  }
+}

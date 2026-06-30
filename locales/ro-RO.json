@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "nevoie de %d biți, capacitatea maximă la k=1 este de %d biți",
+      "empty_coefficients": "secțiunea de coeficient nu poate fi goală",
+      "empty_password": "parola nu poate fi goală",
+      "header_embed_failed": "Nu s-a putut încorpora antetul mesajului: %v",
+      "insufficient_capacity": "mesaj prea mare pentru capacitatea coeficienților disponibili",
+      "insufficient_coefficients": "coeficienți insuficienți în timpul încorporării: sunt necesari %d, s-au obținut %d",
+      "insufficient_header_coefficients": "Coeficienți utilizabili insuficienți pentru încorporarea antetului: sunt necesari 32 de biți, s-au găsit doar %d coeficienți utilizabili",
+      "invalid_code_word": "cuvântul de cod nu poate fi gol",
+      "invalid_coefficient_range": "Valoarea coeficientului este în afara intervalului valid (-2048 până la 2047)",
+      "invalid_force_k": "ForceK invalid: trebuie să fie 0 (automat) sau 1-8",
+      "invalid_k_parameter": "Parametrul k trebuie să fie între 1 și 8",
+      "matrix_encode_failed": "Codificarea matricei a eșuat pentru cuvântul de cod: %v",
+      "message_embed_failed": "Nu s-a putut încorpora mesajul: %v",
+      "message_too_large": "dimensiunea mesajului depășește limita maximă permisă (8.388.607 octeți)",
+      "nil_random_source": "sursa aleatorie nu poate fi nilă: utilizați InitializePRNG(password) sau furnizați o sursă aleatorie predefinită.",
+      "permutation_failed": "Nu s-a putut genera permutarea coeficientului: %v"
+    },
+    "log": {
+      "capacity_calculated": "Capacitatea coeficientului calculată",
+      "coefficient_modified": "Coeficient modificat",
+      "embed_complete": "Integrarea F5 finalizată",
+      "embed_start": "Pornirea încorporării F5",
+      "header_embedded": "Antet mesaj încorporat",
+      "k_selected": "Parametrul k optim selectat",
+      "permutation_generated": "Permutarea coeficientului generată",
+      "shrinkage_detected": "Contracție detectată, se reîncorporează bitul"
+    }
+  }
+}

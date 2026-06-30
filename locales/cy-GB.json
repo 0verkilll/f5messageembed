@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "angen %d bit, y capasiti mwyaf ar k=1 yw %d bit",
+      "empty_coefficients": "ni all y sleisen cyfernod fod yn wag",
+      "empty_password": "ni all y cyfrinair fod yn wag",
+      "header_embed_failed": "methu â mewnosod pennawd y neges: %v",
+      "insufficient_capacity": "neges yn rhy fawr ar gyfer y capasiti cyfernod sydd ar gael",
+      "insufficient_coefficients": "cyfernodau annigonol yn ystod mewnosod: angen %d, cafwyd %d",
+      "insufficient_header_coefficients": "cyfernodau defnyddiadwy annigonol ar gyfer mewnosod pennawd: angen 32 bit, dim ond %d cyfernodau defnyddiadwy a ganfuwyd",
+      "invalid_code_word": "ni all gair cod fod yn wag",
+      "invalid_coefficient_range": "gwerth cyfernod y tu allan i\u0026#39;r ystod ddilys (-2048 i 2047)",
+      "invalid_force_k": "ForceK annilys: rhaid iddo fod yn 0 (awtomatig) neu 1-8",
+      "invalid_k_parameter": "Rhaid i\u0026#39;r paramedr k fod rhwng 1 ac 8",
+      "matrix_encode_failed": "Methodd amgodio matrics ar gyfer gair cod: %v",
+      "message_embed_failed": "methu â mewnosod neges: %v",
+      "message_too_large": "mae maint y neges yn fwy na\u0026#39;r uchafswm a ganiateir (8,388,607 beit)",
+      "nil_random_source": "Ni all ffynhonnell ar hap fod yn ddim: defnyddiwch InitializePRNG(cyfrinair) neu darparwch RandomSource wedi\u0026#39;i hadu ymlaen llaw",
+      "permutation_failed": "methu â chynhyrchu cyfernod permutiad: %v"
+    },
+    "log": {
+      "capacity_calculated": "Cyfernod capasiti wedi\u0026#39;i gyfrifo",
+      "coefficient_modified": "Cyfernod wedi\u0026#39;i addasu",
+      "embed_complete": "Mewnosodiad F5 wedi\u0026#39;i gwblhau",
+      "embed_start": "Dechrau mewnosod F5",
+      "header_embedded": "Pennawd neges wedi\u0026#39;i fewnosod",
+      "k_selected": "Paramedr k gorau posibl wedi\u0026#39;i ddewis",
+      "permutation_generated": "Cyfernod permutiad a gynhyrchwyd",
+      "shrinkage_detected": "Canfuwyd crebachiad, ail-ymgorffori\u0026#39;r darn"
+    }
+  }
+}

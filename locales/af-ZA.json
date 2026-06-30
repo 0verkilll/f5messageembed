@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "benodig %d bisse, maksimum kapasiteit by k=1 is %d bisse",
+      "empty_coefficients": "koëffisiëntsegment kan nie leeg wees nie",
+      "empty_password": "wagwoord kan nie leeg wees nie",
+      "header_embed_failed": "kon nie boodskapkop inbed nie: %v",
+      "insufficient_capacity": "boodskap te groot vir beskikbare koëffisiëntkapasiteit",
+      "insufficient_coefficients": "onvoldoende koëffisiënte tydens inbedding: benodig %d, kry %d",
+      "insufficient_header_coefficients": "onvoldoende bruikbare koëffisiënte vir kopinbedding: benodig 32 bisse, slegs %d bruikbare koëffisiënte gevind",
+      "invalid_code_word": "kodewoord kan nie leeg wees nie",
+      "invalid_coefficient_range": "koëffisiëntwaarde buite geldige reeks (-2048 tot 2047)",
+      "invalid_force_k": "ongeldige ForceK: moet 0 (outomaties) of 1-8 wees",
+      "invalid_k_parameter": "k-parameter moet tussen 1 en 8 wees",
+      "matrix_encode_failed": "matrikskodering het misluk vir kodewoord: %v",
+      "message_embed_failed": "kon nie boodskap inbed nie: %v",
+      "message_too_large": "boodskapgrootte oorskry maksimum toegelate (8 388 607 grepe)",
+      "nil_random_source": "ewekansige bron kan nie nul wees nie: gebruik InitializePRNG(wagwoord) of verskaf \u0026#39;n voorafgesaaide Willekeurige Bron",
+      "permutation_failed": "kon nie koëffisiëntpermutasie genereer nie: %v"
+    },
+    "log": {
+      "capacity_calculated": "Koëffisiëntkapasiteit bereken",
+      "coefficient_modified": "Koëffisiënt gewysig",
+      "embed_complete": "F5-inbedding voltooi",
+      "embed_start": "Begin F5-inbedding",
+      "header_embedded": "Boodskapkop ingebed",
+      "k_selected": "Optimale k-parameter gekies",
+      "permutation_generated": "Koëffisiëntpermutasie gegenereer",
+      "shrinkage_detected": "Krimping bespeur, bit weer ingebed"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "lava %d bits, vuswikoti lebyikulu eka k=1 i %d bits",
+      "empty_coefficients": "xilayi xa coefficient a xi nge vi na nchumu",
+      "empty_password": "password a yi nge vi na nchumu",
+      "header_embed_failed": "swi tsandzekile ku nghenisa nhlokomhaka ya rungula: %v",
+      "insufficient_capacity": "rungula lerikulu swinene eka vuswikoti bya xiringaniso lebyi nga kona",
+      "insufficient_coefficients": "tikhoyifisiyense leti nga enelangiki hi nkarhi wa ku nghenisa: lava %d, ku kume %d",
+      "insufficient_header_coefficients": "tikhoyifisiyense leti tirhisiwaka leti nga enelangiki ta ku nghenisa nhlokomhaka: swi lava 32 wa tibiti, ku kumiwile ntsena %d tikhoyifisiyense leti tirhisiwaka",
+      "invalid_code_word": "rito ra khodi a ri nge vi na nchumu",
+      "invalid_coefficient_range": "nhlayo ya xiringaniso ehandle ka mpimo lowu tirhaka (-2048 ku ya eka 2047) .",
+      "invalid_force_k": "invalid ForceK: yi fanele ku va 0 (auto) kumbe 1-8",
+      "invalid_k_parameter": "k parameter yi fanele ku va exikarhi ka 1 na 8",
+      "matrix_encode_failed": "ku khoda ka matiriki ku tsandzekile eka rito ra khodi: %v",
+      "message_embed_failed": "swi tsandzekile ku nghenisa rungula: %v",
+      "message_too_large": "mpimo wa rungula wu tlula mpimo lowukulu lowu pfumeleriweke (8,388,607 wa tibayiti) .",
+      "nil_random_source": "xihlovo xa xitshuketa a xi nge vi nil: tirhisa InitializePRNG(password) kumbe u nyika RandomSource leyi byariweke ka ha ri emahlweni",
+      "permutation_failed": "ku tsandzekile ku humesa ku cinca-cinca ka xiringaniso: %v"
+    },
+    "log": {
+      "capacity_calculated": "Vuswikoti bya xiringaniso byi hlayiwile",
+      "coefficient_modified": "Xiringaniso lexi cinciweke",
+      "embed_complete": "F5 embedding yi hetisiwile",
+      "embed_start": "Ku sungula ku nghenisa F5",
+      "header_embedded": "Nhlokomhaka ya rungula yi nghenisiwile",
+      "k_selected": "Parameter ya k leyinene yi hlawuriwile",
+      "permutation_generated": "Ku cinca-cinca ka xiringaniso ku tumbuluxiwile",
+      "shrinkage_detected": "Ku hunguteka ku kumiwile, ku tlhela ku nghenisiwa bit"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "f5messageembed": {
+    "error": {
+      "capacity_details": "bezonas %d bitojn, maksimuma kapacito ĉe k=1 estas %d bitoj",
+      "empty_coefficients": "koeficienta tranĉaĵo ne povas esti malplena",
+      "empty_password": "pasvorto ne povas esti malplena",
+      "header_embed_failed": "malsukcesis enmeti la mesaĝkaplinion: %v",
+      "insufficient_capacity": "mesaĝo tro granda por havebla koeficienta kapacito",
+      "insufficient_coefficients": "nesufiĉaj koeficientoj dum enkorpigo: bezonas %d, ricevas %d",
+      "insufficient_header_coefficients": "nesufiĉaj uzeblaj koeficientoj por enkorpigo de la titolo: necesas 32 bitoj, trovite nur %d uzeblaj koeficientoj",
+      "invalid_code_word": "kodvorto ne povas esti malplena",
+      "invalid_coefficient_range": "koeficienta valoro ekster valida intervalo (-2048 ĝis 2047)",
+      "invalid_force_k": "malvalida ForceK: devas esti 0 (aŭtomata) aŭ 1-8",
+      "invalid_k_parameter": "La parametro k devas esti inter 1 kaj 8",
+      "matrix_encode_failed": "matrica kodado malsukcesis por kodvorto: %v",
+      "message_embed_failed": "malsukcesis enmeti mesaĝon: %v",
+      "message_too_large": "mesaĝgrandeco superas maksimumon permesitan (8,388,607 bajtoj)",
+      "nil_random_source": "hazarda fonto ne povas esti nula: uzu InitializePRNG(pasvorto) aŭ provizu antaŭ-semigitan RandomSource",
+      "permutation_failed": "malsukcesis generi koeficientan permutaĵon: %v"
+    },
+    "log": {
+      "capacity_calculated": "Kalkulita koeficiento",
+      "coefficient_modified": "Koeficiento modifita",
+      "embed_complete": "F5-enkorpigo kompletigita",
+      "embed_start": "Komencante F5-enkorpigon",
+      "header_embedded": "Mesaĝkaplinio enigita",
+      "k_selected": "Optimuma k-parametro elektita",
+      "permutation_generated": "Koeficienta permutaĵo generita",
+      "shrinkage_detected": "Ŝrumpado detektita, re-enkonstruanta pecon"
+    }
+  }
+}
